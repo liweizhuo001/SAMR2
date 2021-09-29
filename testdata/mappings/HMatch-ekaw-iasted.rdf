@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rdf:RDF
+  xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <Alignment>
+    <xml>yes</xml>
+    <level>0</level>
+    <type>**</type>
+    <onto1>http://ekaw#</onto1>
+    <onto2>http://iasted#</onto2>
+    <uri1>http://ekaw#</uri1>
+    <uri2>http://iasted#</uri2>
+
+      <map><Cell>
+        <entity1 rdf:resource="http://ekaw#Person"/>
+        <entity2 rdf:resource="http://iasted#Person"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9780487804878049</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://ekaw#Document"/>
+        <entity2 rdf:resource="http://iasted#Document"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8651162790697675</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://ekaw#Review"/>
+        <entity2 rdf:resource="http://iasted#Review"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6666666666666666</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://ekaw#Tutorial"/>
+        <entity2 rdf:resource="http://iasted#Tutorial"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://ekaw#Session"/>
+        <entity2 rdf:resource="http://iasted#Session"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://ekaw#Conference"/>
+        <entity2 rdf:resource="http://iasted#Conference_state"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5400000095367432</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://ekaw#Session_Chair"/>
+        <entity2 rdf:resource="http://iasted#Session_chair"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5085714357239859</measure>
+        <relation>=</relation>
+      </Cell></map>
+
+  </Alignment>
+</rdf:RDF>

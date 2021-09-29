@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>**</type>
+<onto1>http://cmt</onto1>
+<onto2>http://confOf</onto2>
+<uri1>http://cmt</uri1>
+<uri2>http://confOf</uri2>
+<map><Cell>
+<entity1 rdf:resource="http://cmt#Conference"/>
+<entity2 rdf:resource="http://confOf#Conference"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4615105</measure>
+<relation>&gt;</relation>
+</Cell></map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://cmt#Person"/>
+<entity2 rdf:resource="http://confOf#Person"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.38259134</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://cmt#Document"/>
+<entity2 rdf:resource="http://confOf#Contribution"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.042710662</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://cmt#Chairman"/>
+<entity2 rdf:resource="http://confOf#Assistant"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.23269513</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://cmt#User"/>
+<entity2 rdf:resource="http://confOf#Volunteer"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.17668483</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://cmt#Author"/>
+<entity2 rdf:resource="http://confOf#Author"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.29717913</measure>
+<relation>&gt;</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://cmt#ExternalReviewer"/>
+<entity2 rdf:resource="http://confOf#Science_Worker"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.24964823</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://cmt#Paper"/>
+<entity2 rdf:resource="http://confOf#Paper"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.2943044</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://cmt#Administrator"/>
+<entity2 rdf:resource="http://confOf#Administrator"/>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.3335178</measure>
+<relation>=</relation>
+</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

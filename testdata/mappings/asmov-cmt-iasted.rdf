@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>**</type>
+<onto1>http://cmt</onto1>
+<onto2>http://iasted</onto2>
+<uri1>http://cmt</uri1>
+<uri2>http://iasted</uri2>
+<map>
+<Cell>
+<entity1 rdf:resource="http://cmt#Conference"/>
+<entity2 rdf:resource="http://iasted#Session"/>
+<relation>&gt;</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.3511031</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://cmt#Person"/>
+<entity2 rdf:resource="http://iasted#Person"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.23718515</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://cmt#ProgramCommittee"/>
+<entity2 rdf:resource="http://iasted#Social_program"/>
+<relation>&gt;</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16541667</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://cmt#Document"/>
+<entity2 rdf:resource="http://iasted#Document"/>
+<relation>&gt;</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.24194233</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://cmt#Chairman"/>
+<entity2 rdf:resource="http://iasted#One_day_presenter"/>
+<relation>&gt;</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.08182254</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://cmt#ConferenceMember"/>
+<entity2 rdf:resource="http://iasted#Conference_Hiker"/>
+<relation>&gt;</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.17811579</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://cmt#ConferenceChair"/>
+<entity2 rdf:resource="http://iasted#Session_chair"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.21866407</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://cmt#Acceptance"/>
+<entity2 rdf:resource="http://iasted#Deadline_for_notification_of_acceptance"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.11095239</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://cmt#Author"/>
+<entity2 rdf:resource="http://iasted#Author"/>
+<relation>&gt;</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.23702613</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://cmt#AuthorNotReviewer"/>
+<entity2 rdf:resource="http://iasted#Author_book_proceedings_included"/>
+<relation>&gt;</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.14270878</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://cmt#ExternalReviewer"/>
+<entity2 rdf:resource="http://iasted#Reviewer"/>
+<relation>&gt;</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.22915587</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://cmt#Paper"/>
+<entity2 rdf:resource="http://iasted#Card"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.2218963</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://cmt#Review"/>
+<entity2 rdf:resource="http://iasted#Review"/>
+<relation>&gt;</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.30936468</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://cmt#PaperAbstract"/>
+<entity2 rdf:resource="http://iasted#Credit_card"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.078609586</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://cmt#Co-author"/>
+<entity2 rdf:resource="http://iasted#Author_cd_proceedings_included"/>
+<relation>&gt;</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.15267128</measure>
+</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

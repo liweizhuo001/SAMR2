@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rdf:RDF
+  xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <Alignment>
+    <xml>yes</xml>
+    <level>0</level>
+    <type>**</type>
+    <onto1>http://confOf#</onto1>
+    <onto2>http://iasted#</onto2>
+    <uri1>http://confOf#</uri1>
+    <uri2>http://iasted#</uri2>
+
+      <map><Cell>
+        <entity1 rdf:resource="http://confOf#Person"/>
+        <entity2 rdf:resource="http://iasted#Person"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7514285714285714</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://confOf#City"/>
+        <entity2 rdf:resource="http://iasted#City"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://confOf#Author"/>
+        <entity2 rdf:resource="http://iasted#Author"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6938596491228071</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://confOf#writes"/>
+        <entity2 rdf:resource="http://iasted#write"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6666666865348816</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://confOf#Tutorial"/>
+        <entity2 rdf:resource="http://iasted#Tutorial"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://confOf#Conference"/>
+        <entity2 rdf:resource="http://iasted#Conference_state"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5400000095367432</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://confOf#Country"/>
+        <entity2 rdf:resource="http://iasted#Currency"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5263157904148101</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://confOf#Submission_event"/>
+        <entity2 rdf:resource="http://iasted#Submission"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5000000119209289</measure>
+        <relation>=</relation>
+      </Cell></map>
+
+  </Alignment>
+</rdf:RDF>

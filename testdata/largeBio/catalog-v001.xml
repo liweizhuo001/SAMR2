@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1553578173877" name="duplicate:http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0" uri="oaei_FMA_whole_ontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1553578173877" name="duplicate:http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0" uri="oaei_FMA_small_overlapping_nci.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1553578173877" name="duplicate:http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl" uri="oaei_NCI_whole_ontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1553578173877" name="duplicate:http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl" uri="oaei_NCI_small_overlapping_fma.owl"/>
+    </group>
+</catalog>

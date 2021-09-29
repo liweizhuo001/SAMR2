@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>**</type>
+<onto1>http://iasted</onto1>
+<onto2>http://sigkdd</onto2>
+<uri1>http://iasted</uri1>
+<uri2>http://sigkdd</uri2>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#Document"/>
+<entity2 rdf:resource="http://sigkdd#Document"/>
+<relation>&lt;</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.25370082</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#Author_information_form"/>
+<entity2 rdf:resource="http://sigkdd#Abstract"/>
+<relation>&lt;</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.09332187</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#Session"/>
+<entity2 rdf:resource="http://sigkdd#Conference"/>
+<relation>&lt;</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4046486</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#Person"/>
+<entity2 rdf:resource="http://sigkdd#Person"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.26251063</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#Research"/>
+<entity2 rdf:resource="http://sigkdd#Best_Research_Paper_Award"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.13321212</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#Deadline"/>
+<entity2 rdf:resource="http://sigkdd#Deadline"/>
+<relation>&lt;</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.46453395</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#Registation_deadline"/>
+<entity2 rdf:resource="http://sigkdd#Deadline_Paper_Submission"/>
+<relation>&lt;</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.38105655</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#Sponsor_state"/>
+<entity2 rdf:resource="http://sigkdd#Best_Applications_Paper_Award"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.021553028</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#Submissions_deadline"/>
+<entity2 rdf:resource="http://sigkdd#Deadline_Abstract_Submission"/>
+<relation>&lt;</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.46901193</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#Non_speaker"/>
+<entity2 rdf:resource="http://sigkdd#Organizator"/>
+<relation>&lt;</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.06770035</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#Speaker"/>
+<entity2 rdf:resource="http://sigkdd#Speaker"/>
+<relation>&lt;</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.3222926</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#Author"/>
+<entity2 rdf:resource="http://sigkdd#Author"/>
+<relation>&lt;</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.31473368</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#Author_book_proceedings_included"/>
+<entity2 rdf:resource="http://sigkdd#Author_of_paper"/>
+<relation>&lt;</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.18922365</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#Reviewer"/>
+<entity2 rdf:resource="http://sigkdd#Invited_Speaker"/>
+<relation>&lt;</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.12766609</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#Card"/>
+<entity2 rdf:resource="http://sigkdd#Paper"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.20621724</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#Fee"/>
+<entity2 rdf:resource="http://sigkdd#Fee"/>
+<relation>&lt;</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.30448365</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#Registration_fee"/>
+<entity2 rdf:resource="http://sigkdd#Registration_fee"/>
+<relation>&lt;</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.40449032</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#Place"/>
+<entity2 rdf:resource="http://sigkdd#Place"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.296281</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#Hotel_room"/>
+<entity2 rdf:resource="http://sigkdd#Hotel"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.24667051</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#Conference_hall"/>
+<entity2 rdf:resource="http://sigkdd#Conference_hall"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.3209915</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#Social_program"/>
+<entity2 rdf:resource="http://sigkdd#Program_Committee"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16541667</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#Memeber_registration_fee"/>
+<entity2 rdf:resource="http://sigkdd#Registration_Non-Member"/>
+<relation>&lt;</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.29743624</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#Review"/>
+<entity2 rdf:resource="http://sigkdd#Review"/>
+<relation>&lt;</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.31287387</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#Student_non_speaker"/>
+<entity2 rdf:resource="http://sigkdd#General_Chair"/>
+<relation>&lt;</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.042567875</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#Student_lecturer"/>
+<entity2 rdf:resource="http://sigkdd#Author_of_paper_student"/>
+<relation>&lt;</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.20212424</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#Student_registration_fee"/>
+<entity2 rdf:resource="http://sigkdd#Registration_Student"/>
+<relation>&lt;</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4002039</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#Listener"/>
+<entity2 rdf:resource="http://sigkdd#Listener"/>
+<relation>&lt;</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.32921064</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#Main_office"/>
+<entity2 rdf:resource="http://sigkdd#Main_office"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.3209915</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#IASTED_member"/>
+<entity2 rdf:resource="http://sigkdd#Program_Committee_member"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.1146968</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#Presenter_state"/>
+<entity2 rdf:resource="http://sigkdd#Best_Student_Paper_Award"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.021766704</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#Deadline_for_notification_of_acceptance"/>
+<entity2 rdf:resource="http://sigkdd#Deadline_Author_notification"/>
+<relation>&lt;</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.40387642</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#Session_chair"/>
+<entity2 rdf:resource="http://sigkdd#Program_Chair"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.17689304</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#Hotel_fee"/>
+<entity2 rdf:resource="http://sigkdd#Sponzor_fee"/>
+<relation>&lt;</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.21239229</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#IASTED_non_member"/>
+<entity2 rdf:resource="http://sigkdd#Organizing_Committee_member"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.09992104</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://iasted#Worker_non_speaker"/>
+<entity2 rdf:resource="http://sigkdd#Webmaster"/>
+<relation>&lt;</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.04273944</measure>
+</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

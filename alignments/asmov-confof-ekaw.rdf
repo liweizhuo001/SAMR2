@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>**</type>
+<onto1>http://confOf</onto1>
+<onto2>http://ekaw</onto2>
+<uri1>http://confOf</uri1>
+<uri2>http://ekaw</uri2>
+<map>
+<Cell>
+<entity1 rdf:resource="http://confOf#Topic"/>
+<entity2 rdf:resource="http://ekaw#Research_Topic"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.22128206</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://confOf#Person"/>
+<entity2 rdf:resource="http://ekaw#Person"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.27402124</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://confOf#Organization"/>
+<entity2 rdf:resource="http://ekaw#Organisation"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.23702663</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://confOf#Event"/>
+<entity2 rdf:resource="http://ekaw#Event"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.29039797</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://confOf#Contribution"/>
+<entity2 rdf:resource="http://ekaw#Document"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.029210677</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://confOf#Poster"/>
+<entity2 rdf:resource="http://ekaw#Flyer"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.020642234</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://confOf#Short_paper"/>
+<entity2 rdf:resource="http://ekaw#Multi-author_Volume"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.02029365</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://confOf#Paper"/>
+<entity2 rdf:resource="http://ekaw#Paper"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.23921949</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://confOf#Social_event"/>
+<entity2 rdf:resource="http://ekaw#Social_Event"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.3037752</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://confOf#Submission_event"/>
+<entity2 rdf:resource="http://ekaw#Session"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.10826988</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://confOf#Registration_of_participants_event"/>
+<entity2 rdf:resource="http://ekaw#Track"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.118895024</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://confOf#Participant"/>
+<entity2 rdf:resource="http://ekaw#Conference_Participant"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.20763466</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://confOf#Member"/>
+<entity2 rdf:resource="http://ekaw#OC_Member"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.22142607</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://confOf#Scholar"/>
+<entity2 rdf:resource="http://ekaw#Student"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.31553903</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://confOf#University"/>
+<entity2 rdf:resource="http://ekaw#University"/>
+<relation>&gt;</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.30462784</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://confOf#Company"/>
+<entity2 rdf:resource="http://ekaw#Organising_Agency"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.08330748</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://confOf#Author"/>
+<entity2 rdf:resource="http://ekaw#Paper_Author"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.24310036</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://confOf#Banquet"/>
+<entity2 rdf:resource="http://ekaw#Conference_Banquet"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.24883807</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://confOf#Trip"/>
+<entity2 rdf:resource="http://ekaw#Conference_Trip"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.24855797</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://confOf#Tutorial"/>
+<entity2 rdf:resource="http://ekaw#Tutorial"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.33387148</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://confOf#Conference"/>
+<entity2 rdf:resource="http://ekaw#Conference"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.33469686</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://confOf#Workshop"/>
+<entity2 rdf:resource="http://ekaw#Workshop"/>
+<relation>=</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.33469686</measure>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://confOf#Member_PC"/>
+<entity2 rdf:resource="http://ekaw#PC_Member"/>
+<relation>&gt;</relation>
+<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.3167431</measure>
+</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

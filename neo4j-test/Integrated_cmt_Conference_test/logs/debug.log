@@ -1,0 +1,209 @@
+2021-06-15 01:48:30.566+0000 WARN [o.n.i.p.PageCache] The dbms.memory.pagecache.size setting has not been configured. It is recommended that this setting is always explicitly configured, to ensure the system has a balanced configuration. Until then, a computed heuristic value of 2997354496 bytes will be used instead. Run `neo4j-admin memrec` for memory configuration suggestions.
+2021-06-15 01:48:30.803+0000 INFO [o.n.k.i.f.CommunityEditionModule] No locking implementation specified, defaulting to 'community'
+2021-06-15 01:48:30.922+0000 INFO [o.n.k.AvailabilityGuard] Requirement makes database unavailable: Database available
+2021-06-15 01:48:30.939+0000 INFO [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2021-06-15 01:48:30.939+0000 INFO [o.n.k.i.DiagnosticsManager] Neo4j Kernel properties:
+2021-06-15 01:48:30.939+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.directories.neo4j_home=/Users/liweizhuo/eclipse-workspace-new/SAMR2/neo4j-test/Integrated_cmt_Conference_test
+2021-06-15 01:48:30.939+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.edition=community
+2021-06-15 01:48:30.939+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.ephemeral=false
+2021-06-15 01:48:30.939+0000 INFO [o.n.k.i.DiagnosticsManager] Diagnostics providers:
+2021-06-15 01:48:30.939+0000 INFO [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2021-06-15 01:48:30.939+0000 INFO [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.info.DiagnosticsManager
+2021-06-15 01:48:30.940+0000 INFO [o.n.k.i.DiagnosticsManager] SYSTEM_MEMORY
+2021-06-15 01:48:30.940+0000 INFO [o.n.k.i.DiagnosticsManager] JAVA_MEMORY
+2021-06-15 01:48:30.940+0000 INFO [o.n.k.i.DiagnosticsManager] OPERATING_SYSTEM
+2021-06-15 01:48:30.940+0000 INFO [o.n.k.i.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2021-06-15 01:48:30.940+0000 INFO [o.n.k.i.DiagnosticsManager] CLASSPATH
+2021-06-15 01:48:30.940+0000 INFO [o.n.k.i.DiagnosticsManager] LIBRARY_PATH
+2021-06-15 01:48:30.940+0000 INFO [o.n.k.i.DiagnosticsManager] SYSTEM_PROPERTIES
+2021-06-15 01:48:30.940+0000 INFO [o.n.k.i.DiagnosticsManager] NETWORK
+2021-06-15 01:48:30.940+0000 INFO [o.n.k.i.DiagnosticsManager] System memory information:
+2021-06-15 01:48:30.941+0000 INFO [o.n.k.i.DiagnosticsManager] Total Physical memory: 16.00 GB
+2021-06-15 01:48:30.942+0000 INFO [o.n.k.i.DiagnosticsManager] Free Physical memory: 2.86 GB
+2021-06-15 01:48:30.943+0000 INFO [o.n.k.i.DiagnosticsManager] Committed virtual memory: 17.64 GB
+2021-06-15 01:48:30.943+0000 INFO [o.n.k.i.DiagnosticsManager] Total swap space: 4.00 GB
+2021-06-15 01:48:30.944+0000 INFO [o.n.k.i.DiagnosticsManager] Free swap space: 1.27 GB
+2021-06-15 01:48:30.944+0000 INFO [o.n.k.i.DiagnosticsManager] JVM memory information:
+2021-06-15 01:48:30.944+0000 INFO [o.n.k.i.DiagnosticsManager] Free  memory: 7.21 GB
+2021-06-15 01:48:30.944+0000 INFO [o.n.k.i.DiagnosticsManager] Total memory: 7.49 GB
+2021-06-15 01:48:30.944+0000 INFO [o.n.k.i.DiagnosticsManager] Max   memory: 10.42 GB
+2021-06-15 01:48:30.947+0000 INFO [o.n.k.i.DiagnosticsManager] Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2021-06-15 01:48:30.947+0000 INFO [o.n.k.i.DiagnosticsManager] Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen]
+2021-06-15 01:48:30.948+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=7.88 MB, used=7.80 MB, max=240.00 MB, threshold=0.00 B
+2021-06-15 01:48:30.948+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: Metaspace (Non-heap memory): committed=19.63 MB, used=18.86 MB, max=-1.00 B, threshold=0.00 B
+2021-06-15 01:48:30.949+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: Compressed Class Space (Non-heap memory): committed=2.88 MB, used=2.61 MB, max=1.00 GB, threshold=0.00 B
+2021-06-15 01:48:30.949+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: PS Eden Space (Heap memory): committed=1.95 GB, used=280.07 MB, max=3.26 GB, threshold=?
+2021-06-15 01:48:30.949+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: PS Survivor Space (Heap memory): committed=333.00 MB, used=0.00 B, max=333.00 MB, threshold=?
+2021-06-15 01:48:30.949+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: PS Old Gen (Heap memory): committed=5.21 GB, used=0.00 B, max=7.81 GB, threshold=0.00 B
+2021-06-15 01:48:30.949+0000 INFO [o.n.k.i.DiagnosticsManager] Operating system information:
+2021-06-15 01:48:30.951+0000 INFO [o.n.k.i.DiagnosticsManager] Operating System: Mac OS X; version: 10.14.6; arch: x86_64; cpus: 8
+2021-06-15 01:48:30.951+0000 INFO [o.n.k.i.DiagnosticsManager] Max number of file descriptors: 10240
+2021-06-15 01:48:30.952+0000 INFO [o.n.k.i.DiagnosticsManager] Number of open file descriptors: 114
+2021-06-15 01:48:31.143+0000 INFO [o.n.k.i.DiagnosticsManager] Process id: 7801@liweizhuodeMacBook-Pro.local
+2021-06-15 01:48:31.143+0000 INFO [o.n.k.i.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2021-06-15 01:48:31.149+0000 INFO [o.n.k.i.DiagnosticsManager] Local timezone: Asia/Shanghai
+2021-06-15 01:48:31.149+0000 INFO [o.n.k.i.DiagnosticsManager] JVM information:
+2021-06-15 01:48:31.150+0000 INFO [o.n.k.i.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2021-06-15 01:48:31.150+0000 INFO [o.n.k.i.DiagnosticsManager] VM Vendor: Oracle Corporation
+2021-06-15 01:48:31.150+0000 INFO [o.n.k.i.DiagnosticsManager] VM Version: 25.181-b13
+2021-06-15 01:48:31.150+0000 INFO [o.n.k.i.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2021-06-15 01:48:31.152+0000 INFO [o.n.k.i.DiagnosticsManager] VM Arguments: [-Xms8000m, -Xmx12000m, -Dfile.encoding=UTF-8]
+2021-06-15 01:48:31.153+0000 INFO [o.n.k.i.DiagnosticsManager] Java classpath:
+2021-06-15 01:48:31.155+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-graph-algo/3.3.4/neo4j-graph-algo-3.3.4.jar
+2021-06-15 01:48:31.155+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar
+2021-06-15 01:48:31.155+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/eclipse-workspace-new/SAMR2/lib/elk.jar
+2021-06-15 01:48:31.155+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/eclipse-workspace-new/SAMR2/ExternalLib/log4j-1.2.13.jar
+2021-06-15 01:48:31.155+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/eclipse-workspace-new/SAMR2/ExternalLib/xercesImpl-2.7.1.jar
+2021-06-15 01:48:31.155+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap + classpath + loader.0] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/resources.jar
+2021-06-15 01:48:31.156+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-io/3.3.4/neo4j-io-3.3.4.jar
+2021-06-15 01:48:31.156+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/ow2/asm/asm-tree/5.2/asm-tree-5.2.jar
+2021-06-15 01:48:31.156+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/eclipse-workspace-new/SAMR2/ExternalLib/HermiT_1.3.6.jar
+2021-06-15 01:48:31.156+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-cypher/3.3.4/neo4j-cypher-3.3.4.jar
+2021-06-15 01:48:31.156+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-unsafe/3.3.4/neo4j-unsafe-3.3.4.jar
+2021-06-15 01:48:31.156+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/apache/lucene/lucene-backward-codecs/5.5.0/lucene-backward-codecs-5.5.0.jar
+2021-06-15 01:48:31.156+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/eclipse-workspace-new/SAMR2/ExternalLib/icu4j-3.4.4.jar
+2021-06-15 01:48:31.156+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/apache/lucene/lucene-analyzers-common/5.5.0/lucene-analyzers-common-5.5.0.jar
+2021-06-15 01:48:31.156+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-cypher-ir-3.2/3.2.9/neo4j-cypher-ir-3.2-3.2.9.jar
+2021-06-15 01:48:31.156+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/eclipse-workspace-new/SAMR2/ExternalLib/commons-logging-1.2.jar
+2021-06-15 01:48:31.156+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/apache/lucene/lucene-core/5.5.0/lucene-core-5.5.0.jar
+2021-06-15 01:48:31.156+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/ext/dnsns.jar
+2021-06-15 01:48:31.157+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-collections/3.3.4/neo4j-collections-3.3.4.jar
+2021-06-15 01:48:31.157+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-cypher-compiler-3.2/3.2.9/neo4j-cypher-compiler-3.2-3.2.9.jar
+2021-06-15 01:48:31.157+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-logging/3.3.4/neo4j-logging-3.3.4.jar
+2021-06-15 01:48:31.157+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/eclipse-workspace-new/SAMR2/ExternalLib/jena-2.6.4.jar
+2021-06-15 01:48:31.157+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/io/netty/netty-all/4.1.21.Final/netty-all-4.1.21.Final.jar
+2021-06-15 01:48:31.157+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/eclipse-workspace-new/SAMR2/lib/simmetrics.jar
+2021-06-15 01:48:31.157+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/eclipse-workspace-new/SAMR2/ExternalLib/ostermillerutils-1.08.02.jar
+2021-06-15 01:48:31.157+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-cypher-frontend-3.2/3.2.9/neo4j-cypher-frontend-3.2-3.2.9.jar
+2021-06-15 01:48:31.157+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-consistency-check/3.3.4/neo4j-consistency-check-3.3.4.jar
+2021-06-15 01:48:31.157+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/sunrsasign.jar
+2021-06-15 01:48:31.158+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-resource/3.3.4/neo4j-resource-3.3.4.jar
+2021-06-15 01:48:31.158+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar
+2021-06-15 01:48:31.158+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/eclipse-workspace-new/SAMR2/target/classes/
+2021-06-15 01:48:31.158+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/parboiled/parboiled-core/1.1.7/parboiled-core-1.1.7.jar
+2021-06-15 01:48:31.158+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/eclipse-workspace-new/SAMR2/ExternalLib/slf4j-log4j12-1.5.8.jar
+2021-06-15 01:48:31.158+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-ssl/3.3.4/neo4j-ssl-3.3.4.jar
+2021-06-15 01:48:31.158+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-cypher-compiler-2.3/2.3.12/neo4j-cypher-compiler-2.3-2.3.12.jar
+2021-06-15 01:48:31.159+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap + classpath + loader.0] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jce.jar
+2021-06-15 01:48:31.159+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap + classpath + loader.0] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jfr.jar
+2021-06-15 01:48:31.159+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.53/bcprov-jdk15on-1.53.jar
+2021-06-15 01:48:31.159+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-cypher-logical-plans-3.3/3.3.4/neo4j-cypher-logical-plans-3.3-3.3.4.jar
+2021-06-15 01:48:31.159+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-import-tool/3.3.4/neo4j-import-tool-3.3.4.jar
+2021-06-15 01:48:31.159+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap + classpath + loader.0] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar
+2021-06-15 01:48:31.159+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/eclipse-workspace-new/SAMR2/ExternalLib/commons-lang3-3.4.jar
+2021-06-15 01:48:31.159+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/scala-lang/scala-reflect/2.11.12/scala-reflect-2.11.12.jar
+2021-06-15 01:48:31.159+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-cypher-ir-3.3/3.3.4/neo4j-cypher-ir-3.3-3.3.4.jar
+2021-06-15 01:48:31.159+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar
+2021-06-15 01:48:31.159+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/classes
+2021-06-15 01:48:31.159+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-lucene-upgrade/3.3.4/neo4j-lucene-upgrade-3.3.4.jar
+2021-06-15 01:48:31.159+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/ow2/asm/asm-util/5.2/asm-util-5.2.jar
+2021-06-15 01:48:31.159+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-configuration/3.3.4/neo4j-configuration-3.3.4.jar
+2021-06-15 01:48:31.159+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/ow2/asm/asm-analysis/5.2/asm-analysis-5.2.jar
+2021-06-15 01:48:31.159+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/eclipse-workspace-new/SAMR2/ExternalLib/colt.jar
+2021-06-15 01:48:31.160+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-graph-matching/3.1.6/neo4j-graph-matching-3.1.6.jar
+2021-06-15 01:48:31.160+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/eclipse-workspace-new/SAMR2/lib/gephi-toolkit.jar
+2021-06-15 01:48:31.160+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-codegen/3.3.4/neo4j-codegen-3.3.4.jar
+2021-06-15 01:48:31.160+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar
+2021-06-15 01:48:31.160+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/eclipse-workspace-new/SAMR2/ExternalLib/csparsej-1.1.1.jar
+2021-06-15 01:48:31.160+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/eclipse-workspace-new/SAMR2/ExternalLib/iri-0.8.jar
+2021-06-15 01:48:31.160+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4.2/concurrentlinkedhashmap-lru-1.4.2.jar
+2021-06-15 01:48:31.160+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/eclipse-workspace-new/SAMR2/lib/commons-lang-2.6.jar
+2021-06-15 01:48:31.160+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/apache/commons/commons-text/1.1/commons-text-1.1.jar
+2021-06-15 01:48:31.160+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/ext/localedata.jar
+2021-06-15 01:48:31.160+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.53/bcpkix-jdk15on-1.53.jar
+2021-06-15 01:48:31.161+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/eclipse-workspace-new/SAMR2/lib/jaws.jar
+2021-06-15 01:48:31.161+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-command-line/3.3.4/neo4j-command-line-3.3.4.jar
+2021-06-15 01:48:31.161+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar
+2021-06-15 01:48:31.161+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-index/3.3.4/neo4j-index-3.3.4.jar
+2021-06-15 01:48:31.161+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/eclipse-workspace-new/SAMR2/lib/swingx-all-1.6.4.jar
+2021-06-15 01:48:31.161+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/driver/neo4j-java-driver/1.5.0/neo4j-java-driver-1.5.0.jar
+2021-06-15 01:48:31.161+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/eclipse-workspace-new/SAMR2/lib/log4j.jar
+2021-06-15 01:48:31.161+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-common/3.3.4/neo4j-common-3.3.4.jar
+2021-06-15 01:48:31.162+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-values/3.3.4/neo4j-values-3.3.4.jar
+2021-06-15 01:48:31.162+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-cypher-frontend-3.3/3.3.4/neo4j-cypher-frontend-3.3-3.3.4.jar
+2021-06-15 01:48:31.162+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-cypher-compiler-3.3/3.3.4/neo4j-cypher-compiler-3.3-3.3.4.jar
+2021-06-15 01:48:31.162+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/ext/sunec.jar
+2021-06-15 01:48:31.162+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/eclipse-workspace-new/SAMR2/ExternalLib/ostermillerutils-1.08.02-javadoc.jar
+2021-06-15 01:48:31.162+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/ext/cldrdata.jar
+2021-06-15 01:48:31.162+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap + classpath + loader.0] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jsse.jar
+2021-06-15 01:48:31.163+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-lucene-index/3.3.4/neo4j-lucene-index-3.3.4.jar
+2021-06-15 01:48:31.163+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-udc/3.3.4/neo4j-udc-3.3.4.jar
+2021-06-15 01:48:31.163+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/MRJToolkit.jar
+2021-06-15 01:48:31.163+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/eclipse-workspace-new/SAMR2/ExternalLib/concurrent.jar
+2021-06-15 01:48:31.163+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-graphdb-api/3.3.4/neo4j-graphdb-api-3.3.4.jar
+2021-06-15 01:48:31.163+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/ext/zipfs.jar
+2021-06-15 01:48:31.163+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/ext/jfxrt.jar
+2021-06-15 01:48:31.163+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-csv/3.3.4/neo4j-csv-3.3.4.jar
+2021-06-15 01:48:31.163+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/eclipse-workspace-new/SAMR2/ExternalLib/commons-math3-3.6.jar
+2021-06-15 01:48:31.163+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/eclipse-workspace-new/SAMR2/ExternalLib/slf4j-api-1.5.8.jar
+2021-06-15 01:48:31.163+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-jmx/3.3.4/neo4j-jmx-3.3.4.jar
+2021-06-15 01:48:31.163+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/ext/jaccess.jar
+2021-06-15 01:48:31.163+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/com/github/ben-manes/caffeine/caffeine/2.3.3/caffeine-2.3.3.jar
+2021-06-15 01:48:31.163+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/eclipse-workspace-new/SAMR2/lib/owlapi.jar
+2021-06-15 01:48:31.163+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-kernel/3.3.4/neo4j-kernel-3.3.4.jar
+2021-06-15 01:48:31.163+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-dbms/3.3.4/neo4j-dbms-3.3.4.jar
+2021-06-15 01:48:31.163+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-primitive-collections/3.3.4/neo4j-primitive-collections-3.3.4.jar
+2021-06-15 01:48:31.163+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/ow2/asm/asm/5.2/asm-5.2.jar
+2021-06-15 01:48:31.163+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/ext/nashorn.jar
+2021-06-15 01:48:31.163+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j/3.3.4/neo4j-3.3.4.jar
+2021-06-15 01:48:31.163+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/eclipse-workspace-new/SAMR2/ExternalLib/commons-lang3-3.4-javadoc.jar
+2021-06-15 01:48:31.164+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap + classpath + loader.0] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/charsets.jar
+2021-06-15 01:48:31.164+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/parboiled/parboiled-scala_2.11/1.1.7/parboiled-scala_2.11-1.1.7.jar
+2021-06-15 01:48:31.164+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/eclipse-workspace-new/SAMR2/ExternalLib/commons-logging-1.2-javadoc.jar
+2021-06-15 01:48:31.164+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/eclipse-workspace-new/SAMR2/lib/dom4j.jar
+2021-06-15 01:48:31.164+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/eclipse-workspace-new/SAMR2/ExternalLib/commons-math-1.2.jar
+2021-06-15 01:48:31.164+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/apache/lucene/lucene-queryparser/5.5.0/lucene-queryparser-5.5.0.jar
+2021-06-15 01:48:31.164+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-cypher-frontend-2.3/2.3.12/neo4j-cypher-frontend-2.3-2.3.12.jar
+2021-06-15 01:48:31.164+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/apache/lucene/lucene-codecs/5.5.0/lucene-codecs-5.5.0.jar
+2021-06-15 01:48:31.164+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/apache/commons/commons-compress/1.12/commons-compress-1.12.jar
+2021-06-15 01:48:31.164+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/eclipse-workspace-new/SAMR2/lib/microsoft-translator.jar
+2021-06-15 01:48:31.164+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-cypher-frontend-3.1/3.1.6/neo4j-cypher-frontend-3.1-3.1.6.jar
+2021-06-15 01:48:31.164+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/Users/liweizhuo/.m2/repository/org/neo4j/neo4j-cypher-compiler-3.1/3.1.6/neo4j-cypher-compiler-3.1-3.1.6.jar
+2021-06-15 01:48:31.164+0000 INFO [o.n.k.i.DiagnosticsManager] Library path:
+2021-06-15 01:48:31.164+0000 INFO [o.n.k.i.DiagnosticsManager] /Users/liweizhuo/Library/Java/Extensions
+2021-06-15 01:48:31.164+0000 INFO [o.n.k.i.DiagnosticsManager] /Library/Java/Extensions
+2021-06-15 01:48:31.165+0000 INFO [o.n.k.i.DiagnosticsManager] /Network/Library/Java/Extensions
+2021-06-15 01:48:31.165+0000 INFO [o.n.k.i.DiagnosticsManager] /System/Library/Java/Extensions
+2021-06-15 01:48:31.165+0000 INFO [o.n.k.i.DiagnosticsManager] /usr/lib/java
+2021-06-15 01:48:31.165+0000 INFO [o.n.k.i.DiagnosticsManager] /Users/liweizhuo/eclipse-workspace-new/SAMR2
+2021-06-15 01:48:31.165+0000 INFO [o.n.k.i.DiagnosticsManager] System.properties:
+2021-06-15 01:48:31.165+0000 INFO [o.n.k.i.DiagnosticsManager] sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib
+2021-06-15 01:48:31.165+0000 INFO [o.n.k.i.DiagnosticsManager] gopherProxySet = false
+2021-06-15 01:48:31.165+0000 INFO [o.n.k.i.DiagnosticsManager] path.separator = :
+2021-06-15 01:48:31.166+0000 INFO [o.n.k.i.DiagnosticsManager] file.encoding.pkg = sun.io
+2021-06-15 01:48:31.166+0000 INFO [o.n.k.i.DiagnosticsManager] user.country = CN
+2021-06-15 01:48:31.166+0000 INFO [o.n.k.i.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2021-06-15 01:48:31.166+0000 INFO [o.n.k.i.DiagnosticsManager] sun.os.patch.level = unknown
+2021-06-15 01:48:31.166+0000 INFO [o.n.k.i.DiagnosticsManager] user.dir = /Users/liweizhuo/eclipse-workspace-new/SAMR2
+2021-06-15 01:48:31.166+0000 INFO [o.n.k.i.DiagnosticsManager] sun.jnu.encoding = UTF-8
+2021-06-15 01:48:31.166+0000 INFO [o.n.k.i.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2021-06-15 01:48:31.166+0000 INFO [o.n.k.i.DiagnosticsManager] user.home = /Users/liweizhuo
+2021-06-15 01:48:31.166+0000 INFO [o.n.k.i.DiagnosticsManager] user.timezone = Asia/Shanghai
+2021-06-15 01:48:31.166+0000 INFO [o.n.k.i.DiagnosticsManager] file.encoding = UTF-8
+2021-06-15 01:48:31.166+0000 INFO [o.n.k.i.DiagnosticsManager] user.name = liweizhuo
+2021-06-15 01:48:31.166+0000 INFO [o.n.k.i.DiagnosticsManager] sun.java.command = com.njupt.exp.GraphBasedRevision4AnatomyOracle
+2021-06-15 01:48:31.166+0000 INFO [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
+2021-06-15 01:48:31.166+0000 INFO [o.n.k.i.DiagnosticsManager] user.language = zh
+2021-06-15 01:48:31.166+0000 INFO [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.lwawt.macosx.LWCToolkit
+2021-06-15 01:48:31.166+0000 INFO [o.n.k.i.DiagnosticsManager] file.separator = /
+2021-06-15 01:48:31.166+0000 INFO [o.n.k.i.DiagnosticsManager] sun.io.unicode.encoding = UnicodeBig
+2021-06-15 01:48:31.167+0000 INFO [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
+2021-06-15 01:48:31.167+0000 INFO [o.n.k.i.DiagnosticsManager] sun.cpu.isalist = 
+2021-06-15 01:48:31.167+0000 INFO [o.n.k.i.DiagnosticsManager] Network information:
+2021-06-15 01:48:31.171+0000 INFO [o.n.k.i.DiagnosticsManager] Interface utun1:
+2021-06-15 01:48:31.172+0000 INFO [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:3352:d8eb:8441:1259%utun1
+2021-06-15 01:48:31.172+0000 INFO [o.n.k.i.DiagnosticsManager] Interface utun0:
+2021-06-15 01:48:31.172+0000 INFO [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:f397:34c8:ebf7:a2a6%utun0
+2021-06-15 01:48:31.172+0000 INFO [o.n.k.i.DiagnosticsManager] Interface awdl0:
+2021-06-15 01:48:31.172+0000 INFO [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:ece9:5ff:fe38:2aea%awdl0
+2021-06-15 01:48:31.172+0000 INFO [o.n.k.i.DiagnosticsManager] Interface en5:
+2021-06-15 01:48:31.172+0000 INFO [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:aede:48ff:fe00:1122%en5
+2021-06-15 01:48:31.172+0000 INFO [o.n.k.i.DiagnosticsManager] Interface en0:
+2021-06-15 01:48:31.172+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 2001:da8:1032:1001:0:0:1:7a8%en0
+2021-06-15 01:48:31.172+0000 INFO [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:8d9:72a6:3736:da66%en0
+2021-06-15 01:48:31.172+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 10.132.4.45
+2021-06-15 01:48:31.172+0000 INFO [o.n.k.i.DiagnosticsManager] Interface lo0:
+2021-06-15 01:48:31.172+0000 INFO [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:0:0:0:1%lo0
+2021-06-15 01:48:31.172+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1%lo0
+2021-06-15 01:48:31.172+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 127.0.0.1
+2021-06-15 01:48:31.173+0000 INFO [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics END ---

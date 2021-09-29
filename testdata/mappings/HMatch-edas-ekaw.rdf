@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rdf:RDF
+  xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <Alignment>
+    <xml>yes</xml>
+    <level>0</level>
+    <type>**</type>
+    <onto1>http://edas#</onto1>
+    <onto2>http://ekaw#</onto2>
+    <uri1>http://edas#</uri1>
+    <uri2>http://ekaw#</uri2>
+
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#Workshop"/>
+        <entity2 rdf:resource="http://ekaw#Workshop"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#Paper"/>
+        <entity2 rdf:resource="http://ekaw#Paper"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9736842105263158</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#Document"/>
+        <entity2 rdf:resource="http://ekaw#Document"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9526315789473684</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#Person"/>
+        <entity2 rdf:resource="http://ekaw#Person"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.948</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#Review"/>
+        <entity2 rdf:resource="http://ekaw#Review"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#Organization"/>
+        <entity2 rdf:resource="http://ekaw#Organisation"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8380952278772991</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#SessionChair"/>
+        <entity2 rdf:resource="http://ekaw#Session_Chair"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8365517401695252</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#ConferenceDinner"/>
+        <entity2 rdf:resource="http://ekaw#Conference"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.800000011920929</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#SocialEvent"/>
+        <entity2 rdf:resource="http://ekaw#Social_Event"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7888888835906982</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#Programme"/>
+        <entity2 rdf:resource="http://ekaw#Programme_Brochure"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7870967626571655</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#RejectedPaper"/>
+        <entity2 rdf:resource="http://ekaw#Rejected_Paper"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7603686485971722</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#ConferenceVenuePlace"/>
+        <entity2 rdf:resource="http://ekaw#Conference"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7235294222831726</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#ConferenceChair"/>
+        <entity2 rdf:resource="http://ekaw#Conference"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7137931108474731</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#Conference"/>
+        <entity2 rdf:resource="http://ekaw#Conference"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#isLocationOf"/>
+        <entity2 rdf:resource="http://ekaw#locationOf"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.692307710647583</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#ConferenceSession"/>
+        <entity2 rdf:resource="http://ekaw#Conference"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6870967626571656</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#TPCMember"/>
+        <entity2 rdf:resource="http://ekaw#SC_Member"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6772727370262146</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#isWrittenBy"/>
+        <entity2 rdf:resource="http://ekaw#writtenBy"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6666666865348816</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#AcceptedPaper"/>
+        <entity2 rdf:resource="http://ekaw#Accepted_Paper"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6603686485971723</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#PendingPaper"/>
+        <entity2 rdf:resource="http://ekaw#Poster_Paper"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6571428596973419</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#Presenter"/>
+        <entity2 rdf:resource="http://ekaw#Presenter"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.65</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#PublishedPaper"/>
+        <entity2 rdf:resource="http://ekaw#Poster_Paper"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6400000035762787</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#ConferenceEvent"/>
+        <entity2 rdf:resource="http://ekaw#Event"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6299999940395355</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#PaperPresentation"/>
+        <entity2 rdf:resource="http://ekaw#Individual_Presentation"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6272727370262146</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#WithdrawnPaper"/>
+        <entity2 rdf:resource="http://ekaw#Workshop_Paper"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.625</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#hasReviewHistory"/>
+        <entity2 rdf:resource="http://ekaw#hasReview"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6206896305084229</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#MealEvent"/>
+        <entity2 rdf:resource="http://ekaw#Social_Event"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6066666702429454</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#ContactInformation"/>
+        <entity2 rdf:resource="http://ekaw#Location"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6000000059604644</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#AcademiaOrganization"/>
+        <entity2 rdf:resource="http://ekaw#Academic_Institution"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6000000000000001</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#PersonalHistory"/>
+        <entity2 rdf:resource="http://ekaw#Person"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5979999935626984</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#ActivePaper"/>
+        <entity2 rdf:resource="http://ekaw#Paper"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.582051282051282</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#ReviewQuestion"/>
+        <entity2 rdf:resource="http://ekaw#Review"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#ClosingTalk"/>
+        <entity2 rdf:resource="http://ekaw#Invited_Talk"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5777777791023254</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#WelcomeTalk"/>
+        <entity2 rdf:resource="http://ekaw#Invited_Talk"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5777777791023254</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#Topic"/>
+        <entity2 rdf:resource="http://ekaw#Research_Topic"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5608695566654205</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#ReviewForm"/>
+        <entity2 rdf:resource="http://ekaw#Review"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5600000143051147</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#TalkEvent"/>
+        <entity2 rdf:resource="http://ekaw#Event"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5533333492279053</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#ReviewRating"/>
+        <entity2 rdf:resource="http://ekaw#Review"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5522727370262146</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#BreakEvent"/>
+        <entity2 rdf:resource="http://ekaw#Event"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5339713031595403</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#CADTopic"/>
+        <entity2 rdf:resource="http://ekaw#Research_Topic"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5307692348957063</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#Reception"/>
+        <entity2 rdf:resource="http://ekaw#Location"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5285714328289033</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#AcademicEvent"/>
+        <entity2 rdf:resource="http://ekaw#Scientific_Event"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.521818187236786</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#hasTopic"/>
+        <entity2 rdf:resource="http://ekaw#coversTopic"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.52173912525177</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#IndustryOrganization"/>
+        <entity2 rdf:resource="http://ekaw#Organising_Agency"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5170731663703918</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#NumericalReviewQuestion"/>
+        <entity2 rdf:resource="http://ekaw#Neutral_Review"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5130081335703532</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#GovernmentOrganization"/>
+        <entity2 rdf:resource="http://ekaw#Organising_Agency"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5116279065608978</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#NonAcademicEvent"/>
+        <entity2 rdf:resource="http://ekaw#Social_Event"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5056818181818181</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#OrganizationalMeeting"/>
+        <entity2 rdf:resource="http://ekaw#Organising_Agency"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5000000059604646</measure>
+        <relation>=</relation>
+      </Cell></map>
+      <map><Cell>
+        <entity1 rdf:resource="http://edas#forEvent"/>
+        <entity2 rdf:resource="http://ekaw#hasEvent"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</measure>
+        <relation>=</relation>
+      </Cell></map>
+
+  </Alignment>
+</rdf:RDF>
