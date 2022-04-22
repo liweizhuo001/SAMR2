@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment'
+	 xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+	 xmlns:xsd='http://www.w3.org/2001/XMLSchema#' 
+	 alignmentSource='AgreementMakerLight'>
+
+<Alignment>
+	<xml>yes</xml>
+	<level>0</level>
+	<type>11</type>
+	<onto1>http://edas</onto1>
+	<onto2>http://sigkdd</onto2>
+	<uri1>http://edas</uri1>
+	<uri2>http://sigkdd</uri2>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edas#Paper"/>
+			<entity2 rdf:resource="http://sigkdd#Paper"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.3859</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edas#Conference"/>
+			<entity2 rdf:resource="http://sigkdd#Conference"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.565</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edas#Person"/>
+			<entity2 rdf:resource="http://sigkdd#Person"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4136</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edas#Place"/>
+			<entity2 rdf:resource="http://sigkdd#Place"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.2551</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edas#Document"/>
+			<entity2 rdf:resource="http://sigkdd#Document"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.3398</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edas#Author"/>
+			<entity2 rdf:resource="http://sigkdd#Author"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.2643</measure>
+			<relation>&gt;</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edas#ConferenceVenuePlace"/>
+			<entity2 rdf:resource="http://sigkdd#Conference_hall"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.1743</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edas#CallForReviews"/>
+			<entity2 rdf:resource="http://sigkdd#Best_Student_Paper_Award"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0129</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edas#AccommodationPlace"/>
+			<entity2 rdf:resource="http://sigkdd#Hotel"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0854</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+</Alignment>
+</rdf:RDF>

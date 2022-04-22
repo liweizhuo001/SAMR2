@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment'
+	 xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+	 xmlns:xsd='http://www.w3.org/2001/XMLSchema#' 
+	 alignmentSource='AgreementMakerLight'>
+
+<Alignment>
+	<xml>yes</xml>
+	<level>0</level>
+	<type>??</type>
+	<onto1>http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA.owl</onto1>
+	<onto2>http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB.owl</onto2>
+	<uri1>http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA.owl</uri1>
+	<uri2>http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB.owl</uri2>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#Sake"/>
+			<entity2 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Sake"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4456</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#Gewurztaminer"/>
+			<entity2 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Gewurztaminer"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4533</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#Tempranillo"/>
+			<entity2 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Tempranillo"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4564</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#Nebbiolo"/>
+			<entity2 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Nebbiolo"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4564</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#PetiteSirah"/>
+			<entity2 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#PetiteSirah"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4638</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#CheninBlanc"/>
+			<entity2 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#CheninBlanc"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4427</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#Zinfandel"/>
+			<entity2 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Zinfandel"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4227</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#PinotGris"/>
+			<entity2 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#PinotGris"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4127</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#PinotBlanc"/>
+			<entity2 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#PinotBlanc"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4722</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#Semillon"/>
+			<entity2 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Semillon"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4643</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#CabernetSauvignon"/>
+			<entity2 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#CabernetSauvignon"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4567</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#Muscat"/>
+			<entity2 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Muscat"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4347</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#SauvignonBlanc"/>
+			<entity2 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#SauvignonBlanc"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4787</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#Riesling"/>
+			<entity2 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Riesling"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4473</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#Sangiovese"/>
+			<entity2 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Sangiovese"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4578</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#Syrah"/>
+			<entity2 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Syrah"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4378</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#Chablis"/>
+			<entity2 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Chablis"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.3877</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#Berbera"/>
+			<entity2 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Berbera"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4643</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#Chianti"/>
+			<entity2 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Chianti"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4144</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#Merlot"/>
+			<entity2 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Merlot"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4286</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#CabernetMerlot"/>
+			<entity2 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Merlot"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.2319</measure>
+			<relation>&lt;</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#CabernetMerlot"/>
+			<entity2 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#MezclaDeCabernet"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0537</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#RedBurgundy"/>
+			<entity2 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#BurgonaRoja"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.1143</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#WhiteBurgundy"/>
+			<entity2 rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#BorgonaBlanca"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0746</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+</Alignment>
+</rdf:RDF>
