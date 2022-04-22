@@ -1,0 +1,293 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB.owl#"
+     xml:base="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB.owl"
+     xmlns:WineB="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB.owl">
+        <owl:versionInfo>10/03/2003</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Berbera -->
+
+    <owl:Class rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Berbera">
+        <rdfs:subClassOf rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosRojos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#BlancoItaliano -->
+
+    <owl:Class rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#BlancoItaliano">
+        <rdfs:subClassOf rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosBlancos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#BorgonaBlanca -->
+
+    <owl:Class rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#BorgonaBlanca">
+        <rdfs:subClassOf rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosBlancos"/>
+        <owl:disjointWith rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#BurgonaRoja"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#BurdeosBlanco -->
+
+    <owl:Class rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#BurdeosBlanco">
+        <rdfs:subClassOf rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosBlancos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#BurdeosRojo -->
+
+    <owl:Class rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#BurdeosRojo">
+        <rdfs:subClassOf rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosRojos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#BurgonaRoja -->
+
+    <owl:Class rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#BurgonaRoja">
+        <rdfs:subClassOf rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosRojos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#CabernetSauvignon -->
+
+    <owl:Class rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#CabernetSauvignon">
+        <rdfs:subClassOf rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosRojos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Chablis -->
+
+    <owl:Class rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Chablis">
+        <rdfs:subClassOf rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosBlancos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Chardonnay -->
+
+    <owl:Class rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Chardonnay">
+        <rdfs:subClassOf rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosBlancos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#CheninBlanc -->
+
+    <owl:Class rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#CheninBlanc">
+        <rdfs:subClassOf rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosBlancos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Chianti -->
+
+    <owl:Class rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Chianti">
+        <rdfs:subClassOf rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosRojos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Dolcetto -->
+
+    <owl:Class rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Dolcetto">
+        <rdfs:subClassOf rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosRojos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Gewurztaminer -->
+
+    <owl:Class rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Gewurztaminer">
+        <rdfs:subClassOf rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosBlancos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Merlot -->
+
+    <owl:Class rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Merlot">
+        <rdfs:subClassOf rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosRojos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#MezclaDeCabernet -->
+
+    <owl:Class rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#MezclaDeCabernet">
+        <rdfs:subClassOf rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosRojos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Muscat -->
+
+    <owl:Class rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Muscat">
+        <rdfs:subClassOf rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosBlancos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Nebbiolo -->
+
+    <owl:Class rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Nebbiolo">
+        <rdfs:subClassOf rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosRojos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#PetiteSirah -->
+
+    <owl:Class rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#PetiteSirah">
+        <rdfs:subClassOf rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosRojos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#PinotBlanc -->
+
+    <owl:Class rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#PinotBlanc">
+        <rdfs:subClassOf rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosBlancos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#PinotGris -->
+
+    <owl:Class rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#PinotGris">
+        <rdfs:subClassOf rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosBlancos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#PinotNior -->
+
+    <owl:Class rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#PinotNior">
+        <rdfs:subClassOf rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosRojos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Riesling -->
+
+    <owl:Class rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Riesling">
+        <rdfs:subClassOf rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosBlancos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#RojoItaliano -->
+
+    <owl:Class rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#RojoItaliano">
+        <rdfs:subClassOf rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosRojos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Sake -->
+
+    <owl:Class rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Sake">
+        <rdfs:subClassOf rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosBlancos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Sangiovese -->
+
+    <owl:Class rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Sangiovese">
+        <rdfs:subClassOf rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosRojos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#SauvignonBlanc -->
+
+    <owl:Class rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#SauvignonBlanc">
+        <rdfs:subClassOf rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosBlancos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Semillon -->
+
+    <owl:Class rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Semillon">
+        <rdfs:subClassOf rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosBlancos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Syrah -->
+
+    <owl:Class rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Syrah">
+        <rdfs:subClassOf rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosRojos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Tempranillo -->
+
+    <owl:Class rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Tempranillo">
+        <rdfs:subClassOf rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosRojos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Vino -->
+
+    <owl:Class rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Vino"/>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosBlancos -->
+
+    <owl:Class rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosBlancos">
+        <rdfs:subClassOf rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Vino"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosRojos -->
+
+    <owl:Class rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosRojos">
+        <rdfs:subClassOf rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Vino"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Zinfandel -->
+
+    <owl:Class rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Zinfandel">
+        <rdfs:subClassOf rdf:resource="http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosRojos"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
