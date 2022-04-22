@@ -1,0 +1,41 @@
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#InCollection  incollection  http://ebiquity.umbc.edu/v2.1/ontology/publication#InCollection  incollection  0.9071  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#edition  edition  http://ebiquity.umbc.edu/v2.1/ontology/publication#edition  edition  0.9  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#number  number  http://ebiquity.umbc.edu/v2.1/ontology/publication#number  number  1.0  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#journal  journal  http://ebiquity.umbc.edu/v2.1/ontology/publication#journal  journal  0.9  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#volume  volume  http://ebiquity.umbc.edu/v2.1/ontology/publication#volume  volume  1.0  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#MastersThesis  masters thesis  http://ebiquity.umbc.edu/v2.1/ontology/publication#MastersThesis  masters thesis  0.8962  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#series  series  http://ebiquity.umbc.edu/v2.1/ontology/publication#series  series  1.0  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#school  school  http://ebiquity.umbc.edu/v2.1/ontology/publication#school  school  0.9  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#Proceedings  proceedings  http://ebiquity.umbc.edu/v2.1/ontology/publication#Proceedings  proceedings  0.92  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#PhdThesis  phdthesis  http://ebiquity.umbc.edu/v2.1/ontology/publication#PhdThesis  phdthesis  0.8962  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#InProceedings  inproceedings  http://ebiquity.umbc.edu/v2.1/ontology/publication#InProceedings  inproceedings  0.8929  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#Book  book  http://ebiquity.umbc.edu/v2.1/ontology/publication#Book  book  0.8292  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#Misc  misc  http://ebiquity.umbc.edu/v2.1/ontology/publication#Misc  misc  0.903  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#publisher  publisher  http://ebiquity.umbc.edu/v2.1/ontology/publication#publisher  publisher  0.9  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#organization  organization  http://ebiquity.umbc.edu/v2.1/ontology/publication#organization  organization  0.9  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#author  author  http://ebiquity.umbc.edu/v2.1/ontology/publication#author  author  0.9  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#institution  institution  http://ebiquity.umbc.edu/v2.1/ontology/publication#institution  institution  0.9  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#abstract  abstract  http://ebiquity.umbc.edu/v2.1/ontology/publication#abstract  abstract  1.0  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#editor  editor  http://ebiquity.umbc.edu/v2.1/ontology/publication#editor  editor  0.9  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#title  title  http://ebiquity.umbc.edu/v2.1/ontology/publication#title  title  1.0  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#Article  article  http://ebiquity.umbc.edu/v2.1/ontology/publication#Article  article  0.8875  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#InBook  inbook  http://ebiquity.umbc.edu/v2.1/ontology/publication#InBook  inbook  0.8929  = Y
+http://purl.org/dc/elements/1.1/description  description  http://ebiquity.umbc.edu/v2.1/ontology/publication#description  description  0.7276  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#note  note  http://ebiquity.umbc.edu/v2.1/ontology/publication#note  note  1.0  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#Reference  reference  http://ebiquity.umbc.edu/v2.1/ontology/publication#Resource  resource  0.573  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#TechReport  tech report  http://ebiquity.umbc.edu/v2.1/ontology/publication#TechReport  tech report  0.9571  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#address  address  http://ebiquity.umbc.edu/v2.1/ontology/publication#address  address  0.9  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#chapter  chapter  http://ebiquity.umbc.edu/v2.1/ontology/publication#chapter  chapter  1.0  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#type  type  http://ebiquity.umbc.edu/v2.1/ontology/publication#type  type  0.9  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#pages  pages  http://ebiquity.umbc.edu/v2.1/ontology/publication#pages  pages  0.9  = Y
+
+
+
+
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#organizer  organizer  http://ebiquity.umbc.edu/v2.1/ontology/publication#organization  organization  0.5  = N
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#Report  report  http://ebiquity.umbc.edu/v2.1/ontology/publication#TechReport  tech report  0.5838  = N
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#contract  contract  http://ebiquity.umbc.edu/v2.1/ontology/publication#abstract  abstract  0.5  = N
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#annote  annote  http://ebiquity.umbc.edu/v2.1/ontology/publication#note  note  0.5714  = N
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#keywords  keywords  http://ebiquity.umbc.edu/v2.1/ontology/publication#keyword  keyword  0.7368  = N
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#chapters  chapters  http://ebiquity.umbc.edu/v2.1/ontology/publication#chapter  chapter  0.6368  = N
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#country  country  http://ebiquity.umbc.edu/v2.1/ontology/publication#counter  counter  0.5556  = N

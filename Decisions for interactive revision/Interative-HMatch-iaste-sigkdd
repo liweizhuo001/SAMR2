@@ -1,0 +1,38 @@
+The approved mappings for 1:1-repair 
+http://iasted#pay  pay  http://sigkdd#pay  pay  1.0  =  y
+http://iasted#Document  document  http://sigkdd#Document  document  0.82  = y
+http://iasted#Sponsor  sponsor  http://sigkdd#Sponzor  sponzor  0.5917  = y
+http://iasted#Place  place  http://sigkdd#Place  place  0.7824  = y
+http://iasted#Review  review  http://sigkdd#Review  review  0.7667  = y
+http://iasted#Sponsor  sponsor  http://sigkdd#Sponzor  sponzor  0.5917  = y
+http://iasted#Listener  listener  http://sigkdd#Listener  listener  0.8882  = y
+http://iasted#Speaker  speaker  http://sigkdd#Speaker  speaker  0.8533  = y
+http://iasted#Deadline_for_notification_of_acceptance  deadline for notification of acceptance  http://sigkdd#Deadline_Author_notification  deadline author notification  0.5385  =  y
+http://iasted#Student_registration_fee  student registration fee  http://sigkdd#Registration_Student  registration student  0.555  = y
+http://iasted#Conference_hall  conference hall  http://sigkdd#Conference_hall  conference hall  0.8  = y
+http://iasted#Fee  fee  http://sigkdd#Fee  fee  0.8  = y  
+http://iasted#Document  document  http://sigkdd#Document  document  0.82  = y
+http://iasted#obtain  obtain  http://sigkdd#obtain  obtain  1.0  =
+http://iasted#Registration_fee  registration fee  http://sigkdd#Registration_fee  registration fee  0.7667  = y
+http://iasted#Deadline  deadline  http://sigkdd#Deadline  deadline  0.7  = y
+http://iasted#Author  author  http://sigkdd#Author  author  0.8221  = y
+http://iasted#Person  person  http://sigkdd#Person  person  0.7  = y
+http://iasted#Main_office  main office  http://sigkdd#Main_office  main office  0.8  = y
+
+
+The declined mappings for 1:1-repair 
+http://iasted#Student_registration_fee  student registration fee  http://sigkdd#Registration_Student  registration student  0.555  =  N
+http://iasted#is_signed_by  is signed by  http://sigkdd#designed_by  designed by  0.6667  =  N
+http://iasted#Conference_airport  conference airport  http://sigkdd#Conference_hall  conference hall  0.5234  =  N
+http://iasted#obtain  obtain  http://sigkdd#obtain  obtain  1.0  =  N
+http://iasted#Currency  currency  http://sigkdd#Conference  conference  0.5636  =  N
+http://iasted#Memeber_registration_fee  memeber registration fee  http://sigkdd#Registration_fee  registration fee  0.5091  =   N
+http://iasted#Worker_non_speaker  worker non speaker  http://sigkdd#Speaker  speaker  0.513  =  N
+http://iasted#Conference_hotel  conference hotel  http://sigkdd#Conference_hall  conference hall  0.6124  =  N
+http://iasted#Conference_city  conference city  http://sigkdd#Conference  conference  0.5138  =  N
+http://iasted#Non_speaker  non speaker  http://sigkdd#Speaker  speaker  0.556  =  N
+http://iasted#Sponsor_state  sponsor state  http://sigkdd#Sponzor_fee  sponzor fee  0.6571  =  N
+http://iasted#Conference_building  conference building  http://sigkdd#Conference_hall  conference hall  0.514  =  N
+http://iasted#Hotel_fee  hotel fee  http://sigkdd#Hotel  hotel  0.5  =  N
+http://iasted#Conference_state  conference state  http://sigkdd#Conference  conference  0.54  =  N
+http://iasted#sign  sign  http://sigkdd#design  design  0.5714  =  N

@@ -1,0 +1,34 @@
+The approved mappings for 1:1-repair
+http://confOf#hasEmail  has email  http://edas#hasEmail  has email  0.9  =   y
+http://confOf#hasFirstName  has first name  http://edas#hasFirstName  has first name  1.0  =  y
+http://confOf#Workshop  workshop  http://edas#Workshop  workshop  0.8  =  y
+http://confOf#Country  country  http://edas#Country  country  1.0  =  y
+http://confOf#hasTopic  has topic  http://edas#hasTopic  has topic  0.9  =  y
+http://confOf#Person  person  http://edas#Person  person  0.7947  =  y
+http://confOf#Social_event  social event  http://edas#SocialEvent  social event  0.6511  =  y
+http://confOf#writtenBy  written by  http://edas#isWrittenBy  is written by  0.6667  =  y
+http://confOf#Paper  paper  http://edas#Paper  paper  0.6  =  y
+http://confOf#Organization  organization  http://edas#Organization  organization  0.9  =  y
+http://confOf#hasPostalCode  has postal code  http://edas#hasPostalCode  has postal code  0.9  =  y
+http://confOf#Event  event  http://edas#ConferenceEvent  conference event  0.6274  =  y
+http://confOf#Conference  conference  http://edas#Conference  conference  0.65  =  y
+http://confOf#Author  author  http://edas#Author  author  0.7667  =  y
+http://confOf#Topic  topic  http://edas#Topic  topic  0.9  =  y
+http://confOf#Reception  reception  http://edas#Reception  reception  0.88  =  y
+
+
+The declined mappings for 1:1-repair 
+http://confOf#hasCountry  has country  http://edas#hasCountry  has country  0.9  =   N
+http://confOf#hasCity  has city  http://edas#hasCity  has city  0.9  =  N
+http://confOf#hasStreet  has street  http://edas#hasStreet  has street  0.9  =  N
+http://confOf#location  location  http://edas#hasLocation  has location  0.5087  =  N
+http://confOf#hasPhone  has phone  http://edas#hasPhone  has phone  1.0  =  N
+http://confOf#City  city  http://edas#Country  country  0.56  =  N
+http://confOf#hasSurname  has surname  http://edas#hasName  has name  0.5714  =  N
+http://confOf#earlyRegistration  early registration  http://edas#registrationDueOn  registration due on  0.5263  =  N
+http://confOf#Reviewing_event  reviewing event  http://edas#Review  review  0.688  =  N
+http://confOf#Member  member  http://edas#TPCMember  tpcmember  0.5456  =  N
+http://confOf#Administrative_event  administrative event  http://edas#AcademicEvent  academic event  0.5531  =  N
+http://confOf#Reviewing_results_event  reviewing results event  http://edas#Review  review  0.6182  =  N
+
+

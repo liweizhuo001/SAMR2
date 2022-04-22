@@ -1,0 +1,29 @@
+The approved mappings for 1:1-repair
+http://conference#Review  review  http://sigkdd#Review  review  0.9  =
+http://conference#Abstract  abstract  http://sigkdd#Abstract  abstract  0.6571  =
+http://conference#Invited_speaker  invited speaker  http://sigkdd#Invited_Speaker  invited speaker  0.5741  =  
+http://conference#Person  person  http://sigkdd#Person  person  0.6581  =  
+http://conference#Program_committee  program committee  http://sigkdd#Program_Committee  program committee  0.9053  =  
+http://conference#Committee  committee  http://sigkdd#Committee  committee  0.9  =  
+http://conference#Conference  conference  http://sigkdd#Conference  conference  0.9  =
+http://conference#Organizing_committee  organizing committee  http://sigkdd#Organizing_Committee  organizing committee  0.9182  =
+http://conference#Paper  paper  http://sigkdd#Paper  paper  0.6333  =
+
+
+The declined mappings for 1:1-repair 
+http://conference#Conference_participant  conference participant  http://sigkdd#Conference  conference  0.5333  =  N
+http://conference#is_part_of_conference_volumes  is part of conference volumes  http://sigkdd#Start_of_conference  start of conference  0.5  =  N
+http://conference#Conference_contribution  conference contribution  http://sigkdd#Conference  conference  0.5243  =  N
+http://conference#Conference_fees  conference fees  http://sigkdd#Conference  conference  0.8138  =  N
+http://conference#Organizer  organizer  http://sigkdd#Organizing_Committee  organizing committee  0.5545  =  N
+http://conference#Conference_contributor  conference contributor  http://sigkdd#Conference  conference  0.5333  =  N
+http://conference#Steering_committee  steering committee  http://sigkdd#Organizing_Committee  organizing committee  0.6857  =  N
+http://conference#Conference_document  conference document  http://sigkdd#Conference  conference  0.6636  =  N
+http://conference#gives_presentations  gives presentations  http://sigkdd#presentation  presentation  0.5714  =  N
+http://conference#Active_conference_participant  active conference participant  http://sigkdd#Conference_hall  conference hall  0.5  =   N
+http://conference#Conference_www  conference www  http://sigkdd#Conference  conference  0.7286  =  N
+http://conference#Conference_announcement  conference announcement  http://sigkdd#Conference  conference  0.6243  =  N
+http://conference#Conference_proceedings  conference proceedings  http://sigkdd#Conference  conference  0.7333  =  N
+http://conference#Conference_part  conference part  http://sigkdd#Conference  conference  0.7138  =  N
+http://conference#Conference_volume  conference volume  http://sigkdd#Conference_hall  conference hall  0.7667  =  N
+http://conference#Organization  organization  http://sigkdd#Organizing_Committee  organizing committee  0.5333  =  N

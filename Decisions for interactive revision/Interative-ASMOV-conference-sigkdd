@@ -1,0 +1,34 @@
+The approved mappings for 1:1-repair 
+http://conference#Program_committee  program committee  http://sigkdd#Program_Committee  program committee  0.3272  = Y
+http://conference#Abstract  abstract  http://sigkdd#Abstract  abstract  0.3333  = Y
+http://conference#Invited_speaker  invited speaker  http://sigkdd#Invited_Speaker  invited speaker  0.5406  = Y
+http://conference#Regular_author  regular author  http://sigkdd#Author  author  0.4238  = Y
+http://conference#Person  person  http://sigkdd#Person  person  0.5215  = Y
+http://conference#Committee  committee  http://sigkdd#Committee  committee  0.3149  = Y
+http://conference#Organizing_committee  organizing committee  http://sigkdd#Organizing_Committee  organizing committee  0.3272  = Y
+http://conference#Review  review  http://sigkdd#Review  review  0.3906  = Y
+http://conference#Paper  paper  http://sigkdd#Paper  paper  0.3333  = Y
+http://conference#Conference_document  conference document  http://sigkdd#Document  document  0.238  = Y
+http://conference#Conference  conference  http://sigkdd#Conference  conference  0.4955  = Y
+
+
+The declined mappings for 1:1-repair
+http://conference#Steering_committee  steering committee  http://sigkdd#Best_Paper_Awards_Committee  best paper awards committee  0.1795  = N
+http://conference#Track-workshop_chair  track workshop chair  http://sigkdd#Program_Chair  program chair  0.4636  > N
+http://conference#Committee_member  committee member  http://sigkdd#Program_Committee_member  program committee member  0.4653  > N
+http://conference#Early_paid_applicant  early paid applicant  http://sigkdd#Organizing_Committee_member  organizing committee member  0.395  = N
+http://conference#Workshop  workshop  http://sigkdd#Gold_Supporter  gold supporter  0.0356  = N
+http://conference#Important_dates  important dates  http://sigkdd#Deadline_Author_notification  deadline author notification  0.0738  > N
+http://conference#Call_for_paper  call for paper  http://sigkdd#Deadline_Paper_Submission  deadline paper submission  0.111  = N
+http://conference#Contribution_1th-author  contribution 1th author  http://sigkdd#Author_of_paper_student  author of paper student  0.3517  = N
+http://conference#Review_preference  review preference  http://sigkdd#Registration_fee  registration fee  0.1714  > N
+http://conference#Late_paid_applicant  late paid applicant  http://sigkdd#Webmaster  webmaster  0.3951  = N
+http://conference#Conference_fees  conference fees  http://sigkdd#Conference_hall  conference hall  0.5021  > N
+http://conference#Conference_contributor  conference contributor  http://sigkdd#Speaker  speaker  0.3524  = N
+http://conference#Conference_volume  conference volume  http://sigkdd#Exhibitor  exhibitor  0.0703  = N
+http://conference#Track  track  http://sigkdd#Best_Student_Paper_Supporter  best student paper supporter  0.0352  = N
+http://conference#Contribution_co-author  contribution co author  http://sigkdd#Author_of_paper  author of paper  0.3625  = N
+http://conference#Chair  chair  http://sigkdd#General_Chair  general chair  0.4105  = N
+http://conference#Passive_conference_participant  passive conference participant  http://sigkdd#Listener  listener  0.3952  < N
+http://conference#Tutorial  tutorial  http://sigkdd#Platinum_Supporter  platinum supporter  0.0356  = N
+http://conference#Regular_contribution  regular contribution  http://sigkdd#Sponzor  sponzor  0.0114  < N

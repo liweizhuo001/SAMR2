@@ -1,0 +1,25 @@
+The approved mappings for 1:1-repair
+http://cmt#ConferenceChair  conference chair  http://edas#ConferenceChair  conference chair  0.9667  =. Y
+http://cmt#Conference  conference  http://edas#Conference  conference  0.8364  =. Y
+http://cmt#Paper  paper  http://edas#Paper  paper  0.8444  =. Y
+http://cmt#Reviewer  reviewer  http://edas#Reviewer  reviewer  0.78  =. Y
+http://cmt#hasConferenceMember  has conference member  http://edas#hasMember  has member  0.5625  =. Y
+http://cmt#Person  person  http://edas#Person  person  1.0  =. Y
+http://cmt#Review  review  http://edas#Review  review  0.9  =. Y
+http://cmt#Document  document  http://edas#Document  document  0.9588  =. Y
+http://cmt#Author  author  http://edas#Author  author  0.74  =. Y
+
+
+The declined mappings for 1:1-repair 
+http://cmt#Meta-Review  meta review  http://edas#Review  review  0.7095  =. N
+http://cmt#ExternalReviewer  external reviewer  http://edas#Reviewer  reviewer  0.5095  =    N
+http://cmt#ProgramCommittee  program committee  http://edas#Programme  programme  0.631  =. N
+http://cmt#writtenBy  written by  http://edas#isWrittenBy  is written by  0.6667  =    N
+http://cmt#readPaper  read paper  http://edas#relatedToPaper  related to paper  0.5185  =. N
+http://cmt#PaperFullVersion  paper full version  http://edas#PaperPresentation  paper presentation  0.5095  =. N
+http://cmt#Preference  preference  http://edas#ConferenceSession  conference session  0.5935  =. N
+http://cmt#Acceptance  acceptance  http://edas#AcceptRating  accept rating  0.5769  =. N
+http://cmt#Meta-Reviewer  meta reviewer  http://edas#Review  review  0.5087  =. N
+http://cmt#ProgramCommitteeChair  program committee chair  http://edas#Programme  programme  0.5471  =. N
+http://cmt#Rejection  rejection  http://edas#Reception  reception  0.6273  =. N
+http://cmt#AssociatedChair  associated chair  http://edas#SessionChair  session chair  0.5602  =. N

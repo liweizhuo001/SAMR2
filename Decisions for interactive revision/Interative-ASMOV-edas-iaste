@@ -1,0 +1,43 @@
+The approved mappings for 1:1-repair  
+http://edas#Place  place  http://iasted#Place  place  0.3095  = Y
+http://edas#Person  person  http://iasted#Person  person  0.2444  = Y
+http://edas#Reviewer  reviewer  http://iasted#Reviewer  reviewer  0.2264  > Y
+http://edas#Review  review  http://iasted#Review  review  0.327  = Y
+http://edas#Author  author  http://iasted#Author  author  0.2269  > Y
+http://edas#SocialEvent  social event  http://iasted#Social_program  social program  0.1736  = Y
+http://edas#Country  country  http://iasted#State  state  0.3305  = Y
+http://edas#SessionChair  session chair  http://iasted#Session_chair  session chair  0.3125  > Y
+http://edas#CoffeeBreak  coffee break  http://iasted#Coffee_break  coffee break  0.3375  = Y
+http://edas#Document  document  http://iasted#Document  document  0.2689  > Y
+http://edas#Reception  reception  http://iasted#Coctail_reception  coctail reception  0.226  = Y
+
+
+The declined mappings for 1:1-repair
+http://edas#Paper  paper  http://iasted#Card  card  0.2324  = N
+http://edas#WelcomeTalk  welcome talk  http://iasted#Welcome_address  welcome address  0.3051  = N
+http://edas#MealEvent  meal event  http://iasted#City  city  0.0239  < N
+http://edas#RejectedPaper  rejected paper  http://iasted#Transport_vehicle  transport vehicle  0.0348  = N
+http://edas#MeetingRoomPlace  meeting room place  http://iasted#Session_room  session room  0.2288  = N
+http://edas#CallForManuscripts  call for manuscripts  http://iasted#Camera_ready_manuscript_deadline  camera ready manuscript deadline  0.1729  > N
+http://edas#DiningPlace  dining place  http://iasted#Main_office  main office  0.1378  = N
+http://edas#PersonalPublicationHistory  personal publication history  http://iasted#Publication  publication  0.1664  = N
+http://edas#ComputerNetworksTopic  computer networks topic  http://iasted#Computer  computer  0.1724  = N
+http://edas#AcademicEvent  academic event  http://iasted#Presentation  presentation  0.0266  = N
+http://edas#ConferenceChair  conference chair  http://iasted#Conference_Hiker  conference hiker  0.2236  > N
+http://edas#ConferenceDinner  conference dinner  http://iasted#Conference_city  conference city  0.1766  < N
+http://edas#Excursion  excursion  http://iasted#Dinner_banquet  dinner banquet  0.0608  = N
+http://edas#TravelGrant  travel grant  http://iasted#Author_attendee_cd_registration_fee  author attendee cd registration fee  0.1276  > N
+http://edas#Presenter  presenter  http://iasted#Currency  currency  0.3243  < N
+http://edas#Attendee  attendee  http://iasted#IASTED_member  iasted member  0.089  > N
+http://edas#PaperPresentation  paper presentation  http://iasted#Video_presentation  video presentation  0.2032  = N
+http://edas#AccommodationPlace  accommodation place  http://iasted#Hotel_room  hotel room  0.1285  = N
+http://edas#MealBreak  meal break  http://iasted#Research  research  0.0279  = N
+http://edas#FreeTimeBreak  free time break  http://iasted#Time_zone  time zone  0.133  < N
+http://edas#ConferenceVenuePlace  conference venue place  http://iasted#Conference_hall  conference hall  0.2292  = N
+http://edas#Workshop  workshop  http://iasted#PowerPoint_presentation  power point presentation  0.0117  = N
+http://edas#PendingPaper  pending paper  http://iasted#Credit_card  credit card  0.0996  = N
+http://edas#ConferenceSession  conference session  http://iasted#Conference_days  conference days  0.2425  > N
+http://edas#TPCMember  tpcmember  http://iasted#Listener  listener  0.093  > N
+http://edas#Call  call  http://iasted#Deadline  deadline  0.1033  > N
+http://edas#Conference  conference  http://iasted#Session  session  0.3748  > N
+http://edas#Sponsorship  sponsorship  http://iasted#Money  money  0.1083  = N

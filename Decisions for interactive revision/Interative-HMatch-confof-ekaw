@@ -1,0 +1,35 @@
+The approved mappings for 1:1-repair
+http://confOf#Workshop  workshop  http://ekaw#Workshop  workshop  0.8  =  y
+http://confOf#Student  student  http://ekaw#Student  student  0.7667  =   y
+http://confOf#Social_event  social event  http://ekaw#Social_Event  social event  0.7514  =  y
+http://confOf#Conference  conference  http://ekaw#Conference  conference  0.8  =  y
+http://confOf#Person  person  http://ekaw#Person  person  0.7667  =  y
+http://confOf#Tutorial  tutorial  http://ekaw#Tutorial  tutorial  0.78  =  y
+http://confOf#Event  event  http://ekaw#Event  event  0.9813  =  y
+http://confOf#Author  author  http://ekaw#Paper_Author  paper author  0.5273  =  y
+http://confOf#University  university  http://ekaw#University  university  0.9667  =  y
+http://confOf#Person  person  http://ekaw#Person  person  0.7667  =  y
+http://confOf#Organization  organization  http://ekaw#Organisation  organisation  0.8  =  y
+http://confOf#Trip  trip  http://ekaw#Conference_Trip  conference trip  0.5087  =  y
+http://confOf#Paper  paper  http://ekaw#Paper  paper  0.6  =  y
+http://confOf#writtenBy  written by  http://ekaw#writtenBy  written by  1.0  =  y
+http://confOf#Poster  poster  http://ekaw#Poster_Paper  poster paper  0.5364  =  y
+http://confOf#Topic  topic  http://ekaw#Research_Topic  research topic  0.6609  =  y
+http://confOf#Conference  conference  http://ekaw#Conference  conference  0.8  =  y
+
+
+The declined mappings for 1:1-repair
+http://confOf#City  city  http://ekaw#University  university  0.5  =   N
+http://confOf#location  location  http://ekaw#locationOf  location of  0.6273  =  N
+http://confOf#reviewes  reviewes  http://ekaw#reviewerOfPaper  reviewer of paper  0.5185  =  N
+http://confOf#Reviewing_results_event  reviewing results event  http://ekaw#Review  review  0.5182  =  N
+http://confOf#Reviewing_event  reviewing event  http://ekaw#Review  review  0.588  =  N
+http://confOf#Member  member  http://ekaw#SC_Member  sc member  0.5189  =  N
+http://confOf#Regular  regular  http://ekaw#Regular_Session  regular session  0.6531  =  N
+http://confOf#hasTopic  has topic  http://ekaw#coversTopic  covers topic  0.5  =  N
+http://confOf#Banquet  banquet  http://ekaw#Conference_Banquet  conference banquet  0.5897  =  N
+http://confOf#Camera_Ready_event  camera ready event  http://ekaw#Camera_Ready_Paper  camera ready paper  0.59  =  N
+http://confOf#Registration_of_participants_event  registration of participants event  http://ekaw#Late-Registered_Participant  late registered participant  0.5585  =  N
+http://confOf#Reviewing_event  reviewing event  http://ekaw#Review  review  0.588  =  N
+http://confOf#reviewes  reviewes  http://ekaw#reviewerOfPaper  reviewer of paper  0.5185  =  N
+http://confOf#hasTopic  has topic  http://ekaw#coversTopic  covers topic  0.5  =  N

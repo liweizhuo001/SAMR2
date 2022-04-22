@@ -1,0 +1,31 @@
+The approved mappings for 1:1-repair 
+http://conference#Invited_speaker  invited speaker  http://ekaw#Invited_Speaker  invited speaker  0.2636  = Y
+http://conference#Paper  paper  http://ekaw#Paper  paper  0.3333  = Y
+http://conference#Track  track  http://ekaw#Track  track  0.3333  = Y
+http://conference#Tutorial  tutorial  http://ekaw#Tutorial  tutorial  0.3333  = Y
+http://conference#Conference_proceedings  conference proceedings  http://ekaw#Conference_Proceedings  conference proceedings  0.3387  > Y
+http://conference#Workshop  workshop  http://ekaw#Workshop  workshop  0.3333  = Y
+http://conference#Invited_talk  invited talk  http://ekaw#Invited_Talk  invited talk  0.3371  = Y
+http://conference#Review  review  http://ekaw#Review  review  0.3593  = Y
+http://conference#Conference_participant  conference participant  http://ekaw#Conference_Participant  conference participant  0.3066  = Y
+http://conference#Person  person  http://ekaw#Person  person  0.304  = Y
+http://conference#Topic  topic  http://ekaw#Research_Topic  research topic  0.2319  = Y
+http://conference#Abstract  abstract  http://ekaw#Abstract  abstract  0.3877  = Y
+http://conference#Regular_author  regular author  http://ekaw#Paper_Author  paper author  0.2494  < Y
+http://conference#Organization  organization  http://ekaw#Organisation  organisation  0.3331  = Y
+
+
+The declined mappings for 1:1-repair
+http://conference#Reviewer  reviewer  http://ekaw#Possible_Reviewer  possible reviewer  0.2169  = N
+http://conference#Conference_applicant  conference applicant  http://ekaw#OC_Member  oc member  0.0405  > N
+http://conference#Call_for_participation  call for participation  http://ekaw#Web_Site  web site  0.0587  = N
+http://conference#Conference_volume  conference volume  http://ekaw#Conference_Session  conference session  0.2297  > N
+http://conference#Early_paid_applicant  early paid applicant  http://ekaw#OC_Chair  oc chair  0.0413  > N
+http://conference#Conference_www  conference www  http://ekaw#Conference  conference  0.2226  = N
+http://conference#Conference_announcement  conference announcement  http://ekaw#Conference_Banquet  conference banquet  0.1811  = N
+http://conference#Conference_fees  conference fees  http://ekaw#Conference_Trip  conference trip  0.1838  > N
+http://conference#Review_preference  review preference  http://ekaw#Contributed_Talk  contributed talk  0.0159  > N
+http://conference#Conference  conference  http://ekaw#Session  session  0.2367  > N
+http://conference#Call_for_paper  call for paper  http://ekaw#Flyer  flyer  0.0709  = N  
+http://conference#Committee_member  committee member  http://ekaw#SC_Member  sc member  0.2064  > N
+http://conference#Information_for_participants  information for participants  http://ekaw#Programme_Brochure  programme brochure  0.0589 = N

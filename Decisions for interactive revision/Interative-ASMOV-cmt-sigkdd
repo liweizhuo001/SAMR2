@@ -1,0 +1,21 @@
+The approved mappings for 1:1-repair
+http://cmt#Person  person  http://sigkdd#Person  person  0.497  = Y
+http://cmt#Conference  conference  http://sigkdd#Conference  conference  0.467  = Y
+http://cmt#Paper  paper  http://sigkdd#Paper  paper  0.3279  = Y
+http://cmt#Review  review  http://sigkdd#Review  review  0.3519  = Y
+http://cmt#PaperAbstract  paper abstract  http://sigkdd#Abstract  abstract  0.1628  = Y
+http://cmt#ProgramCommittee  program committee  http://sigkdd#Program_Committee  program committee  0.3333  > Y
+http://cmt#Document  document  http://sigkdd#Document  document  0.3129  = Y
+http://cmt#Author  author  http://sigkdd#Author  author  0.3366  > Y
+
+
+The declined mappings for 1:1-repair  
+http://cmt#ConferenceMember  conference member  http://sigkdd#Program_Committee_member  program committee member  0.3448  > N
+http://cmt#Administrator  administrator  http://sigkdd#Listener  listener  0.2451  < N
+http://cmt#AssociatedChair  associated chair  http://sigkdd#General_Chair  general chair  0.3624  = N
+http://cmt#AuthorNotReviewer  author not reviewer  http://sigkdd#Author_of_paper_student  author of paper student  0.201  > N
+http://cmt#Chairman  chairman  http://sigkdd#Organizing_Committee_member  organizing committee member  0.3391  > N
+http://cmt#ExternalReviewer  external reviewer  http://sigkdd#Invited_Speaker  invited speaker  0.3458  > N
+http://cmt#Co-author  co author  http://sigkdd#Author_of_paper  author of paper  0.2242  > N
+http://cmt#Bid  bid  http://sigkdd#Deadline  deadline  0.0225  = N
+http://cmt#ConferenceChair  conference chair  http://sigkdd#Program_Chair  program chair  0.394  = N

@@ -1,0 +1,19 @@
+The approved mappings for 1:1-repair  
+http://cmt#Person  person  http://edas#Person  person  0.4006  = Y
+http://cmt#Document  document  http://edas#Document  document  0.2823  = Y
+http://cmt#Paper  paper  http://edas#Paper  paper  0.3145  = Y
+http://cmt#Reviewer  reviewer  http://edas#Reviewer  reviewer  0.3822  = Y
+http://cmt#Review  review  http://edas#Review  review  0.3163  = Y
+http://cmt#ConferenceChair  conference chair  http://edas#ConferenceChair  conference chair  0.4753  < Y
+http://cmt#Conference  conference  http://edas#Conference  conference  0.5418  =
+http://cmt#Author  author  http://edas#Author  author  0.3359  = Y
+
+
+The declined mappings for 1:1-repair  
+http://cmt#PaperAbstract  paper abstract  http://edas#ActivePaper  active paper  0.2424  =. N
+http://cmt#ExternalReviewer  external reviewer  http://edas#Attendee  attendee  0.2336  =. N
+http://cmt#Chairman  chairman  http://edas#TPCMember  tpcmember  0.2178  =. N
+http://cmt#PaperFullVersion  paper full version  http://edas#PendingPaper  pending paper  0.2193  =. N
+http://cmt#Bid  bid  http://edas#Call  call  0.3673  =. N
+http://cmt#AuthorNotReviewer  author not reviewer  http://edas#Presenter  presenter  0.1851  =. N
+http://cmt#AssociatedChair  associated chair  http://edas#SessionChair  session chair  0.3748  <. N

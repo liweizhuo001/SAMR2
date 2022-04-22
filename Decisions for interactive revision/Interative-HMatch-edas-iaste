@@ -1,0 +1,20 @@
+The approved mappings for 1:1-repair
+http://edas#Review  review  http://iasted#Review  review  0.7667  =. Y
+http://edas#SessionChair  session chair  http://iasted#Session_chair  session chair  0.5052  =. Y
+http://edas#Reviewer  reviewer  http://iasted#Reviewer  reviewer  0.7667  =.  Y
+http://edas#Person  person  http://iasted#Person  person  0.94  =. Y
+http://edas#Document  document  http://iasted#Document  document  0.8207  =. Y
+http://edas#CoffeeBreak  coffee break  http://iasted#Coffee_break  coffee break  0.5844  =. Yy
+http://edas#Author  author  http://iasted#Author  author  0.6844  =. Y
+http://edas#Place  place  http://iasted#Place  place  0.7222  =. Y
+
+
+The declined mappings for 1:1-repair 
+http://edas#PersonalHistory  personal history  http://iasted#Person  person  0.596  =. N
+http://edas#PaperPresentation  paper presentation  http://iasted#Presentation  presentation  0.5227  = N
+http://edas#Country  country  http://iasted#Currency  currency  0.5263  =. N
+http://edas#Presenter  presenter  http://iasted#Presenter_city  presenter city  0.5  =  N
+http://edas#Sponsorship  sponsorship  http://iasted#Sponsor_state  sponsor state  0.5  =. N
+http://edas#ConferenceVenuePlace  conference venue place  http://iasted#Conference_hall  conference hall  0.5077  =. N
+http://edas#Conference  conference  http://iasted#Conference_days  conference days  0.5138  =.  N
+http://edas#ConferenceSession  conference session  http://iasted#Currency  currency  0.5241  =.   N

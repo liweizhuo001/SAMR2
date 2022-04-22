@@ -1,0 +1,13 @@
+The approved mappings for 1:1-repair
+http://cmt#Author  author  http://iasted#Author  author  0.6889  =. y
+http://cmt#Reviewer  reviewer  http://iasted#Reviewer  reviewer  0.7571  =. y
+http://cmt#Review  review  http://iasted#Review  review  0.6667  =. y
+http://cmt#Document  document  http://iasted#Document  document  0.8455  =. y
+http://cmt#Person  person  http://iasted#Person  person  0.9703  =. y
+
+
+The declined mappings for 1:1-repair
+http://cmt#writePaper  write paper  http://iasted#write  write  0.5263  =. N
+http://cmt#Conference  conference  http://iasted#Conference_state  conference state  0.54  =. N
+http://cmt#Preference  preference  http://iasted#Currency  currency  0.5091  =. N
+http://cmt#writeReview  write review  http://iasted#write  write  0.5  =  N

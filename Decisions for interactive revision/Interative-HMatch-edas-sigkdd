@@ -1,0 +1,28 @@
+The approved mappings for 1:1-repair   
+http://edas#Author  author  http://sigkdd#Author  author  0.7533  =.  Y
+http://edas#Person  person  http://sigkdd#Person  person  0.66  = y
+http://edas#Place  place  http://sigkdd#Place  place  0.9571  =.  Y
+http://edas#Document  document  http://sigkdd#Document  document  1.0  =  y
+http://edas#Review  review  http://sigkdd#Review  review  1.0  =  y
+http://edas#Conference  conference  http://sigkdd#Conference  conference  0.8  =y
+http://edas#Paper  paper  http://sigkdd#Paper  paper  0.7667  =. Y
+
+
+The declined mappings for 1:1-repair 
+http://edas#ConferencevenuePlace  conference venue place  http://sigkdd#Conference  conference  0.7235  =
+http://edas#DiningPlace  dining place  http://sigkdd#Place  place  0.5  =
+http://edas#hasName  has name  http://sigkdd#Name  name  0.5333  =.  N
+http://edas#ConferenceDinner  conference dinner  http://sigkdd#Conference  conference  0.7  =. N
+http://edas#TPCMember  tpcmember  http://sigkdd#Registration_Non-Member  registration non member  0.5  =. N
+http://edas#endDate  end date  http://sigkdd#Date  date  0.5333  =. N
+http://edas#ReviewForm  review form  http://sigkdd#Review  review  0.66  =. N
+http://edas#CallForReviews  call for reviews  http://sigkdd#Review  review  0.5  =. N
+http://edas#Reception  reception  http://sigkdd#Review  review  0.5263  =. N
+http://edas#Country  country  http://sigkdd#Conference  conference  0.5143  =. N
+http://edas#ContactInformation  contact information  http://sigkdd#Conference  conference  0.5125  =. N
+http://edas#OrganizationalMeeting  organizational meeting  http://sigkdd#Organizing_Committee  organizing committee  0.5133  =. N
+http://edas#ConferenceChair  conference chair  http://sigkdd#Conference  conference  0.7138  =. N
+http://edas#ActivePaper  active paper  http://sigkdd#Paper  paper  0.5  =. N
+http://edas#MeetingRoomPlace  meeting room place  http://sigkdd#Main_office  main office  0.5161  =. N
+http://edas#hasCostCurrency  has cost currency  http://sigkdd#Currency  currency  0.5926  =. N
+http://edas#Programme  programme  http://sigkdd#Program_Committee  program committee  0.62  =. N

@@ -1,0 +1,49 @@
+The approved mappings for 1:1-repair
+http://edas#Organization  organization  http://ekaw#Organisation  organisation  0.8381  =  y
+http://edas#Review  review  http://ekaw#Review  review  0.9  =  y
+http://edas#AcceptedPaper  accepted paper  http://ekaw#Accepted_Paper  accepted paper  0.6604  = y
+http://edas#AcademiaOrganization  academia organization  http://ekaw#Academic_Institution  academic institution  0.6  =  y
+http://edas#Paper  paper  http://ekaw#Paper  paper  0.9737  =  y
+http://edas#Topic  topic  http://ekaw#Research_Topic  research topic  0.5609  =  y
+http://edas#ConferenceEvent  conference event  http://ekaw#Event  event  0.63  =  y
+http://edas#Workshop  workshop  http://ekaw#Workshop  workshop  1.0  =  y
+http://edas#Person  person  http://ekaw#Person  person  0.948  =  y
+http://edas#Document  document  http://ekaw#Document  document  0.9526  =  y
+http://edas#SessionChair  session chair  http://ekaw#Session_Chair  session chair  0.8366  =  y
+http://edas#AcademicEvent  academic event  http://ekaw#Scientific_Event  scientific event  0.5218  =  y
+http://edas#RejectedPaper  rejected paper  http://ekaw#Rejected_Paper  rejected paper  0.7604  = y
+http://edas#Presenter  presenter  http://ekaw#Presenter  presenter  0.65  =  y
+http://edas#Conference  conference  http://ekaw#Conference  conference  0.7  =  y
+http://edas#AcceptedPaper  accepted paper  http://ekaw#Accepted_Paper  accepted paper  0.6604  =  y
+http://edas#SocialEvent  social event  http://ekaw#Social_Event  social event  0.7889  =  y
+http://edas#Review  review  http://ekaw#Review  review  0.9  =  y
+
+
+The declined mappings for 1:1-repair  
+http://edas#isLocationOf  is location of  http://ekaw#locationOf  location of  0.6923  =  N
+http://edas#ActivePaper  active paper  http://ekaw#Paper  paper  0.5821  =  N
+http://edas#hasTopic  has topic  http://ekaw#coversTopic  covers topic  0.5217  =  N
+http://edas#TPCMember  tpcmember  http://ekaw#SC_Member  sc member  0.6773  =   N
+http://edas#NumericalReviewQuestion  numerical review question  http://ekaw#Neutral_Review  neutral review  0.513  =  N
+http://edas#ConferenceVenuePlace  conference venue place  http://ekaw#Conference  conference  0.7235  =  N
+http://edas#NonAcademicEvent  non academic event  http://ekaw#Social_Event  social event  0.5057  =  N
+http://edas#IndustryOrganization  industry organization  http://ekaw#Organising_Agency  organising agency  0.5171  =  N
+http://edas#PublishedPaper  published paper  http://ekaw#Poster_Paper  poster paper  0.64  =  N
+http://edas#PaperPresentation  paper presentation  http://ekaw#Individual_Presentation  individual presentation  0.6273  =  N
+http://edas#WelcomeTalk  welcome talk  http://ekaw#Invited_Talk  invited talk  0.5778  =  N
+http://edas#Reception  reception  http://ekaw#Location  location  0.5286  =  N
+http://edas#ReviewRating  review rating  http://ekaw#Review  review  0.5523  =  N
+http://edas#GovernmentOrganization  government organization  http://ekaw#Organising_Agency  organising agency  0.5116  =  N
+http://edas#ClosingTalk  closing talk  http://ekaw#Invited_Talk  invited talk  0.5778  =  N
+http://edas#isWrittenBy  is written by  http://ekaw#writtenBy  written by  0.6667  =  N
+http://edas#Programme  programme  http://ekaw#Programme_Brochure  programme brochure  0.7871  =  N
+http://edas#ReviewQuestion  review question  http://ekaw#Review  review  0.58  =  N
+http://edas#ReviewForm  review form  http://ekaw#Review  review  0.56  =  N
+http://edas#OrganizationalMeeting  organizational meeting  http://ekaw#Organising_Agency  organising agency  0.5  =  N
+http://edas#ContactInformation  contact information  http://ekaw#Location  location  0.6  =  N
+http://edas#WithdrawnPaper  withdrawn paper  http://ekaw#Workshop_Paper  workshop paper  0.625  =  N
+http://edas#PendingPaper  pending paper  http://ekaw#Poster_Paper  poster paper  0.6571  =  N
+http://edas#hasReviewHistory  has review history  http://ekaw#hasReview  has review  0.6207  =  N
+http://edas#forEvent  for event  http://ekaw#hasEvent  has event  0.5  =  N
+http://edas#TalkEvent  talk event  http://ekaw#Event  event  0.5533  =  N
+http://edas#CADTopic  cadtopic  http://ekaw#Research_Topic  research topic  0.5308  =  N

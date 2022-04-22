@@ -1,0 +1,19 @@
+The approved mappings for 1:1-repair
+http://cmt#Person  person  http://iasted#Person  person  0.2372  = Y
+http://cmt#Document  document  http://iasted#Document  document  0.2419  > Y
+http://cmt#Author  author  http://iasted#Author  author  0.237  > Y
+http://cmt#Review  review  http://iasted#Review  review  0.3094  > Y
+
+
+The declined mappings for 1:1-repair 
+http://cmt#ProgramCommittee  program committee  http://iasted#Social_program  social program  0.1654  > N
+http://cmt#Paper  paper  http://iasted#Card  card  0.2219  = N
+http://cmt#Acceptance  acceptance  http://iasted#Deadline_for_notification_of_acceptance  deadline for notification of acceptance  0.111  = N
+http://cmt#AuthorNotReviewer  author not reviewer  http://iasted#Author_book_proceedings_included  author book proceedings included  0.1427  > N
+http://cmt#PaperAbstract  paper abstract  http://iasted#Credit_card  credit card  0.0786  = N
+http://cmt#ConferenceChair  conference chair  http://iasted#Session_chair  session chair  0.2187  = N
+http://cmt#ConferenceMember  conference member  http://iasted#Conference_Hiker  conference hiker  0.1781  > N
+http://cmt#Conference  conference  http://iasted#Session  session  0.3511  > N
+http://cmt#ExternalReviewer  external reviewer  http://iasted#Reviewer  reviewer  0.2292  > N
+http://cmt#Chairman  chairman  http://iasted#One_day_presenter  one day presenter  0.0818  > N
+http://cmt#Co-author  co author  http://iasted#Author_cd_proceedings_included  author cd proceedings included  0.1527  > N

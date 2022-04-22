@@ -1,0 +1,11 @@
+The approved mappings for 1:1-repair   
+http://ekaw#Document  document  http://iasted#Document  document  0.8651  =  y  
+http://ekaw#Review  review  http://iasted#Review  review  0.6667  =   y 
+http://ekaw#Session_Chair  session chair  http://iasted#Session_chair  session chair  0.5086  =  y
+http://ekaw#Session  session  http://iasted#Session  session  0.6  =  y
+http://ekaw#Tutorial  tutorial  http://iasted#Tutorial  tutorial  0.6  =  y
+http://ekaw#Person  person  http://iasted#Person  person  0.978  =  y
+
+
+The declined mappings for 1:1-repair 
+http://ekaw#Conference  conference  http://iasted#Conference_state  conference state  0.54  =  N

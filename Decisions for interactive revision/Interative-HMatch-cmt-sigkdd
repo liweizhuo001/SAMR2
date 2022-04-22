@@ -1,0 +1,20 @@
+The approved mappings for 1:1-repair 
+http://cmt#Author  author  http://sigkdd#Author  author  0.7467  =      
+http://cmt#ProgramCommittee  program committee  http://sigkdd#Program_Committee  program committee  0.8189  =
+http://cmt#Review  review  http://sigkdd#Review  review  0.9  =
+http://cmt#Document  document  http://sigkdd#Document  document  1.0  =
+http://cmt#email  email  http://sigkdd#E-mail  email  0.5333  =
+http://cmt#submitPaper  submit paper  http://sigkdd#submit  submit  0.5714  =
+http://cmt#Conference  conference  http://sigkdd#Conference  conference  0.9  =
+http://cmt#Person  person  http://sigkdd#Person  person  0.7  =
+http://cmt#Paper  paper  http://sigkdd#Paper  paper  0.7667  =
+http://cmt#Conference  conference  http://sigkdd#Conference  conference  0.9  =
+
+
+The declined mappings for 1:1-repair
+http://cmt#ConferenceMember  conference member  http://sigkdd#Conference  conference  0.6  =
+http://cmt#name  name  http://sigkdd#Name  name  0.5  =
+http://cmt#ConferenceChair  conference chair  http://sigkdd#Conference  conference  0.7138  =. 
+http://cmt#Preference  preference  http://sigkdd#Conference  conference  0.75  =. N
+http://cmt#date  date  http://sigkdd#Date  date  0.5  =. 
+http://cmt#Rejection  rejection  http://sigkdd#Deadline_Author_notification  deadline author notification  0.5171  =. N

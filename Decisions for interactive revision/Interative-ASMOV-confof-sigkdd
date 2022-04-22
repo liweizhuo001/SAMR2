@@ -1,0 +1,18 @@
+The approved mappings for 1:1-repair
+http://confOf#Author  author  http://sigkdd#Author  author  0.4643  > Y
+http://confOf#Paper  paper  http://sigkdd#Paper  paper  0.3333  = Y
+http://confOf#Conference  conference  http://sigkdd#Conference  conference  0.4722  < Y
+http://confOf#Person  person  http://sigkdd#Person  person  0.3979  = Y
+
+
+The declined mappings for 1:1-repair 
+http://confOf#Reception  reception  http://sigkdd#Registration_Student  registration student  0.1281  = N
+http://confOf#University  university  http://sigkdd#Deadline_Paper_Submission  deadline paper submission  0.1158  = N
+http://confOf#Member  member  http://sigkdd#Program_Committee_member  program committee member  0.372  = N
+http://confOf#Volunteer  volunteer  http://sigkdd#Listener  listener  0.2705  = N
+http://confOf#Short_paper  short paper  http://sigkdd#Best_Student_Paper_Supporter  best student paper supporter  0.2129  = N
+http://confOf#Poster  poster  http://sigkdd#Gold_Supporter  gold supporter  0.1032  = N
+http://confOf#Organization  organization  http://sigkdd#Deadline  deadline  0.1099  = N
+http://confOf#Assistant  assistant  http://sigkdd#Invited_Speaker  invited speaker  0.2619  > N
+http://confOf#Member_PC  member pc  http://sigkdd#Organizing_Committee_member  organizing committee member  0.3426  > N
+http://confOf#Registration_of_participants_event  registration of participants event  http://sigkdd#Registration_fee  registration fee  0.0744  = N

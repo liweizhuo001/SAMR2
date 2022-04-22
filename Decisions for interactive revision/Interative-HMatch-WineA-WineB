@@ -1,0 +1,38 @@
+The approved mappings for 1:1-repair 
+http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#Syrah  syrah  http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Syrah  syrah  0.8615  = Y
+http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#RedBurgundy  redburgundy  http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#BurgonaRoja  burgona roja  0.8714  = Y
+http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#Nebbiolo  nebbiolo  http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Nebbiolo  nebbiolo  0.8875  = Y
+http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#CheninBlanc  chenin blanc  http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#CheninBlanc  chenin blanc  0.9053  = Y
+http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#PinotGris  pinot gris  http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#PinotGris  pinot gris  0.8941  = Y
+http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#PinotBlanc  pinot blanc  http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#PinotBlanc  pinot blanc  0.9  = Y
+http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#Chianti  chianti  http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Chianti  chianti  0.88  = Y
+http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#Gewurztaminer  gewurztaminer  http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Gewurztaminer  gewurztaminer  0.9143  = Y
+http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#Riesling  riesling  http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Riesling  riesling  0.8875  = Y
+http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#Dolcetto  dolcetto  http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Dolcetto  dolcetto  0.8875  = Y
+http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#Muscat  muscat  http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Muscat  muscat  0.8714  = Y
+http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#Sake  sake  http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Sake  sake  0.85  = Y
+http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#Tempranillo  tempranillo  http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Tempranillo  tempranillo  0.9053  = Y
+http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#Sangiovese  sangiovese  http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Sangiovese  sangiovese  0.9  = Y
+http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#RedBordeaux  redbordeaux  http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#BurdeosRojo  burdeos rojo  0.5579  = Y
+http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#PetiteSirah  petite sirah  http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#PetiteSirah  petite sirah  0.9053  = Y
+http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#Chablis  chablis  http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Chablis  chablis  0.88  = Y
+http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#SauvignonBlanc  sauvignon blanc  http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#SauvignonBlanc  sauvignon blanc  0.9182  = Y
+http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#PinotNior  pinot nior  http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#PinotNior  pinot nior  0.8941  = Y
+http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#ItalianRed  italianred  http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#RojoItaliano  rojo italiano  0.6049  = Y
+http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#Zinfandel  zinfandel  http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Zinfandel  zinfandel  0.8941  = Y
+http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#Merlot  merlot  http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Merlot  merlot  0.8714  = Y
+http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#WhiteBurgundy  white burgundy  http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#BorgonaBlanca  borgona blanca  0.62  = Y
+http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#Semillon  semillon  http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Semillon  semillon  0.8875  = Y
+http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#Chardonnay  chardonnay  http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Chardonnay  chardonnay  0.9  = Y
+http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#CabernetSauvignon  cabernet sauvignon  http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#CabernetSauvignon  cabernet sauvignon  0.928  = Y
+http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#Berbera  berbera  http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Berbera  berbera  0.88  = Y
+
+
+The declined mappings for 1:1-repair
+http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#RedBurgundy  redburgundy  http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#BorgonaBlanca  borgona blanca  0.63  = N
+http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#WhiteWine  white wine  http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosRojos  vinos rojos  0.5455  = N
+http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#CabernetMerlot  cabernet merlot  http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#MezclaDeCabernet  mezcla de cabernet  0.5877  = N
+http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#WhiteBordeaux  white bordeaux  http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#BurdeosRojo  burdeos rojo  0.5489  = N
+http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#RedWine  redwine  http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#VinosBlancos  vinos blancos  0.5455  = N
+http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#ItialianWhite  itialian white  http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#RojoItaliano  rojo italiano  0.5305  = N
+http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA#CabernetMerlot  cabernet merlot  http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB#Merlot  merlot  0.7333  = N

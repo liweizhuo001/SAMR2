@@ -1,0 +1,32 @@
+The approved mappings for 1:1-repair
+http://conference#Topic  topic  http://confOf#Topic  topic  1.0  = y
+http://conference#Person  person  http://confOf#Person  person  0.8  =  y
+http://conference#Paper  paper  http://confOf#Paper  paper  0.8  =  y
+http://conference#Organization  organization  http://confOf#Organization  organization  0.9  = y
+http://conference#Workshop  workshop  http://confOf#Workshop  workshop  0.7  =   y
+http://conference#Tutorial  tutorial  http://confOf#Tutorial  tutorial  0.7  = y
+http://conference#has_an_email  has an email  http://confOf#hasEmail  has email  0.5833  = y
+http://conference#Conference  conference  http://confOf#Conference  conference  0.6  = y
+http://conference#Poster  poster  http://confOf#Poster  poster  0.8  = y
+http://conference#Conference_volume  conference volume  http://confOf#Conference  conference  0.5258  = Y
+
+
+The declined mappings for 1:1-repair 
+http://conference#Organizer  organizer  http://confOf#Organization  organization  0.636  = N
+http://conference#has_a_location  has a location  http://confOf#location  location  0.5154  = N
+http://conference#reviews  reviews  http://confOf#reviewes  reviewes  0.7368  =  N
+http://conference#Information_for_participants  information for participants  http://confOf#Registration_of_participants_event  registration of participants event  0.6394  = N
+http://conference#Conference_www  conference www  http://confOf#Conference  conference  0.5952  = N
+http://conference#Call_for_participation  call for participation  http://confOf#Registration_of_participants_event  registration of participants event  0.5867  = N
+http://conference#Camera_ready_contribution  camera ready contribution  http://confOf#Camera_Ready_event  camera ready event  0.5803  =  N
+The context of Camera_ready_contribution are listed as follow. N
+http://conference#Review  review  http://confOf#Reviewing_event  reviewing event  0.5547  = N
+http://conference#Conference_fees  conference fees  http://confOf#Conference  conference  0.5138  = N
+http://conference#has_an_abstract  has an abstract  http://confOf#abstract  abstract  0.5  = N
+http://conference#Reviewer  reviewer  http://confOf#Reviewing_event  reviewing event  0.5667  =  N
+http://conference#Passive_conference_participant  passive conference participant  http://confOf#Registration_of_participants_event  registration of participants event  0.5118  = N
+http://conference#Active_conference_participant  active conference participant  http://confOf#Registration_of_participants_event  registration of participants event  0.5149  = N
+http://conference#has_a_name  has a name  http://confOf#hasSurname  has surname  0.5  = N
+http://conference#Conference_document  conference document  http://confOf#Event  event  0.5168  =  N
+
+

@@ -1,0 +1,14 @@
+The approved mappings for 1:1-repair 
+http://confOf#Conference  conference  http://sigkdd#Conference  conference  0.7  =  y
+http://confOf#Author  author  http://sigkdd#Author  author  0.6944  =  y
+http://confOf#Person  person  http://sigkdd#Person  person  0.712  =  y
+http://confOf#Paper  paper  http://sigkdd#Paper  paper  0.6  =  y
+
+
+The declined mappings for 1:1-repair  
+http://confOf#Registration_of_participants_event  registration of participants event  http://sigkdd#Registration_Student  registration student  0.681  =  N
+http://confOf#Reviewing_results_event  reviewing results event  http://sigkdd#Review  review  0.6182  =  N
+http://confOf#Submission_event  submission event  http://sigkdd#Deadline_Paper_Submission  deadline paper submission  0.5133  =  N
+http://confOf#Event  event  http://sigkdd#Document  document  0.5588  =  N
+http://confOf#location  location  http://sigkdd#Nation  nation  0.5  =  N
+http://confOf#Reviewing_event  reviewing event  http://sigkdd#Review  review  0.688  =  N

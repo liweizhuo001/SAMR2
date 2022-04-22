@@ -1,0 +1,17 @@
+The approved mappings for 1:1-repair
+http://cmt#Conference  conference  http://confOf#Conference  conference  0.7286  =  Y
+http://cmt#writePaper  write paper  http://confOf#writes  writes  0.5  =    Y
+http://cmt#Administrator  administrator  http://confOf#Administrator  administrator  0.7667  =. Y
+http://cmt#Person  person  http://confOf#Person  person  0.8  =. Y
+http://cmt#Author  author  http://confOf#Author  author  0.65  =. Y
+http://cmt#Paper  paper  http://confOf#Paper  paper  0.625  =. Y
+http://cmt#writtenBy  written by  http://confOf#writtenBy  written by  1.0  =. Y
+
+
+The declined mappings for 1:1-repair 
+http://cmt#Meta-Review  meta review  http://confOf#Reviewing_event  reviewing event  0.51  =. N
+http://cmt#title  title  http://confOf#has_title  has title  0.5  =     N
+http://cmt#Review  review  http://confOf#Reviewing_event  reviewing event  0.5547  =. N
+http://cmt#Document  document  http://confOf#Event  event  0.5433  =   N
+ttp://cmt#Meta-Review  meta review  http://confOf#Reviewing_event  reviewing event  0.51  =. N
+http://cmt#Rejection  rejection  http://confOf#Reception  reception  0.5273  =   N

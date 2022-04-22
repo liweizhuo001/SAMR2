@@ -1,0 +1,26 @@
+The approved mappings for 1:1-repair 
+http://confOf#Paper  paper  http://edas#Paper  paper  0.3797  = Y
+http://confOf#Participant  participant  http://edas#Attendee  attendee  0.5176  = Y
+http://confOf#Workshop  workshop  http://edas#Workshop  workshop  0.3624  = Y
+http://confOf#Social_event  social event  http://edas#SocialEvent  social event  0.3843  = Y
+http://confOf#Author  author  http://edas#Author  author  0.34  < Y
+http://confOf#Reception  reception  http://edas#Reception  reception  0.4279  = Y
+http://confOf#Country  country  http://edas#Country  country  1.0  = Y
+http://confOf#Conference  conference  http://edas#Conference  conference  0.4177  < Y
+http://confOf#Person  person  http://edas#Person  person  0.4665  = Y
+http://confOf#Topic  topic  http://edas#Topic  topic  0.3333  = Y
+http://confOf#Trip  trip  http://edas#Excursion  excursion  0.2062  = Y
+
+
+The declined mappings for 1:1-repair 
+http://confOf#Short_paper  short paper  http://edas#CallForManuscripts  call for manuscripts  0.2034  = N
+http://confOf#Reviewing_event  reviewing event  http://edas#TalkEvent  talk event  0.1489  = N
+http://confOf#Reviewing_event  reviewing event  http://edas#TalkEvent  talk event  0.1489  = N
+http://confOf#Chair_PC  chair pc  http://edas#SessionChair  session chair  0.4148  = N
+http://confOf#Registration_of_participants_event  registration of participants event  http://edas#OrganizationalMeeting  organizational meeting  0.0738  = N
+http://confOf#Administrator  administrator  http://edas#TPCMember  tpcmember  0.3044  = N
+http://confOf#Poster  poster  http://edas#CallForPapers  call for papers  0.2018  = N
+http://confOf#Reviewing_results_event  reviewing results event  http://edas#PaperPresentation  paper presentation  0.0736  = N
+http://confOf#Tutorial  tutorial  http://edas#ConferenceDinner  conference dinner  0.1427  = N
+http://confOf#Camera_Ready_event  camera ready event  http://edas#MealEvent  meal event  0.0891  = N
+http://confOf#Submission_event  submission event  http://edas#BreakEvent  break event  0.2269  = N

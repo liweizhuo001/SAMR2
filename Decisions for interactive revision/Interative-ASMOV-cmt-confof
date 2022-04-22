@@ -1,0 +1,13 @@
+The approved mappings for 1:1-repair
+http://cmt#Person  person  http://confOf#Person  person  0.3826  =   y
+http://cmt#Administrator  administrator  http://confOf#Administrator  administrator  0.3335  = Y
+http://cmt#Conference  conference  http://confOf#Conference  conference  0.4615  > Y
+http://cmt#Author  author  http://confOf#Author  author  0.2972  > Y
+http://cmt#Paper  paper  http://confOf#Paper  paper  0.2943  = Y
+
+
+The declined mappings for 1:1-repair  
+http://cmt#Document  document  http://confOf#Contribution  contribution  0.0427  =. N
+http://cmt#User  user  http://confOf#Volunteer  volunteer  0.1767  =. N
+http://cmt#Chairman  chairman  http://confOf#Assistant  assistant  0.2327  =. N
+http://cmt#ExternalReviewer  external reviewer  http://confOf#Science_Worker  science worker  0.2496  =. N

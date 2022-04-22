@@ -1,0 +1,21 @@
+The approved mappings for 1:1-repair
+http://cmt#Document  document  http://conference#Conference_document  conference document  0.1824  = Y
+http://cmt#Preference  preference  http://conference#Review_preference  review preference  0.2221  = Y
+http://cmt#Review  review  http://conference#Review  review  0.3216  = Y
+http://cmt#ProgramCommittee  program committee  http://conference#Program_committee  program committee  0.3964  > Y
+http://cmt#ConferenceMember  conference member  http://conference#Conference_participant  conference participant  0.4243  = Y
+http://cmt#Conference  conference  http://conference#Conference  conference  0.413  =
+http://cmt#Person  person  http://conference#Person  person  0.4557  = Y
+http://cmt#Chairman  chairman  http://conference#Chair  chair  0.4928  > Y
+
+
+The declined mappings for 1:1-repair 
+http://cmt#ConferenceChair  conference chair  http://conference#Passive_conference_participant  passive conference participant  0.3612  =. N
+http://cmt#ExternalReviewer  external reviewer  http://conference#Reviewer  reviewer  0.4296  = N
+http://cmt#PaperAbstract  paper abstract  http://conference#Paper  paper  0.2268  = N
+http://cmt#Administrator  administrator  http://conference#Contribution_1th-author  contribution 1th author  0.1544  > N
+http://cmt#ConferenceChair  conference chair  http://conference#Passive_conference_participant  passive conference participant  0.3612  =
+http://cmt#User  user  http://conference#Conference_contributor  conference contributor  0.2316  = N
+http://cmt#Paper  paper  http://conference#Regular_contribution  regular contribution  0.0381  = N
+http://cmt#PaperFullVersion  paper full version  http://conference#Call_for_paper  call for paper  0.086  = N
+http://cmt#AssociatedChair  associated chair  http://conference#Conference_applicant  conference applicant  0.1956  = N

@@ -1,0 +1,27 @@
+The approved mappings for 1:1-repair  
+http://edas#AccommodationPlace  accommodation place  http://sigkdd#Hotel  hotel  0.0854  = Y
+http://edas#Person  person  http://sigkdd#Person  person  0.4136  = Y
+http://edas#Place  place  http://sigkdd#Place  place  0.2551  = Y
+http://edas#ConferenceVenuePlace  conference venue place  http://sigkdd#Conference_hall  conference hall  0.1743  = Y
+http://edas#Author  author  http://sigkdd#Author  author  0.2643  > Y
+http://edas#Conference  conference  http://sigkdd#Conference  conference  0.565  = Y
+http://edas#Document  document  http://sigkdd#Document  document  0.3398  = Y
+http://edas#Review  review  http://sigkdd#Review  review  0.3766  = Y
+http://edas#Paper  paper  http://sigkdd#Paper  paper  0.3859  = Y
+
+
+The declined mappings for 1:1-repair 
+http://edas#CallForManuscripts  call for manuscripts  http://sigkdd#Best_Research_Paper_Award  best research paper award  0.0127  = N
+http://edas#Presenter  presenter  http://sigkdd#Author_of_paper  author of paper  0.1153  > N
+http://edas#CallForPapers  call for papers  http://sigkdd#Best_Applications_Paper_Award  best applications paper award  0.1077  = N
+http://edas#ConferenceEvent  conference event  http://sigkdd#Deadline  deadline  0.1407  = N
+http://edas#TravelGrant  travel grant  http://sigkdd#Registration_Student  registration student  0.3668  > N
+http://edas#Attendee  attendee  http://sigkdd#Invited_Speaker  invited speaker  0.2781  > N
+http://edas#CallForReviews  call for reviews  http://sigkdd#Best_Student_Paper_Award  best student paper award  0.0129  = N
+http://edas#SessionChair  session chair  http://sigkdd#General_Chair  general chair  0.3797  > N
+http://edas#Reception  reception  http://sigkdd#Deadline_Author_notification  deadline author notification  0.1558  < N
+http://edas#ConferenceChair  conference chair  http://sigkdd#Program_Chair  program chair  0.4025  > N
+http://edas#MeetingRoomPlace  meeting room place  http://sigkdd#Main_office  main office  0.0859  =http://edas#SignalProcessingTopic  signal processing topic  http://sigkdd#ACM_SIGKDD  acm sigkdd  0.0867  < N
+http://edas#Excursion  excursion  http://sigkdd#Deadline_Abstract_Submission  deadline abstract submission  0.1558  < N
+http://edas#PaperPresentation  paper presentation  http://sigkdd#Deadline_Paper_Submission  deadline paper submission  0.2114  < N
+http://edas#Sponsorship  sponsorship  http://sigkdd#Registration_fee  registration fee  0.3117  > N

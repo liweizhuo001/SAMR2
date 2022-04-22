@@ -1,0 +1,32 @@
+The approved mappings for 1:1-repair
+http://cmt#Person  person  http://ekaw#Person  person  0.9813  =Y.  y
+http://cmt#ConferenceMember  conference member  http://ekaw#Conference_Participant  conference participant  0.6357  =. yY
+http://cmt#writtenBy  written by  http://ekaw#writtenBy  written by  1.0  =. Yy
+http://cmt#Document  document  http://ekaw#Document  document  0.9323  =. Yy
+http://cmt#Author  author  http://ekaw#Paper_Author  paper author  0.5773  =. Yy
+http://cmt#Paper  paper  http://ekaw#Paper  paper  0.8286  =. Yy
+http://cmt#Review  review  http://ekaw#Review  review  0.95  =. Yy
+http://cmt#Conference  conference  http://ekaw#Conference  conference  0.8  =. Yy
+http://cmt#PaperAbstract  paper abstract  http://ekaw#Abstract  abstract  0.5507  =. YYy
+
+
+
+The declined mappings for 1:1-repair
+http://cmt#readByReviewer  read by reviewer  http://ekaw#hasReviewer  has reviewer  0.5517  =. YN
+http://cmt#reviewsPerPaper  reviews per paper  http://ekaw#reviewOfPaper  review of paper  0.5875  =. YN
+http://cmt#ProgramCommittee  program committee  http://ekaw#Programme_Brochure  programme brochure  0.5526  =. N
+http://cmt#Meta-Reviewer  meta reviewer  http://ekaw#Possible_Reviewer  possible reviewer  0.5224  =. N
+http://cmt#endReview  end review  http://ekaw#hasReview  has review  0.5455  =. N
+http://cmt#Rejection  rejection  http://ekaw#Location  location  0.5286  =. N
+http://cmt#writeReview  write review  http://ekaw#hasReview  has review  0.5  =. N
+http://cmt#ConferenceChair  conference chair  http://ekaw#Conference  conference  0.7138  =. N
+http://cmt#AssociatedChair  associated chair  http://ekaw#Demo_Chair  demo chair  0.6069  =. N
+http://cmt#readPaper  read paper  http://ekaw#reviewOfPaper  review of paper  0.5385  =. N
+http://cmt#rejectPaper  reject paper  http://ekaw#reviewOfPaper  review of paper  0.5  =. N
+http://cmt#ProgramCommitteeMember  program committee member  http://ekaw#OC_Member  oc member  0.6057  =. N
+http://cmt#Co-author  co author  http://ekaw#Paper_Author  paper author  0.58  =. N
+http://cmt#Reviewer  reviewer  http://ekaw#Review  review  0.65  =. N
+http://cmt#assignReviewer  assign reviewer  http://ekaw#hasReviewer  has reviewer  0.5517  =. N
+http://cmt#ProgramCommitteeChair  program committee chair  http://ekaw#PC_Chair  pc chair  0.6039  =. N
+http://cmt#paperID  paper id  http://ekaw#paperInVolume  paper in volume  0.5  =. N
+http://cmt#Meta-Review  meta review  http://ekaw#Neutral_Review  neutral review  0.6483  =. N

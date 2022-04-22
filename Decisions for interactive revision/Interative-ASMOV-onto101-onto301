@@ -1,0 +1,63 @@
+The approved mappings for 1:1-repair 
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#pages  pages  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasPages  has pages  0.6423  =
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#issue  issue  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasCrossref  has crossref  0.5  =
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#title  title  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasTitle  has title  0.7722  =
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#Proceedings  proceedings  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#Proceedings  proceedings  0.6182  =
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#lccn  lccn  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasLCCN  has lccn  0.7806  =
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#type  type  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasType  has type  0.6874  =
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#isbn  isbn  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasISBN  has isbn  0.8187  =
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#humanCreator  human creator  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#humanCreator  human creator  0.6114  =
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#number  number  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasNumber  has number  0.8187  =
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#edition  edition  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasEdition  has edition  0.6659  =
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#series  series  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasSeries  has series  0.8187  =
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#InProceedings  inproceedings  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#Inproceedings  inproceedings  0.626  =
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#language  language  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasLanguage  has language  0.658  =
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#volume  volume  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasVolume  has volume  0.8187  =
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#key  key  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasKey  has key  0.8087  =
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#contents  contents  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasContents  has contents  0.6409  =
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#author  author  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasAuthor  has author  0.7541  =
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#size  size  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasSize  has size  0.8041  =
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#price  price  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasPrice  has price  0.8187  =
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#PhdThesis  phdthesis  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#Phdthesis  phdthesis  0.6408  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#journal  journal  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasJournal  has journal  0.6153  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#abstract  abstract  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasAbstract  has abstract  0.8087  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#publisher  publisher  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasPublisher  has publisher  0.6976  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#mrNumber  mr number  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasMrnumber  has mrnumber  0.8187  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#month  month  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasMonth  has month  0.5715  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#Book  book  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#Book  book  0.528  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#Unpublished  unpublished  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#Unpublished  unpublished  0.634  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#location  location  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasLocation  has location  0.7058  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#chapter  chapter  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasChapter  has chapter  0.6052  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#keywords  keywords  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasKeywords  has keywords  0.7933  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#Misc  misc  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#Misc  misc  0.6419  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#TechReport  tech report  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#TechReport  tech report  0.6392  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#Manual  manual  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#Manual  manual  0.6395  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#institution  institution  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasInstitution  has institution  0.6862  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#annote  annote  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasAnnotation  has annotation  0.5524  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#copyright  copyright  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasCopyright  has copyright  0.81  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#Reference  reference  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#Entry  entry  0.4562  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#organization  organization  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasOrganization  has organization  0.6821  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#InBook  inbook  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#Inbook  inbook  0.5997  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#Conference  conference  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#Conference  conference  0.6775  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#InCollection  incollection  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#Incollection  incollection  0.6255  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#issn  issn  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasISSN  has issn  0.8187  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#Article  article  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#Article  article  0.6266  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#url  url  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasURL  has url  0.7765  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#MastersThesis  masters thesis  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#Mastersthesis  mastersthesis  0.6408  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#address  address  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasAddress  has address  0.5477  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#editor  editor  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasEditor  has editor  0.7474  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#howPublished  how published  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#howPublished  how published  0.6348  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#school  school  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasSchool  has school  0.6874  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#note  note  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasNote  has note  0.7911  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#year  year  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasYear  has year  0.5159  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#affiliation  affiliation  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasAffiliation  has affiliation  0.8187  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#Booklet  booklet  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#Booklet  booklet  0.6419  = Y
+
+
+
+The declined mappings for 1:1-repair
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#InProceedings  inproceedings  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#Proceedings  proceedings  0.4286  = N
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#LectureNotes  lecture notes  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#Entry  entry  0.3675  < N
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#reviewed  reviewed  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#hasBooktitle  has booktitle  0.5019  = N
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#MotionPicture  motion picture  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#Conference  conference  0.4286  = N
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#Informal  informal  http://oaei.ontologymatching.org/2009/benchmarks/301/onto#Entry  entry  0.3788  < N

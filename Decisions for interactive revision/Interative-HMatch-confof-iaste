@@ -1,0 +1,12 @@
+The approved mappings for 1:1-repair 
+http://confOf#Person  person  http://iasted#Person  person  0.7514  =  y
+http://confOf#Tutorial  tutorial  http://iasted#Tutorial  tutorial  0.6  =  y
+http://confOf#City  city  http://iasted#City  city  0.7  =  y
+http://confOf#Author  author  http://iasted#Author  author  0.6939  =  y
+
+
+The declined mappings for 1:1-repair
+http://confOf#Submission_event  submission event  http://iasted#Submission  submission  0.5  =  N
+http://confOf#Country  country  http://iasted#Currency  currency  0.5263  =  N
+http://confOf#Conference  conference  http://iasted#Conference_state  conference state  0.54  =  N
+http://confOf#writes  writes  http://iasted#write  write  0.6667  =  N

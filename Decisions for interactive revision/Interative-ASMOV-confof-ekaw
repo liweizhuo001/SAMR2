@@ -1,0 +1,27 @@
+The approved mappings for 1:1-repair 
+http://confOf#Author  author  http://ekaw#Paper_Author  paper author  0.2431  =  
+http://confOf#Banquet  banquet  http://ekaw#Conference_Banquet  conference banquet  0.2488  =
+http://confOf#University  university  http://ekaw#University  university  0.3046  >
+http://confOf#Topic  topic  http://ekaw#Research_Topic  research topic  0.2213  = Y
+http://confOf#Tutorial  tutorial  http://ekaw#Tutorial  tutorial  0.3339  = Y
+http://confOf#Trip  trip  http://ekaw#Conference_Trip  conference trip  0.2486  = Y
+http://confOf#Participant  participant  http://ekaw#Conference_Participant  conference participant  0.2076  = Y
+http://confOf#Member_PC  member pc  http://ekaw#PC_Member  pc member  0.3167  > Y
+http://confOf#Workshop  workshop  http://ekaw#Workshop  workshop  0.3347  = Y
+http://confOf#Event  event  http://ekaw#Event  event  0.2904  = Y
+http://confOf#Conference  conference  http://ekaw#Conference  conference  0.3347  = Y
+http://confOf#Person  person  http://ekaw#Person  person  0.274  = Y
+http://confOf#Paper  paper  http://ekaw#Paper  paper  0.2392  = Y
+http://confOf#Organization  organization  http://ekaw#Organisation  organisation  0.237  = Y
+http://confOf#Social_event  social event  http://ekaw#Social_Event  social event  0.3038  = Y
+
+
+The declined mappings for 1:1-repair 
+http://confOf#Contribution  contribution  http://ekaw#Document  document  0.0292  = N
+http://confOf#Scholar  scholar  http://ekaw#Student  student  0.3155  = N
+http://confOf#Company  company  http://ekaw#Organising_Agency  organising agency  0.0833  = N
+http://confOf#Short_paper  short paper  http://ekaw#Multi-author_Volume  multi author volume  0.0203  = N
+http://confOf#Member  member  http://ekaw#OC_Member  oc member  0.2214  = N
+http://confOf#Registration_of_participants_event  registration of participants event  http://ekaw#Track  track  0.1189  = N
+http://confOf#Submission_event  submission event  http://ekaw#Session  session  0.1083  = N
+http://confOf#Poster  poster  http://ekaw#Flyer  flyer  0.0206  = N

@@ -1,0 +1,33 @@
+The approved mappings for 1:1-repair 
+http://conference#Tutorial  tutorial  http://iasted#Tutorial  tutorial  0.3333  = Y
+http://conference#Review  review  http://iasted#Review  review  0.3356  = Y
+http://conference#Regular_author  regular author  http://iasted#Author  author  0.2085  = Y
+http://conference#Person  person  http://iasted#Person  person  0.2428  = Y
+http://conference#Reviewer  reviewer  http://iasted#Reviewer  reviewer  0.3092  > Y
+http://conference#Presentation  presentation  http://iasted#Presentation  presentation  0.2524  = Y
+
+
+The declined mappings for 1:1-repair
+http://conference#Program_committee  program committee  http://iasted#Social_program  social program  0.1654  = N
+http://conference#Committee_member  committee member  http://iasted#IASTED_member  iasted member  0.1999  > N
+http://conference#Invited_talk  invited talk  http://iasted#Introduction_of_speaker  introduction of speaker  0.0977  = N
+http://conference#Registeered_applicant  registeered applicant  http://iasted#Lecturer  lecturer  0.0167  = N
+http://conference#Important_dates  important dates  http://iasted#Departure  departure  0.0462  > N
+http://conference#Conference_participant  conference participant  http://iasted#Conference_Hiker  conference hiker  0.2271  > N
+http://conference#Conference_www  conference www  http://iasted#Conference_restaurant  conference restaurant  0.2012  = N
+http://conference#Publisher  publisher  http://iasted#Sponzorship  sponzorship  0.0564  > N
+http://conference#Conference_contributor  conference contributor  http://iasted#Sponsor  sponsor  0.0491  = N
+http://conference#Invited_speaker  invited speaker  http://iasted#Non_speaker  non speaker  0.1599  = N
+http://conference#Poster  poster  http://iasted#Card  card  0.3491  = N
+http://conference#Early_paid_applicant  early paid applicant  http://iasted#Listener  listener  0.0126  = N
+http://conference#Contribution_1th-author  contribution 1th author  http://iasted#Author_book_proceedings_included  author book proceedings included  0.1263  = N
+http://conference#Call_for_paper  call for paper  http://iasted#Deadline_hotel_reservation  deadline hotel reservation  0.2302  = N
+http://conference#Track-workshop_chair  track workshop chair  http://iasted#Session_chair  session chair  0.1786  > N
+http://conference#Topic  topic  http://iasted#Tip  tip  0.0505  > N
+http://conference#Conference_proceedings  conference proceedings  http://iasted#Conference_building  conference building  0.2488  > N
+http://conference#Conference  conference  http://iasted#Session  session  0.2382  > N
+http://conference#Conference_applicant  conference applicant  http://iasted#One_day_presenter  one day presenter  0.0492  > N
+http://conference#Conference_announcement  conference announcement  http://iasted#Camera_ready_manuscript_deadline  camera ready manuscript deadline  0.2303  = N
+http://conference#Contribution_co-author  contribution co author  http://iasted#Author_cd_proceedings_included  author cd proceedings included  0.1264  = N
+http://conference#Conference_fees  conference fees  http://iasted#Conference_state  conference state  0.1916  > N
+http://conference#Conference_volume  conference volume  http://iasted#Speaker_lecture  speaker lecture  0.0806  > N

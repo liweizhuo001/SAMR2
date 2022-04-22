@@ -1,0 +1,28 @@
+The approved mappings for 1:1-repair 
+http://conference#Paper  paper  http://confOf#Paper  paper  0.2857  < Y
+http://conference#Tutorial  tutorial  http://confOf#Tutorial  tutorial  0.4396  > Y
+http://conference#Person  person  http://confOf#Person  person  0.4533  = Y
+http://conference#Topic  topic  http://confOf#Topic  topic  0.3333  = Y
+http://conference#Conference_participant  conference participant  http://confOf#Participant  participant  0.3776  = Y
+http://conference#Workshop  workshop  http://confOf#Workshop  workshop  0.4396  > Y
+http://conference#Regular_author  regular author  http://confOf#Author  author  0.3452  = Y
+http://conference#Organization  organization  http://confOf#Organization  organization  0.3333  = Y
+http://conference#Regular_contribution  regular contribution  http://confOf#Contribution  contribution  0.1904  < Y
+
+
+The declined mappings for 1:1-repair  
+http://conference#Accepted_contribution  accepted contribution  http://confOf#Administrative_event  administrative event  0.0294  = N
+http://conference#Reviewer  reviewer  http://confOf#Volunteer  volunteer  0.2739  = N
+http://conference#Important_dates  important dates  http://confOf#Reviewing_results_event  reviewing results event  0.0746  > N
+http://conference#Information_for_participants  information for participants  http://confOf#Registration_of_participants_event  registration of participants event  0.0961  = N
+http://conference#Track-workshop_chair  track workshop chair  http://confOf#Chair_PC  chair pc  0.3763  = N
+http://conference#Conference_volume  conference volume  http://confOf#Reception  reception  0.0989  > N
+http://conference#Conference_contributor  conference contributor  http://confOf#Administrator  administrator  0.2214  = N
+http://conference#Conference  conference  http://confOf#Social_event  social event  0.0938  > N
+http://conference#Abstract  abstract  http://confOf#Poster  poster  0.064  < N
+http://conference#Committee_member  committee member  http://confOf#Member_PC  member pc  0.386  = N
+http://conference#Conference_part  conference part  http://confOf#Working_event  working event  0.1627  > N
+http://conference#Conference_www  conference www  http://confOf#Reviewing_event  reviewing event  0.1549  = N
+http://conference#Camera_ready_contribution  camera ready contribution  http://confOf#Camera_Ready_event  camera ready event  0.2612  = N
+http://conference#Track  track  http://confOf#Trip  trip  0.0599  = N
+http://conference#Conference_proceedings  conference proceedings  http://confOf#Conference  conference  0.3741  > N

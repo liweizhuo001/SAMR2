@@ -1,0 +1,39 @@
+The approved mappings for 1:1-repair  
+http://conference#Conference  conference  http://edas#Conference  conference  0.8667  =   y
+http://conference#Conference_part  conference part  http://edas#ConferenceEvent  conference event  0.6982  =  y
+http://conference#Call_for_paper  call for paper  http://edas#CallForPapers  call for papers  0.5323  =  y
+http://conference#Rejected_contribution  rejected contribution  http://edas#RejectedPaper  rejected paper  0.5812  =  y
+http://conference#Paper  paper  http://edas#Paper  paper  0.84  =  y
+http://conference#Workshop  workshop  http://edas#Workshop  workshop  0.9667  =  y
+http://conference#has_members  has members  http://edas#hasMember  has member  0.5  =  y
+http://conference#Organization  organization  http://edas#Organization  organization  0.9  =  y
+http://conference#Topic  topic  http://edas#Topic  topic  0.9  =  y
+http://conference#has_a_name  has a name  http://edas#hasName  has name  0.5  =  y
+http://conference#Review  review  http://edas#Review  review  0.9  =  y
+http://conference#Presentation  presentation  http://edas#PaperPresentation  paper presentation  0.7727  =  y
+http://conference#Person  person  http://edas#Person  person  1.0  =  y
+
+
+The declined mappings for 1:1-repair 
+http://conference#Conference_www  conference www  http://edas#ConferenceDinner  conference dinner  0.7029  =   N
+http://conference#Active_conference_participant  active conference participant  http://edas#ConferenceDinner  conference dinner  0.5381  =  N
+http://conference#Conference_document  conference document  http://edas#ConferenceEvent  conference event  0.797  =  N
+http://conference#Conference_participant  conference participant  http://edas#ConferenceEvent  conference event  0.5812  =
+http://conference#Poster  poster  http://edas#PendingPaper  pending paper  0.5136  =  N
+http://conference#Camera_ready_contribution  camera ready contribution  http://edas#NumericalReviewQuestion  numerical review question  0.5154  N
+http://conference#Conference_applicant  conference applicant  http://edas#ConferenceChair  conference chair  0.6077  =  N
+http://conference#Conference_contributor  conference contributor  http://edas#ConferenceChair  conference chair  0.622  =  N
+http://conference#Conference_contribution  conference contribution  http://edas#ConferenceDinner  conference dinner  0.5591  =  N
+http://conference#Invited_talk  invited talk  http://edas#ClosingTalk  closing talk  0.5  =  N
+http://conference#Reviewer  reviewer  http://edas#Review  review  0.7  =  N
+http://conference#Conference_proceedings  conference proceedings  http://edas#ConferenceSession  conference session  0.6791  =  N
+http://conference#Passive_conference_participant  passive conference participant  http://edas#ConferenceChair  conference chair  0.5381  =  N
+http://conference#Organizing_committee  organizing committee  http://edas#OrganizationalMeeting  organizational meeting  0.5133  =  N
+http://conference#Program_committee  program committee  http://edas#Programme  programme  0.62  =  N
+http://conference#Conference_fees  conference fees  http://edas#ConferenceSession  conference session  0.7333  =  N
+http://conference#has_a_location  has a location  http://edas#hasLocation  has location  0.5897  =  N
+http://conference#Publisher  publisher  http://edas#PublishedPaper  published paper  0.7444  =  N
+http://conference#Reviewed_contribution  reviewed contribution  http://edas#ReviewQuestion  review question  0.6077  =  N
+http://conference#Conference_announcement  conference announcement  http://edas#ConferenceDinner  conference dinner  0.6291  =  N
+http://conference#has_an_email  has an email  http://edas#hasEmail  has email  0.5  =  N
+http://conference#Conference_volume  conference volume  http://edas#ConferenceVenuePlace  conference venue place  0.722  =  N

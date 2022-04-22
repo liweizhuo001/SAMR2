@@ -1,0 +1,35 @@
+The approved mappings for 1:1-repair 
+http://confOf#City  city  http://iasted#City  city  0.3333  = Y
+http://confOf#Country  country  http://iasted#State  state  0.3305  = Y
+http://confOf#Author  author  http://iasted#Author  author  0.3138  > Y
+http://confOf#Tutorial  tutorial  http://iasted#Tutorial  tutorial  0.2782  = Y
+http://confOf#Reception  reception  http://iasted#Coctail_reception  coctail reception  0.2626  = Y
+http://confOf#Banquet  banquet  http://iasted#Dinner_banquet  dinner banquet  0.2504  = Y
+http://confOf#Person  person  http://iasted#Person  person  0.2397  = Y
+
+
+The declined mappings for 1:1-repair 
+http://confOf#Poster  poster  http://iasted#Card  card  0.33  = N
+http://confOf#Camera_Ready_event  camera ready event  http://iasted#Camera_ready_manuscript_deadline  camera ready manuscript deadline  0.291  = N
+http://confOf#Conference  conference  http://iasted#Session  session  0.2671  = N
+http://confOf#Member  member  http://iasted#IASTED_member  iasted member  0.2352  = N
+http://confOf#Social_event  social event  http://iasted#Social_program  social program  0.2262  = N
+http://confOf#Submission_event  submission event  http://iasted#Submission  submission  0.2258  = N
+http://confOf#Contribution  contribution  http://iasted#Publication  publication  0.2241  > N
+http://confOf#Chair_PC  chair pc  http://iasted#Session_chair  session chair  0.1983  > N
+http://confOf#Student  student  http://iasted#Student_non_speaker  student non speaker  0.1983  = N
+http://confOf#Registration_of_participants_event  registration of participants event  http://iasted#Registration  registration  0.1943  = N
+http://confOf#Science_Worker  science worker  http://iasted#Worker_non_speaker  worker non speaker  0.1764  > N
+http://confOf#Member_PC  member pc  http://iasted#IASTED_non_member  iasted non member  0.1762  > N
+http://confOf#University  university  http://iasted#Presenter_university  presenter university  0.1547  > N
+http://confOf#Company  company  http://iasted#Sponsor_company_house  sponsor company house  0.1177  > N
+http://confOf#Reviewing_event  reviewing event  http://iasted#Registation_deadline  registation deadline  0.1022  = N
+http://confOf#Reviewing_results_event  reviewing results event  http://iasted#Deadline_hotel_reservation  deadline hotel reservation  0.1018  = N
+http://confOf#Working_event  working event  http://iasted#Lecture  lecture  0.0922  = N
+http://confOf#Volunteer  volunteer  http://iasted#Listener  listener  0.0887  > N
+http://confOf#Regular  regular  http://iasted#Reviewer  reviewer  0.0883  = N
+http://confOf#Scholar  scholar  http://iasted#Conference_Hiker  conference hiker  0.0879  > N
+http://confOf#Paper  paper  http://iasted#Cd_proceening  cd proceening  0.0751  > N
+http://confOf#Short_paper  short paper  http://iasted#Book_proceeding  book proceeding  0.075  > N
+http://confOf#Workshop  workshop  http://iasted#Plenary_lecture  plenary lecture  0.0561  = N
+http://confOf#Trip  trip  http://iasted#Introduction  introduction  0.0416  = N

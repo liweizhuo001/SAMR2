@@ -1,0 +1,40 @@
+The approved mappings for 1:1-repair
+http://edas#ConferenceEvent  conference event  http://ekaw#Event  event  0.2557  = Y
+http://edas#AcceptedPaper  accepted paper  http://ekaw#Accepted_Paper  accepted paper  0.3892  > Y
+http://edas#RejectedPaper  rejected paper  http://ekaw#Rejected_Paper  rejected paper  0.3778  > Y
+http://edas#Workshop  workshop  http://ekaw#Workshop  workshop  0.3268  = Y
+http://edas#Review  review  http://ekaw#Review  review  0.3246  = Y
+http://edas#SocialEvent  social event  http://ekaw#Social_Event  social event  0.3202  = Y
+http://edas#Organization  organization  http://ekaw#Organisation  organisation  0.2687  = Y
+http://edas#SessionChair  session chair  http://ekaw#Session_Chair  session chair  0.2394  < Y
+http://edas#Presenter  presenter  http://ekaw#Presenter  presenter  0.2222  = Y
+http://edas#AcademiaOrganization  academia organization  http://ekaw#Academic_Institution  academic institution  0.1041  = Y
+http://edas#Paper  paper  http://ekaw#Paper  paper  0.3494  = Y
+http://edas#Person  person  http://ekaw#Person  person  0.2966  = Y
+http://edas#Document  document  http://ekaw#Document  document  0.2925  = Y
+
+
+The declined mappings for 1:1-repair
+http://edas#PerformanceTopic  performance topic  http://ekaw#Research_Topic  research topic  0.465  < N
+http://edas#WithdrawnPaper  withdrawn paper  http://ekaw#Regular_Paper  regular paper  0.2946  = N
+http://edas#ConferenceChair  conference chair  http://ekaw#Demo_Chair  demo chair  0.2723  > N
+http://edas#PublishedPaper  published paper  http://ekaw#Poster_Paper  poster paper  0.2668  = N
+http://edas#PendingPaper  pending paper  http://ekaw#Demo_Paper  demo paper  0.2667  = N
+http://edas#ConferenceDinner  conference dinner  http://ekaw#Conference  conference  0.248  = N
+http://edas#PaperPresentation  paper presentation  http://ekaw#Individual_Presentation  individual presentation  0.2398  = N
+http://edas#RatedPapers  rated papers  http://ekaw#Workshop_Paper  workshop paper  0.2331  = N
+http://edas#AccommodationPlace  accommodation place  http://ekaw#Location  location  0.2185  < N
+http://edas#ActivePaper  active paper  http://ekaw#Camera_Ready_Paper  camera ready paper  0.1987  = N
+http://edas#TalkEvent  talk event  http://ekaw#Scientific_Event  scientific event  0.1868  < N
+http://edas#NonAcademicEvent  non academic event  http://ekaw#Session  session  0.0726  > N
+http://edas#Reception  reception  http://ekaw#Conference_Trip  conference trip  0.145  = N
+http://edas#Excursion  excursion  http://ekaw#Conference_Banquet  conference banquet  0.1446  = N
+http://edas#TPCMember  tpcmember  http://ekaw#Agency_Staff_Member  agency staff member  0.1248  = N
+http://edas#GovernmentOrganization  government organization  http://ekaw#Organising_Agency  organising agency  0.1065  = N
+http://edas#NGO  ngo  http://ekaw#Proceedings_Publisher  proceedings publisher  0.1063  = N
+http://edas#MealBreak  meal break  http://ekaw#Regular_Session  regular session  0.0616  = N
+http://edas#CoffeeBreak  coffee break  http://ekaw#Poster_Session  poster session  0.0615  = N
+http://edas#FreeTimeBreak  free time break  http://ekaw#Demo_Session  demo session  0.0613  = N
+http://edas#OrganizationalMeeting  organizational meeting  http://ekaw#Workshop_Session  workshop session  0.0569  = N
+http://edas#BreakEvent  break event  http://ekaw#Industrial_Session  industrial session  0.0493  > N
+http://edas#SingleLevelConference  single level conference  http://ekaw#Conference_Session  conference session  0.0885  > N

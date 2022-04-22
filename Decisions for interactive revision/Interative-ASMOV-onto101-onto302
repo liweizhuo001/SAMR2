@@ -1,0 +1,45 @@
+The approved mappings for 1:1-repair
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#pages  pages  http://ebiquity.umbc.edu/v2.1/ontology/publication#pages  pages  0.6019  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#TechReport  tech report  http://ebiquity.umbc.edu/v2.1/ontology/publication#TechReport  tech report  0.5525  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#journal  journal  http://ebiquity.umbc.edu/v2.1/ontology/publication#journal  journal  0.597  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#title  title  http://ebiquity.umbc.edu/v2.1/ontology/publication#title  title  0.6562  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#Article  article  http://ebiquity.umbc.edu/v2.1/ontology/publication#Article  article  0.5482  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#chapter  chapter  http://ebiquity.umbc.edu/v2.1/ontology/publication#chapter  chapter  0.7019  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#Proceedings  proceedings  http://ebiquity.umbc.edu/v2.1/ontology/publication#Proceedings  proceedings  0.5526  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#keywords  keywords  http://ebiquity.umbc.edu/v2.1/ontology/publication#keyword  keyword  0.6561  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#Book  book  http://ebiquity.umbc.edu/v2.1/ontology/publication#Book  book  0.5491  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#abstract  abstract  http://ebiquity.umbc.edu/v2.1/ontology/publication#abstract  abstract  0.7422  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#InBook  inbook  http://ebiquity.umbc.edu/v2.1/ontology/publication#InBook  inbook  0.5508  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#Misc  misc  http://ebiquity.umbc.edu/v2.1/ontology/publication#Misc  misc  0.5489  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#type  type  http://ebiquity.umbc.edu/v2.1/ontology/publication#type  type  0.5553  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#edition  edition  http://ebiquity.umbc.edu/v2.1/ontology/publication#edition  edition  0.6513  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#series  series  http://ebiquity.umbc.edu/v2.1/ontology/publication#series  series  0.7422  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#note  note  http://ebiquity.umbc.edu/v2.1/ontology/publication#note  note  0.7422  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#school  school  http://ebiquity.umbc.edu/v2.1/ontology/publication#school  school  0.5915  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#InCollection  incollection  http://ebiquity.umbc.edu/v2.1/ontology/publication#InCollection  incollection  0.5508  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#editor  editor  http://ebiquity.umbc.edu/v2.1/ontology/publication#editor  editor  0.5  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#organization  organization  http://ebiquity.umbc.edu/v2.1/ontology/publication#organization  organization  0.6068  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#publisher  publisher  http://ebiquity.umbc.edu/v2.1/ontology/publication#publisher  publisher  0.6422  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#MastersThesis  masters thesis  http://ebiquity.umbc.edu/v2.1/ontology/publication#MastersThesis  masters thesis  0.5543  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#author  author  http://ebiquity.umbc.edu/v2.1/ontology/publication#author  author  0.5  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#InProceedings  inproceedings  http://ebiquity.umbc.edu/v2.1/ontology/publication#InProceedings  inproceedings  0.5508  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#Reference  reference  http://ebiquity.umbc.edu/v2.1/ontology/publication#Resource  resource  0.4974  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#number  number  http://ebiquity.umbc.edu/v2.1/ontology/publication#number  number  0.7422  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#PhdThesis  phdthesis  http://ebiquity.umbc.edu/v2.1/ontology/publication#PhdThesis  phdthesis  0.5543  = Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#Informal  informal  http://ebiquity.umbc.edu/v2.1/ontology/publication#Publication  publication  0.2543  < Y
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#institution  institution  http://ebiquity.umbc.edu/v2.1/ontology/publication#institution  institution  0.5868  = Y
+
+
+The declined mappings for 1:1-repair
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#LectureNotes  lecture notes  http://ebiquity.umbc.edu/v2.1/ontology/publication#Publication  publication  0.1543  < N
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#contents  contents  http://ebiquity.umbc.edu/v2.1/ontology/publication#volume  volume  0.6022  = N
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#Address  address  http://ebiquity.umbc.edu/v2.1/ontology/publication#SoftCopy  soft copy  0.0795  = N
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#Collection  collection  http://ebiquity.umbc.edu/v2.1/ontology/publication#Publication  publication  0.4365  < N
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#issue  issue  http://ebiquity.umbc.edu/v2.1/ontology/publication#softCopyURI  soft copy uri  0.5  = N
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#location  location  http://ebiquity.umbc.edu/v2.1/ontology/publication#softCopy  soft copy  0.5  = N
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#volume  volume  http://ebiquity.umbc.edu/v2.1/ontology/publication#counter  counter  0.4787  = N
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#affiliation  affiliation  http://ebiquity.umbc.edu/v2.1/ontology/publication#description  description  0.3929  = N
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#contract  contract  http://ebiquity.umbc.edu/v2.1/ontology/publication#relatedProject  related project  0.0594  = N
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#url  url  http://ebiquity.umbc.edu/v2.1/ontology/publication#address  address  0.5983  = N
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#howPublished  how published  http://ebiquity.umbc.edu/v2.1/ontology/publication#publishedOn  published on  0.5  = N
+http://oaei.ontologymatching.org/2009/benchmarks/101/onto#reviewed  reviewed  http://ebiquity.umbc.edu/v2.1/ontology/publication#softCopySize  soft copy size  0.2257  = N

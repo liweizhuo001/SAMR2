@@ -1,0 +1,29 @@
+The approved mappings for 1:1-repair 
+http://conference#Topic  topic  http://edas#Topic  topic  0.4013  = Y
+http://conference#Workshop  workshop  http://edas#Workshop  workshop  0.3548  = Y
+http://conference#Person  person  http://edas#Person  person  0.5588  = Y
+http://conference#Review  review  http://edas#Review  review  0.3333  = Y
+http://conference#Reviewer  reviewer  http://edas#Reviewer  reviewer  0.359  < Y
+http://conference#Organization  organization  http://edas#Organization  organization  0.3333  = Y
+http://conference#Call_for_paper  call for paper  http://edas#CallForPapers  call for papers  0.2857  = Y
+http://conference#Presentation  presentation  http://edas#PaperPresentation  paper presentation  0.2822  = Y
+
+
+The declined mappings for 1:1-repair  
+http://conference#Important_dates  important dates  http://edas#CallForManuscripts  call for manuscripts  0.1663  > N
+http://conference#Information_for_participants  information for participants  http://edas#ContactInformation  contact information  0.1334  < N
+http://conference#Invited_speaker  invited speaker  http://edas#Attendee  attendee  0.4088  < N
+http://conference#Call_for_participation  call for participation  http://edas#CallForReviews  call for reviews  0.2717  = N
+http://conference#Program_committee  program committee  http://edas#SlideSet  slideset  0.0499  = N
+http://conference#Poster  poster  http://edas#CoffeeBreak  coffee break  0.076  = N
+http://conference#Conference_participant  conference participant  http://edas#ConferenceChair  conference chair  0.5152  = N
+http://conference#Review_preference  review preference  http://edas#ReviewRating  review rating  0.251  = N
+http://conference#Review_expertise  review expertise  http://edas#ReviewForm  review form  0.2189  = N
+http://conference#Contribution_co-author  contribution co author  http://edas#TPCMember  tpcmember  0.3768  < N
+http://conference#Abstract  abstract  http://edas#MealMenu  meal menu  0.0485  = N
+http://conference#Conference_www  conference www  http://edas#ConferenceVenuePlace  conference venue place  0.1337  = N
+http://conference#Publisher  publisher  http://edas#Paper  paper  0.3472  > N
+http://conference#Conference_announcement  conference announcement  http://edas#ConferenceDinner  conference dinner  0.266  = N
+http://conference#Conference_volume  conference volume  http://edas#ConferenceSession  conference session  0.2339  < N
+http://conference#Chair  chair  http://edas#SessionChair  session chair  0.5058  < N
+http://conference#Conference_proceedings  conference proceedings  http://edas#Conference  conference  0.3871  = N

@@ -1,0 +1,17 @@
+The approved mappings for 1:1-repair
+http://conference#Reviewer  reviewer  http://iasted#Reviewer  reviewer  0.64  =  Y
+http://conference#Tutorial  tutorial  http://iasted#Tutorial  tutorial  0.64  =  Y
+http://conference#Conference_document  conference document  http://iasted#Document  document  0.5466  =  Y
+http://conference#Presentation  presentation  http://iasted#Presentation  presentation  0.7  =  Y
+http://conference#Person  person  http://iasted#Person  person  0.9683  =    Y
+http://conference#Review  review  http://iasted#Review  review  0.7667  =    Y
+
+
+The declined mappings for 1:1-repair
+http://conference#is_given_by  is given by  http://iasted#is_given_by  is given by  0.9  = 
+http://conference#Conference_fees  conference fees  http://iasted#Currency  currency  0.5333  =  N
+http://conference#Conference_volume  conference volume  http://iasted#Conference_hall  conference hall  0.5667  =  N
+http://conference#Conference_proceedings  conference proceedings  http://iasted#Currency  currency  0.5059  =  N
+http://conference#invited_by  invited by  http://iasted#is_visited_by  is visited by  0.5  =  N
+http://conference#Conference  conference  http://iasted#Conference_days  conference days  0.5138  =  N
+http://conference#Conference_www  conference www  http://iasted#Conference_hall  conference hall  0.5  =  N

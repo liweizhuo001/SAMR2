@@ -1,0 +1,28 @@
+The approved mappings for 1:1-repair
+http://cmt#Co-author  co author  http://conference#Contribution_co-author  contribution co author  0.5286  =  Y
+http://cmt#Document  document  http://conference#Conference_document  conference document  0.611  =   Y
+http://cmt#Review  review  http://conference#Review  review  0.8  =  Y
+http://cmt#hasAuthor  has author  http://conference#has_authors  has authors  0.5  =  Y
+http://cmt#Person  person  http://conference#Person  person  0.9813  =  Y
+http://cmt#ProgramCommittee  program committee  http://conference#Program_committee  program committee  0.7865  =  Y
+http://cmt#Paper  paper  http://conference#Paper  paper  0.74  =  Y
+http://cmt#PaperAbstract  paper abstract  http://conference#Abstract  abstract  0.6126  =  Y
+http://cmt#Chairman  chairman  http://conference#Chair  chair  0.5329  =  Y
+http://cmt#Reviewer  reviewer  http://conference#Reviewer  reviewer  0.85  =  Y
+http://cmt#Conference  conference  http://conference#Conference  conference  0.8  =  Y
+
+
+The declined mappings for 1:1-repair  
+http://cmt#hasProgramCommitteeMember  has program committee member  http://conference#has_a_program_committee  has a program committee  0.5  = N
+http://cmt#Meta-Reviewer  meta reviewer  http://conference#Reviewer  reviewer  0.724  =  N
+http://cmt#ProgramCommitteeChair  program committee chair  http://conference#Program_committee  program committee  0.7214  =   N
+http://cmt#Preference  preference  http://conference#Conference  conference  0.65  =  N
+http://cmt#ProgramCommitteeMember  program committee member  http://conference#Program_committee  program committee  0.5628  =  N
+http://cmt#ConferenceMember  conference member  http://conference#Conference_contributor  conference contributor  0.6857  =  N
+http://cmt#reviewsPerPaper  reviews per paper  http://conference#reviews  reviews  0.5  =  N
+http://cmt#AuthorNotReviewer  author not reviewer  http://conference#Reviewer  reviewer  0.671  =  N
+http://cmt#ExternalReviewer  external reviewer  http://conference#Reviewer  reviewer  0.6429  =  N
+http://cmt#Rejection  rejection  http://conference#Rejected_contribution  rejected contribution  0.6863  =  N
+http://cmt#ConferenceChair  conference chair  http://conference#Conference_www  conference www  0.7303  =  N
+
+

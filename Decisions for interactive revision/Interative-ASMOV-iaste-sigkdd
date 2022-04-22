@@ -1,0 +1,39 @@
+The approved mappings for 1:1-repair 
+http://iasted#Review  review  http://sigkdd#Review  review  0.3129  < Y
+http://iasted#Speaker  speaker  http://sigkdd#Speaker  speaker  0.3223  < Y
+http://iasted#Deadline_for_notification_of_acceptance  deadline for notification of acceptance  http://sigkdd#Deadline_Author_notification  deadline author notification  0.4039  < Y
+http://iasted#Main_office  main office  http://sigkdd#Main_office  main office  0.321  = Y
+http://iasted#Place  place  http://sigkdd#Place  place  0.2963  = Y
+http://iasted#Conference_hall  conference hall  http://sigkdd#Conference_hall  conference hall  0.321  = Y
+http://iasted#Fee  fee  http://sigkdd#Fee  fee  0.3045  < Y
+http://iasted#Person  person  http://sigkdd#Person  person  0.2625  = Y
+http://iasted#Listener  listener  http://sigkdd#Listener  listener  0.3292  < Y
+http://iasted#Student_registration_fee  student registration fee  http://sigkdd#Registration_Student  registration student  0.4002  < Y
+http://iasted#Author  author  http://sigkdd#Author  author  0.3147  < Y
+http://iasted#Registration_fee  registration fee  http://sigkdd#Registration_fee  registration fee  0.4045  < Y
+http://iasted#Deadline  deadline  http://sigkdd#Deadline  deadline  0.4645  < Y
+http://iasted#Document  document  http://sigkdd#Document  document  0.2537  < Y
+
+
+The declined mappings for 1:1-repair 
+http://iasted#Student_non_speaker  student non speaker  http://sigkdd#General_Chair  general chair  0.0426  < N
+http://iasted#Non_speaker  non speaker  http://sigkdd#Organizator  organizator  0.0677  < N
+http://iasted#Student_lecturer  student lecturer  http://sigkdd#Author_of_paper_student  author of paper student  0.2021  < N
+http://iasted#Author_book_proceedings_included  author book proceedings included  http://sigkdd#Author_of_paper  author of paper  0.1892  < N
+http://iasted#Submissions_deadline  submissions deadline  http://sigkdd#Deadline_Abstract_Submission  deadline abstract submission  0.469  < N
+http://iasted#Hotel_fee  hotel fee  http://sigkdd#Sponzor_fee  sponzor fee  0.2124  < N
+http://iasted#Social_program  social program  http://sigkdd#Program_Committee  program committee  0.1654  = N
+http://iasted#Memeber_registration_fee  memeber registration fee  http://sigkdd#Registration_Non-Member  registration non member  0.2974  < N
+http://iasted#Registation_deadline  registation deadline  http://sigkdd#Deadline_Paper_Submission  deadline paper submission  0.3811  < N
+http://iasted#Card  card  http://sigkdd#Paper  paper  0.2062  = N
+http://iasted#Research  research  http://sigkdd#Best_Research_Paper_Award  best research paper award  0.1332  = N
+http://iasted#Sponsor_state  sponsor state  http://sigkdd#Best_Applications_Paper_Award  best applications paper award  0.0216  = N
+http://iasted#Presenter_state  presenter state  http://sigkdd#Best_Student_Paper_Award  best student paper award  0.0218  = N
+http://iasted#Reviewer  reviewer  http://sigkdd#Invited_Speaker  invited speaker  0.1277  < N
+http://iasted#Worker_non_speaker  worker non speaker  http://sigkdd#Webmaster  webmaster  0.0427  < N
+http://iasted#Session  session  http://sigkdd#Conference  conference  0.4046  < N
+http://iasted#IASTED_member  iasted member  http://sigkdd#Program_Committee_member  program committee member  0.1147  = N
+http://iasted#Session_chair  session chair  http://sigkdd#Program_Chair  program chair  0.1769  = N
+http://iasted#IASTED_non_member  iasted non member  http://sigkdd#Organizing_Committee_member  organizing committee member  0.0999  = N
+http://iasted#Hotel_room  hotel room  http://sigkdd#Hotel  hotel  0.2467  = N
+http://iasted#Author_information_form  author information form  http://sigkdd#Abstract  abstract  0.0933  < N
