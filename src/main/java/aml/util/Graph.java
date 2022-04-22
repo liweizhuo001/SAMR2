@@ -47,7 +47,7 @@ public class Graph {
 		}    
 	    ArrayList<Integer> path = new ArrayList<>();  		
 		List<ArrayList<Integer>> Paths=new ArrayList<ArrayList<Integer>>();
-		if(!nodes.contains(start)||!nodes.contains(end))  //��·������������
+		if(!nodes.contains(start)||!nodes.contains(end))  //exist some bugs
 			return  Paths;
 		DFS(start,end,path,states);	
 		Paths.addAll(result);
@@ -125,14 +125,13 @@ public class Graph {
 	}
 	
 	
-	
 	public void removeEdge(int source,int target)
 	{
 		if(parentMap.keySet().contains(source))
 		{
 			parentMap.get(source).remove(target);
-			if(parentMap.get(source).isEmpty())
-				parentMap.remove(source);
+//			if(parentMap.get(source).isEmpty())  //It may influence the set of nodes
+//				parentMap.remove(source);
 		}
 		else
 		{

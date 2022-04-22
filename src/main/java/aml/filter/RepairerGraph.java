@@ -72,6 +72,7 @@ public class RepairerGraph implements Flagger
 	private int error_user;
 	
 	public int approveNum,rejectNum,iteration;
+	public int orcalePositiveNum=0,orcaleNegativeNum=0;
 	
 //Constructors
 	
@@ -168,15 +169,22 @@ public class RepairerGraph implements Flagger
 				System.out.println("The current mapping is\n"+maps.get(mappingIndex).toString());
 				//��ӡmapping��context��Ϣ
 				printDetailInformation(maps.get(mappingIndex));
+				int sourceId=maps.get(mappingIndex).getSourceId();
+				int targetId=maps.get(mappingIndex).getTargetId();
 		        System.out.println("Please make a judgement for this mapping (Y/N):");  
 		        if(sc.nextLine().equalsIgnoreCase("Y"))
-		        { 	   		        	
+		        { 	 
+		        	//the decision in the reference alignment
+		        	if(aml.getReferenceAlignment().containsMapping(sourceId, targetId))
+		        		orcalePositiveNum++;		        	
 		            System.out.println("ִExecute the action according to the approved mapping.");  
 		            rMap.one2oneRestriction(mappingIndex,wantMappings,unwantMappings);	
 		            approveNum++;
 		        }
 		        else //��������չ��unknown�����
 		        {
+		        	if(!aml.getReferenceAlignment().containsMapping(sourceId, targetId))
+		        		orcaleNegativeNum++;
 		        	System.out.println("Execute the action according to the declined mapping.");
 					rMap.simpleReject(mappingIndex,wantMappings,unwantMappings);	  //�����˾�ע������ع鵽Christian�� Tool�ķ��������ܾ���Ӱ��
 					rejectNum++;
@@ -230,12 +238,19 @@ public class RepairerGraph implements Flagger
 			System.out.println("None");
 		System.out.println("--------------------------------------------------------------------------------");
 		System.out.println("The number of original mappings is "+ (approvedNum+rejectedNum));
-		System.out.println("The number of repaired mappings is "+ approveNum);
-		System.out.print("Your make "+ (approveNum+rejectNum) +" decisions."+" Approve: "+approveNum +" Reject: "+ rejectNum);		
+		System.out.println("The number of repaired mappings is "+ approveNum);	
+		System.out.println("Your make "+ (approveNum+rejectNum) +" decisions."+" Approve: "+approveNum +" Reject: "+ rejectNum);
 		double saving=1-(approveNum+rejectNum)*1.0/(approvedNum+rejectedNum);
 		BigDecimal b1 = new BigDecimal(saving);  
 		saving = b1.setScale(3, BigDecimal.ROUND_HALF_UP).doubleValue()*100;	
-		System.out.print(" Saving: "+ String.format("%1$.1f", saving)+"%\n");
+		System.out.print("The Saving Ratio is : "+ String.format("%1$.1f", saving)+"%\n");
+		
+		double orcalePostivePrecision=orcalePositiveNum*1.0/approveNum*100;
+		double orcalenegativePrecision=orcaleNegativeNum*1.0/rejectNum*100;	
+		System.out.println("The orcale positive number: "+orcalePositiveNum +"  The orcale negative number: " +orcaleNegativeNum);
+		System.out.print("Oracle Positive Precision is "+ String.format("%1$.2f", orcalePostivePrecision)+"%  ");
+		System.out.print("Oracle Negative Precision is "+ String.format("%1$.2f", orcalenegativePrecision)+"%\n");
+				
 		aml.removeIncorrect();		
 		maps=tempMappings;
 		aml.getAlignment().getMappingSet().retainAll(tempMappings);
@@ -257,15 +272,22 @@ public class RepairerGraph implements Flagger
 				System.out.println("The current mapping is\n"+maps.get(mappingIndex).toString());
 				//��ӡmapping��context��Ϣ
 				printDetailInformation(maps.get(mappingIndex));
+				int sourceId=maps.get(mappingIndex).getSourceId();
+				int targetId=maps.get(mappingIndex).getTargetId();
+				
 		        System.out.println("Please make a judgement for this mapping  (Y/N):");  
 		        if(sc.nextLine().equalsIgnoreCase("Y"))
-		        { 	   		        	
+		        { 	 
+		        	if(aml.getReferenceAlignment().containsMapping(sourceId, targetId))
+		        		orcalePositiveNum++;
 		            System.out.println("ִExecute the action according to the approved mapping.");  
 		            rMap.entailBasedApprove(mappingIndex,wantMappings,unwantMappings); //Christian Tool reasoning
 		            approveNum++;
 		        }
 		        else //��������չ��unknown�����
 		        {  
+		        	if(!aml.getReferenceAlignment().containsMapping(sourceId, targetId))
+			        		orcaleNegativeNum++;
 		        	System.out.println("Execute the action according to the declined mapping.");
 					rMap.simpleReject(mappingIndex,wantMappings,unwantMappings); //���ܾ���Ӱ��
 					rejectNum++;
@@ -325,6 +347,12 @@ public class RepairerGraph implements Flagger
 		BigDecimal b1 = new BigDecimal(saving);  
 		saving = b1.setScale(3, BigDecimal.ROUND_HALF_UP).doubleValue()*100;	
 		System.out.print(" Saving: "+ String.format("%1$.1f", saving)+"%\n");
+		
+		double orcalePostivePrecision=orcalePositiveNum*1.0/approveNum*100;
+		double orcalenegativePrecision=orcaleNegativeNum*1.0/rejectNum*100;	
+		System.out.println("The orcale positive number: "+orcalePositiveNum +"  The orcale negative number: " +orcaleNegativeNum);
+		System.out.print("Oracle Positive Precision is "+ String.format("%1$.2f", orcalePostivePrecision)+"%  ");
+		System.out.print("Oracle Negative Precision is "+ String.format("%1$.2f", orcalenegativePrecision)+"%\n");
 		aml.removeIncorrect();		
 		maps=tempMappings;
 		//��Ҫ��Ϊ��ˢ�½�ɫ������Ķ���mappings����
@@ -348,15 +376,21 @@ public class RepairerGraph implements Flagger
 				System.out.println("The current mapping is \n"+maps.get(mappingIndex).toString());
 				//��ӡmapping��context��Ϣ
 				printDetailInformation(maps.get(mappingIndex));
+				int sourceId=maps.get(mappingIndex).getSourceId();
+				int targetId=maps.get(mappingIndex).getTargetId();
 		        System.out.println("Please make a judgement for this mapping  (Y/N):");  
 		        if(sc.nextLine().equalsIgnoreCase("Y"))
-		        { 	   		        	
+		        { 	 
+		        	if(aml.getReferenceAlignment().containsMapping(sourceId, targetId))
+		        		orcalePositiveNum++;
 		            System.out.println("ִExecute the action according to the approved mapping.");  
 		            rMap.strongApproveComplete(mappingIndex,wantMappings,unwantMappings);	
 		            approveNum++;
 		        }
 		        else //��������չ��unknown�����
 		        {  
+		        	if(!aml.getReferenceAlignment().containsMapping(sourceId, targetId))
+		        		orcaleNegativeNum++;
 		        	System.out.println("Execute the action according to the declined mapping.");
 					rMap.strongRejectComplete(mappingIndex,wantMappings,unwantMappings);			
 					rejectNum++;
@@ -417,6 +451,12 @@ public class RepairerGraph implements Flagger
 		BigDecimal b1 = new BigDecimal(saving);  
 		saving = b1.setScale(3, BigDecimal.ROUND_HALF_UP).doubleValue()*100;	
 		System.out.print(" Saving: "+ String.format("%1$.1f", saving)+"%\n");
+		
+		double orcalePostivePrecision=orcalePositiveNum*1.0/approveNum*100;
+		double orcalenegativePrecision=orcaleNegativeNum*1.0/rejectNum*100;	
+		System.out.println("The orcale positive number: "+orcalePositiveNum +"  The orcale negative number: " +orcaleNegativeNum);
+		System.out.print("Oracle Positive Precision is "+ String.format("%1$.2f", orcalePostivePrecision)+"%  ");
+		System.out.print("Oracle Negative Precision is "+ String.format("%1$.2f", orcalenegativePrecision)+"%\n");
 		aml.removeIncorrect();		
 		maps=tempMappings;
 		//��Ҫ��Ϊ��ˢ�½�ɫ������Ķ���mappings����
@@ -445,15 +485,21 @@ public class RepairerGraph implements Flagger
 				System.out.println("The current mapping is \n"+maps.get(mappingIndex).toString());
 				//��ӡmapping��context��Ϣ
 				printDetailInformation(maps.get(mappingIndex));
+				int sourceId=maps.get(mappingIndex).getSourceId();
+				int targetId=maps.get(mappingIndex).getTargetId();
 		        System.out.println("Please make a judgement for this mapping (Y/N):");  
 		        if(sc.nextLine().equalsIgnoreCase("Y"))
-		        { 	   		        	
+		        { 	
+		        	if(aml.getReferenceAlignment().containsMapping(sourceId, targetId))
+		        		orcalePositiveNum++;
 		            System.out.println("Execute the action according to the approved mapping.");  
 		            rMap.strongApproveComplete(mappingIndex,wantMappings,unwantMappings);	
 		            approveNum++;
 		        }
 		        else //��������չ��unknown�����
 		        {  
+		        	if(!aml.getReferenceAlignment().containsMapping(sourceId, targetId))
+		        		orcaleNegativeNum++;
 		        	System.out.println("Execute the action according to the declined mapping."); 
 		        	System.out.println("The mapping needs to be removed.");
 					rMap.strongRejectComplete(mappingIndex,wantMappings,unwantMappings);			
@@ -515,6 +561,12 @@ public class RepairerGraph implements Flagger
 		BigDecimal b1 = new BigDecimal(saving);  
 		saving = b1.setScale(3, BigDecimal.ROUND_HALF_UP).doubleValue()*100;	
 		System.out.print(" Saving: "+ String.format("%1$.1f", saving)+"%\n");
+		
+		double orcalePostivePrecision=orcalePositiveNum*1.0/approveNum*100;
+		double orcalenegativePrecision=orcaleNegativeNum*1.0/rejectNum*100;	
+		System.out.println("The orcale positive number: "+orcalePositiveNum +"  The orcale negative number: " +orcaleNegativeNum);
+		System.out.print("Oracle Positive Precision is "+ String.format("%1$.2f", orcalePostivePrecision)+"%  ");
+		System.out.print("Oracle Negative Precision is "+ String.format("%1$.2f", orcalenegativePrecision)+"%\n");
 		aml.removeIncorrect();		
 		maps=tempMappings;
 		//��Ҫ��Ϊ��ˢ�½�ɫ������Ķ���mappings����
@@ -543,15 +595,21 @@ public class RepairerGraph implements Flagger
 				System.out.println("The current mapping is \n"+maps.get(mappingIndex).toString());
 				//��ӡmapping��context��Ϣ
 				printDetailInformation(maps.get(mappingIndex));
+				int sourceId=maps.get(mappingIndex).getSourceId();
+				int targetId=maps.get(mappingIndex).getTargetId();
 		        System.out.println("Please make a judgement for this mapping (Y/N):");  
 		        if(sc.nextLine().equalsIgnoreCase("Y"))
-		        { 	   		        	
+		        { 	 
+		        	if(aml.getReferenceAlignment().containsMapping(sourceId, targetId))
+		        		orcalePositiveNum++;
 		            System.out.println("Execute the action according to the approved mapping.");  
 		            rMap.strongApproveComplete(mappingIndex,wantMappings,unwantMappings);	
 		            approveNum++;
 		        }
 		        else //��������չ��unknown�����
 		        {  
+		        	if(!aml.getReferenceAlignment().containsMapping(sourceId, targetId))
+		        		orcaleNegativeNum++;
 		        	System.out.println("Execute the action according to the declined mapping."); 
 		        	System.out.println("The mapping needs to be removed.");
 					rMap.strongRejectComplete(mappingIndex,wantMappings,unwantMappings);			
@@ -613,6 +671,12 @@ public class RepairerGraph implements Flagger
 		BigDecimal b1 = new BigDecimal(saving);  
 		saving = b1.setScale(3, BigDecimal.ROUND_HALF_UP).doubleValue()*100;	
 		System.out.print(" Saving: "+ String.format("%1$.1f", saving)+"%\n");
+		
+		double orcalePostivePrecision=orcalePositiveNum*1.0/approveNum*100;
+		double orcalenegativePrecision=orcaleNegativeNum*1.0/rejectNum*100;	
+		System.out.println("The orcale positive number: "+orcalePositiveNum +"  The orcale negative number: " +orcaleNegativeNum);
+		System.out.print("Oracle Positive Precision is "+ String.format("%1$.2f", orcalePostivePrecision)+"%  ");
+		System.out.print("Oracle Negative Precision is "+ String.format("%1$.2f", orcalenegativePrecision)+"%\n");
 		aml.removeIncorrect();		
 		maps=tempMappings;
 		//��Ҫ��Ϊ��ˢ�½�ɫ������Ķ���mappings����
@@ -638,15 +702,22 @@ public class RepairerGraph implements Flagger
 				System.out.println("The current mapping is \n"+maps.get(mappingIndex).toString());
 				//��ӡmapping��context��Ϣ
 				printDetailInformation(maps.get(mappingIndex));
+				int sourceId=maps.get(mappingIndex).getSourceId();
+				int targetId=maps.get(mappingIndex).getTargetId();
+
 		        System.out.println("Please make a judgement for this mapping (Y/N):");  
 		        if(sc.nextLine().equalsIgnoreCase("Y"))
-		        { 	   		        	
+		        { 	 
+		        	if(aml.getReferenceAlignment().containsMapping(sourceId, targetId))
+		        		orcalePositiveNum++;
 		            System.out.println("Execute the action according to the approved mapping.");  
 		            rMap.strongApproveComplete(mappingIndex,wantMappings,unwantMappings);	
 		            approveNum++;
 		        }
 		        else //��������չ��unknown�����
 		        {  
+		        	if(!aml.getReferenceAlignment().containsMapping(sourceId, targetId))
+			        	orcaleNegativeNum++;
 		        	System.out.println("Execute the action according to the declined mapping."); 
 		        	System.out.println("The mapping needs to be removed.");
 					rMap.strongRejectComplete(mappingIndex,wantMappings,unwantMappings);			
@@ -708,6 +779,12 @@ public class RepairerGraph implements Flagger
 		BigDecimal b1 = new BigDecimal(saving);  
 		saving = b1.setScale(3, BigDecimal.ROUND_HALF_UP).doubleValue()*100;	
 		System.out.print(" Saving: "+ String.format("%1$.1f", saving)+"%\n");
+		
+		double orcalePostivePrecision=orcalePositiveNum*1.0/approveNum*100;
+		double orcalenegativePrecision=orcaleNegativeNum*1.0/rejectNum*100;	
+		System.out.println("The orcale positive number: "+orcalePositiveNum +"  The orcale negative number: " +orcaleNegativeNum);
+		System.out.print("Oracle Positive Precision is "+ String.format("%1$.2f", orcalePostivePrecision)+"%  ");
+		System.out.print("Oracle Negative Precision is "+ String.format("%1$.2f", orcalenegativePrecision)+"%\n");
 		aml.removeIncorrect();		
 		maps=tempMappings;
 		//��Ҫ��Ϊ��ˢ�½�ɫ������Ķ���mappings����
@@ -735,15 +812,21 @@ public class RepairerGraph implements Flagger
 				System.out.println("The current mapping is \n"+maps.get(mappingIndex).toString());
 				//��ӡmapping��context��Ϣ
 				printDetailInformation(maps.get(mappingIndex));
+				int sourceId=maps.get(mappingIndex).getSourceId();
+				int targetId=maps.get(mappingIndex).getTargetId();
 		        System.out.println("Please make a judgement for this mapping (Y/N):");  
 		        if(sc.nextLine().equalsIgnoreCase("Y"))
-		        { 	   		        	
+		        { 	   	
+		        	if(aml.getReferenceAlignment().containsMapping(sourceId, targetId))
+		        		orcalePositiveNum++;
 		            System.out.println("Execute the action according to the approved mapping.");  
 		            rMap.strongApproveComplete(mappingIndex,wantMappings,unwantMappings);	
 		            approveNum++;
 		        }
 		        else //��������չ��unknown�����
 		        {  
+		        	if(!aml.getReferenceAlignment().containsMapping(sourceId, targetId))
+		        		orcaleNegativeNum++;
 		        	System.out.println("Execute the action according to the declined mapping."); 
 		        	System.out.println("The mapping needs to be removed.");
 					rMap.strongRejectComplete(mappingIndex,wantMappings,unwantMappings);			
@@ -805,6 +888,12 @@ public class RepairerGraph implements Flagger
 		BigDecimal b1 = new BigDecimal(saving);  
 		saving = b1.setScale(3, BigDecimal.ROUND_HALF_UP).doubleValue()*100;	
 		System.out.print(" Saving: "+ String.format("%1$.1f", saving)+"%\n");
+		
+		double orcalePostivePrecision=orcalePositiveNum*1.0/approveNum*100;
+		double orcalenegativePrecision=orcaleNegativeNum*1.0/rejectNum*100;	
+		System.out.println("The orcale positive number: "+orcalePositiveNum +"  The orcale negative number: " +orcaleNegativeNum);
+		System.out.print("Oracle Positive Precision is "+ String.format("%1$.2f", orcalePostivePrecision)+"%  ");
+		System.out.print("Oracle Negative Precision is "+ String.format("%1$.2f", orcalenegativePrecision)+"%\n");
 		aml.removeIncorrect();		
 		maps=tempMappings;
 		//��Ҫ��Ϊ��ˢ�½�ɫ������Ķ���mappings����
@@ -831,17 +920,35 @@ public class RepairerGraph implements Flagger
 				MappingRelation r=maps.get(mappingIndex).getRelationship();
 				//printDetailInformation(maps.get(mappingIndex));
 				//if(aml.getReferenceAlignment().contains(sourceId, targetId, r))
-		        if(aml.getReferenceAlignment().containsMapping(sourceId, targetId)&&!isUserFailing())
-		        { 	   		        	
-		            System.out.println("ִExecute the action according to the approved mapping.");  
-		            rMap.one2oneRestriction(mappingIndex,wantMappings,unwantMappings);	
-		            approveNum++;
+		        if(aml.getReferenceAlignment().containsMapping(sourceId, targetId))
+		        { 	   		
+		        	if(!isUserFailing())
+		        	{
+		        		System.out.println("ִExecute the action according to the approved mapping.");  
+		        		rMap.one2oneRestriction(mappingIndex,wantMappings,unwantMappings);	
+		        		approveNum++;
+		        	}
+		        	else
+		        	{
+		        		System.out.println("ִExecute the action according to the declined mapping."); 
+						rMap.simpleReject(mappingIndex,wantMappings,unwantMappings);	  //�����˾�ע������ع鵽Christian�� Tool�ķ��������ܾ���Ӱ��
+						rejectNum++;
+		        	}
 		        }
 		        else //��������չ��unknown�����
 		        {  
-		        	System.out.println("ִExecute the action according to the declined mapping."); 
-					rMap.simpleReject(mappingIndex,wantMappings,unwantMappings);	  //�����˾�ע������ع鵽Christian�� Tool�ķ��������ܾ���Ӱ��
-					rejectNum++;
+		        	if(!isUserFailing())
+		        	{
+		        		System.out.println("ִExecute the action according to the declined mapping."); 
+		        		rMap.simpleReject(mappingIndex,wantMappings,unwantMappings);	  //�����˾�ע������ع鵽Christian�� Tool�ķ��������ܾ���Ӱ��
+		        		rejectNum++;
+		        	}
+		        	else
+		        	{
+		        		System.out.println("ִExecute the action according to the approved mapping.");  
+		        		rMap.one2oneRestriction(mappingIndex,wantMappings,unwantMappings);	
+		        		approveNum++;
+		        	}
 		        } 				
 			}
 			else //�Ѿ������ڴ����mapping��
@@ -932,18 +1039,36 @@ public class RepairerGraph implements Flagger
 				//printDetailInformation(maps.get(mappingIndex));
 		        //if(aml.getReferenceAlignment().contains(sourceId, targetId, r))
 				
-		        if(aml.getReferenceAlignment().containsMapping(sourceId, targetId)&&!isUserFailing())	
-		        { 	   		        	
-		            System.out.println("ִExecute the action according to the approved mapping.");  
-		            rMap.entailBasedApprove(mappingIndex,wantMappings,unwantMappings); //Christian Tool reasoning
-		            approveNum++;
+		        if(aml.getReferenceAlignment().containsMapping(sourceId, targetId))	
+		        { 	
+		        	if(!isUserFailing())
+		        	{
+		        		System.out.println("ִExecute the action according to the approved mapping.");  
+		        		rMap.entailBasedApprove(mappingIndex,wantMappings,unwantMappings); //Christian Tool reasoning
+		        		approveNum++;
+		        	}
+		        	else
+		        	{
+		        		System.out.println("Execute the action according to the declined mapping.");
+						rMap.simpleReject(mappingIndex,wantMappings,unwantMappings); //���ܾ���Ӱ��
+						rejectNum++;
+		        	}
 		        }
 		        else //��������չ��unknown�����
 		        {  
-		        	//System.out.println("ִ��ר�Ҿܾ�����"); 
-		        	System.out.println("Execute the action according to the declined mapping.");
-					rMap.simpleReject(mappingIndex,wantMappings,unwantMappings); //���ܾ���Ӱ��
-					rejectNum++;
+		        	if(!isUserFailing())
+		        	{
+		        		//System.out.println("ִ��ר�Ҿܾ�����"); 
+		        		System.out.println("Execute the action according to the declined mapping.");
+		        		rMap.simpleReject(mappingIndex,wantMappings,unwantMappings); //���ܾ���Ӱ��
+		        		rejectNum++;
+		        	}
+		        	else
+		        	{
+		        		System.out.println("ִExecute the action according to the approved mapping.");  
+		        		rMap.entailBasedApprove(mappingIndex,wantMappings,unwantMappings); //Christian Tool reasoning
+		        		approveNum++;
+		        	}
 		        } 				
 			}
 			else //�Ѿ������ڴ����mapping��
@@ -1041,19 +1166,39 @@ public class RepairerGraph implements Flagger
 				MappingRelation r=maps.get(mappingIndex).getRelationship();
 				//printDetailInformation(maps.get(mappingIndex));
 				//if(aml.getReferenceAlignment().contains(sourceId, targetId, r))
-				if(aml.getReferenceAlignment().containsMapping(sourceId, targetId)&&!isUserFailing())
-		        { 	   		        	
-		            System.out.println("ִExecute the action according to the approved mapping.");  
-		            rMap.strongApproveComplete(mappingIndex,wantMappings,unwantMappings);	
-		            //rMap.entailBasedApprove(mappingIndex,wantMappings,unwantMappings); //Christian�� Tool��֧�ַ��� �����汾
-		            approveNum++;
+				if(aml.getReferenceAlignment().containsMapping(sourceId, targetId))
+		        { 	  
+					if(!isUserFailing())
+		        	{
+						System.out.println("ִExecute the action according to the approved mapping.");  
+						rMap.strongApproveComplete(mappingIndex,wantMappings,unwantMappings);	
+						//rMap.entailBasedApprove(mappingIndex,wantMappings,unwantMappings); //Christian�� Tool��֧�ַ��� �����汾
+						approveNum++;
+		        	}
+					else
+					{
+						System.out.println("Execute the action according to the declined mapping.");
+						rMap.strongRejectComplete(mappingIndex,wantMappings,unwantMappings);
+						//rMap.strongRejectComplete2(mappingIndex,wantMappings,unwantMappings,reliableMappings); //���ܾ���Ӱ��
+						rejectNum++;
+					}
 		        }
 		        else //��������չ��unknown�����
 		        {  
-		        	System.out.println("Execute the action according to the declined mapping.");
-					rMap.strongRejectComplete(mappingIndex,wantMappings,unwantMappings);
-					//rMap.strongRejectComplete2(mappingIndex,wantMappings,unwantMappings,reliableMappings); //���ܾ���Ӱ��
-					rejectNum++;
+		        	if(!isUserFailing())
+		        	{
+		        		System.out.println("Execute the action according to the declined mapping.");
+		        		rMap.strongRejectComplete(mappingIndex,wantMappings,unwantMappings);
+		        		//rMap.strongRejectComplete2(mappingIndex,wantMappings,unwantMappings,reliableMappings); //���ܾ���Ӱ��
+		        		rejectNum++;
+		        	}
+		        	else
+		        	{
+		        		System.out.println("ִExecute the action according to the approved mapping.");  
+						rMap.strongApproveComplete(mappingIndex,wantMappings,unwantMappings);	
+						//rMap.entailBasedApprove(mappingIndex,wantMappings,unwantMappings); //Christian�� Tool��֧�ַ��� �����汾
+						approveNum++;
+		        	}
 		        } 				
 			}
 			else //�Ѿ������ڴ����mapping��
@@ -1146,19 +1291,39 @@ public class RepairerGraph implements Flagger
 				MappingRelation r=maps.get(mappingIndex).getRelationship();
 				//printDetailInformation(maps.get(mappingIndex));
 				//if(aml.getReferenceAlignment().contains(sourceId, targetId, r))
-				if(aml.getReferenceAlignment().containsMapping(sourceId, targetId)&&!isUserFailing())
-		        { 	   		        	
-		            System.out.println("ִExecute the action according to the approved mapping.");  
-		            rMap.strongApproveComplete(mappingIndex,wantMappings,unwantMappings);	
-		            //rMap.entailBasedApprove(mappingIndex,wantMappings,unwantMappings); //Christian�� Tool��֧�ַ��� �����汾
-		            approveNum++;
+				if(aml.getReferenceAlignment().containsMapping(sourceId, targetId))
+		        { 	
+					if(!isUserFailing())
+		        	{
+						System.out.println("ִExecute the action according to the approved mapping.");  
+						rMap.strongApproveComplete(mappingIndex,wantMappings,unwantMappings);	
+						//rMap.entailBasedApprove(mappingIndex,wantMappings,unwantMappings); //Christian�� Tool��֧�ַ��� �����汾
+						approveNum++;
+		        	}
+					else
+					{
+						System.out.println("Execute the action according to the declined mapping.");
+						rMap.strongRejectComplete(mappingIndex,wantMappings,unwantMappings);
+						//rMap.strongRejectComplete2(mappingIndex,wantMappings,unwantMappings,reliableMappings); //���ܾ���Ӱ��
+						rejectNum++;
+					}
 		        }
 		        else //��������չ��unknown�����
 		        {  
-		        	System.out.println("Execute the action according to the declined mapping.");
-					rMap.strongRejectComplete(mappingIndex,wantMappings,unwantMappings);
-					//rMap.strongRejectComplete2(mappingIndex,wantMappings,unwantMappings,reliableMappings); //���ܾ���Ӱ��
-					rejectNum++;
+		        	if(!isUserFailing())
+		        	{	
+		        		System.out.println("Execute the action according to the declined mapping.");
+		        		rMap.strongRejectComplete(mappingIndex,wantMappings,unwantMappings);
+		        		//rMap.strongRejectComplete2(mappingIndex,wantMappings,unwantMappings,reliableMappings); //���ܾ���Ӱ��
+		        		rejectNum++;
+		        	}
+		        	else
+		        	{
+						System.out.println("ִExecute the action according to the approved mapping.");  
+						rMap.strongApproveComplete(mappingIndex,wantMappings,unwantMappings);	
+						//rMap.entailBasedApprove(mappingIndex,wantMappings,unwantMappings); //Christian�� Tool��֧�ַ��� �����汾
+						approveNum++;
+		        	}
 		        } 				
 			}
 			else //�Ѿ������ڴ����mapping��
@@ -1250,18 +1415,38 @@ public class RepairerGraph implements Flagger
 				//printDetailInformation(maps.get(mappingIndex));
 				//if(aml.getReferenceAlignment().contains(sourceId, targetId, r))
 				if(aml.getReferenceAlignment().containsMapping(sourceId, targetId)&&!isUserFailing())
-		        { 	   		        	
-		            System.out.println("ִExecute the action according to the approved mapping.");  
-		            rMap.strongApproveComplete(mappingIndex,wantMappings,unwantMappings);	
-		            //rMap.entailBasedApprove(mappingIndex,wantMappings,unwantMappings); //Christian�� Tool��֧�ַ��� �����汾
-		            approveNum++;
+		        { 	   
+					if(!isUserFailing())
+		        	{
+						System.out.println("ִExecute the action according to the approved mapping.");  
+						rMap.strongApproveComplete(mappingIndex,wantMappings,unwantMappings);	
+						//rMap.entailBasedApprove(mappingIndex,wantMappings,unwantMappings); //Christian�� Tool��֧�ַ��� �����汾
+						approveNum++;
+		        	}
+					else
+					{
+						System.out.println("Execute the action according to the declined mapping.");
+						rMap.strongRejectComplete(mappingIndex,wantMappings,unwantMappings);
+						//rMap.strongRejectComplete2(mappingIndex,wantMappings,unwantMappings,reliableMappings); //���ܾ���Ӱ��
+						rejectNum++;
+					}
 		        }
 		        else //��������չ��unknown�����
 		        {  
-		        	System.out.println("Execute the action according to the declined mapping.");
-					rMap.strongRejectComplete(mappingIndex,wantMappings,unwantMappings);
-					//rMap.strongRejectComplete2(mappingIndex,wantMappings,unwantMappings,reliableMappings); //���ܾ���Ӱ��
-					rejectNum++;
+		        	if(!isUserFailing())
+		        	{
+		        		System.out.println("Execute the action according to the declined mapping.");
+		        		rMap.strongRejectComplete(mappingIndex,wantMappings,unwantMappings);
+		        		//rMap.strongRejectComplete2(mappingIndex,wantMappings,unwantMappings,reliableMappings); //���ܾ���Ӱ��
+		        		rejectNum++;	
+		        	}
+		        	else
+		        	{
+						System.out.println("ִExecute the action according to the approved mapping.");  
+						rMap.strongApproveComplete(mappingIndex,wantMappings,unwantMappings);	
+						//rMap.entailBasedApprove(mappingIndex,wantMappings,unwantMappings); //Christian�� Tool��֧�ַ��� �����汾
+						approveNum++;
+		        	}
 		        } 				
 			}
 			else //�Ѿ������ڴ����mapping��
@@ -2324,7 +2509,6 @@ public class RepairerGraph implements Flagger
 				//System.out.println(i);
 				//System.out.println(maps.get(i).toString());
 				double weight=rMap.getMapping(i).getSimilarity();
-				
 				double impactPlus=weight*obtainImpactPlus(i); //��ȡ����Ӱ���ֵ
 				//int impactConflict=obtainImpactConflict(i); //��ȡ��ͻӰ���ֵ
 				
@@ -2606,8 +2790,12 @@ public class RepairerGraph implements Flagger
 		{
 			Boolean judge=mappingJudge.get(CardMapping.get(0)); //������ͬ���Ǿܾ�������
 			ArrayList<Integer> WeightsMapping=new ArrayList<Integer>();
-			WeightsMapping=selectCandidateMappingByWeight(CardMapping,judge); //���ݾܾ�������ͬ����������ķ�ʽ,��ͬ���ǽ��򣬾ܾ���������		
-			candidateMapping=WeightsMapping.get(0);						
+//			WeightsMapping=selectCandidateMappingByWeight(CardMapping,judge); //���ݾܾ�������ͬ����������ķ�ʽ,��ͬ���ǽ��򣬾ܾ���������		
+//			candidateMapping=WeightsMapping.get(0);					
+
+			candidateMapping=randomselectCandidateMapping(CardMapping); //random select
+
+			//candidateMapping=CardMapping.get(0);	
 		}		
 		return candidateMapping;	
 	}
@@ -2677,9 +2865,9 @@ public class RepairerGraph implements Flagger
 		}
 		else
 		{
-			//ArrayList<Integer> WeightsMapping=new ArrayList<Integer>();
-			//WeightsMapping=selectCandidateMappingByWeight(CardMapping); //selected by weights			
-			//candidateMapping=WeightsMapping.get(0);		
+			ArrayList<Integer> WeightsMapping=new ArrayList<Integer>();
+//			WeightsMapping=selectCandidateMappingByWeight(CardMapping); //selected by weights			
+//			candidateMapping=WeightsMapping.get(0);		
 			
 			candidateMapping=randomselectCandidateMapping(CardMapping); //random select		
 		}		
@@ -2783,8 +2971,12 @@ public class RepairerGraph implements Flagger
 			//Boolean judge=mappingJudge.get(CardMapping.get(0)); //������ͬ���Ǿܾ�������
 			ArrayList<Integer> WeightsMapping=new ArrayList<Integer>();
 			//WeightsMapping=selectCandidateMappingByWeight(CardMapping,judge); //���ݾܾ�������ͬ����������ķ�ʽ,��ͬ���ǽ��򣬾ܾ���������	
-			WeightsMapping=selectCandidateMappingByWeight(CardMapping); //���ݾܾ�������ͬ����������ķ�ʽ,��ͬ���ǽ��򣬾ܾ���������		
-			candidateMapping=WeightsMapping.get(0);		
+//			WeightsMapping=selectCandidateMappingByWeight(CardMapping); //���ݾܾ�������ͬ����������ķ�ʽ,��ͬ���ǽ��򣬾ܾ���������	
+//			candidateMapping=WeightsMapping.get(0);		
+			
+			candidateMapping=randomselectCandidateMapping(CardMapping); //random select
+			//candidateMapping=CardMapping.get(0); //select first one
+
 		}		
 		return candidateMapping;	
 	}

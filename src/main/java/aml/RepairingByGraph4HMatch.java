@@ -18,6 +18,8 @@
 ******************************************************************************/
 package aml;
 
+import aml.match.Mapping;
+
 public class RepairingByGraph4HMatch
 {
 
@@ -69,13 +71,13 @@ public class RepairingByGraph4HMatch
 //		String targetPath  = "testdata/conference/Conference.owl";
 //		String alignPath = "testdata/mappings/HMatch-cmt-conference.rdf";
 //		String referencePath   = "testdata/referenceAlignment/cmt-conference.rdf";
-		//String outputPath="Results/Interactive/one2one/Revised-HMatch-cmt-conference.rdf";
-		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-cmt-conference.rdf";
-		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-cmt-conference.rdf";
-		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-cmt-conference.rdf";
-		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-cmt-conference.rdf";
-		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-cmt-conference.rdf";
-		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-cmt-conference.rdf";
+		//String outputPath="Results/Interactive/one2one/Revised-HMatch-cmt-conference-new.rdf";
+		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-cmt-conference-new.rdf";
+		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-cmt-conference-new.rdf";
+		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-cmt-conference-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-cmt-conference-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-cmt-conference-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-cmt-conference-new.rdf";
 		//String outputPath="Results/test.rdf";
 		
 			
@@ -83,264 +85,336 @@ public class RepairingByGraph4HMatch
 //		String targetPath  = "testdata/conference/confOf.owl";
 //		String alignPath = "testdata/mappings/HMatch-cmt-confof.rdf";
 //		String referencePath   = "testdata/referenceAlignment/cmt-confof.rdf";
-		//String outputPath="Results/Interactive/one2one/Revised-HMatch-cmt-confof.rdf";
-		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-cmt-confof.rdf";
-		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-cmt-confof.rdf";
-		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-cmt-confof.rdf";
-		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-cmt-confof.rdf";
-		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-cmt-confof.rdf";
-		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-cmt-confof.rdf";	
+		//String outputPath="Results/Interactive/one2one/Revised-HMatch-cmt-confof-new.rdf";
+		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-cmt-confof-new.rdf";
+		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-cmt-confof-new.rdf";
+		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-cmt-confof-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-cmt-confof.rdf-new";
+		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-cmt-confof-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-cmt-confof-new.rdf";	
 		
 		
 //		String sourcePath  = "testdata/conference/cmt.owl";
 //		String targetPath  = "testdata/conference/edas.owl";
 //		String alignPath = "testdata/mappings/HMatch-cmt-edas.rdf";
 //		String referencePath   = "testdata/referenceAlignment/cmt-edas.rdf";
-		//String outputPath="Results/Interactive/one2one/Revised-HMatch-cmt-edas.rdf";
-		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-cmt-edas.rdf";
-		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-cmt-edas.rdf";
-		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-cmt-edas.rdf";
-		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-cmt-edas.rdf";
-		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-cmt-edas.rdf";
-	    //String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-cmt-edas.rdf";
+		//String outputPath="Results/Interactive/one2one/Revised-HMatch-cmt-edas-new.rdf";
+		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-cmt-edas-new.rdf";
+		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-cmt-edas-new.rdf";
+		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-cmt-edas-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-cmt-edas-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-cmt-edas-new.rdf";
+	    //String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-cmt-eda-news.rdf";
 		
 		
 //		String sourcePath  = "testdata/conference/cmt.owl";
 //		String targetPath  = "testdata/conference/ekaw.owl";
 //		String alignPath = "testdata/mappings/HMatch-cmt-ekaw.rdf";
 //		String referencePath   = "testdata/referenceAlignment/cmt-ekaw.rdf";
-		//String outputPath="Results/Interactive/one2one/Revised-HMatch-cmt-ekaw.rdf";
-		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-cmt-ekaw.rdf";
-		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-cmt-ekaw.rdf";
-		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-cmt-ekaw.rdf";
-		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-cmt-ekaw.rdf";
-		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-cmt-ekaw.rdf";
-		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-cmt-ekaw.rdf";
+		//String outputPath="Results/Interactive/one2one/Revised-HMatch-cmt-ekaw-new.rdf";
+		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-cmt-ekaw-new.rdf";
+		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-cmt-ekaw-new.rdf";
+		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-cmt-ekaw-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-cmt-ekaw-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-cmt-ekaw-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-cmt-ekaw-new.rdf";
 		
 		
 //		String sourcePath  = "testdata/conference/cmt.owl";
 //		String targetPath  = "testdata/conference/iasted.owl";
 //		String alignPath = "testdata/mappings/HMatch-cmt-iasted.rdf";
 //		String referencePath   = "testdata/referenceAlignment/cmt-iasted.rdf";
-		//String outputPath="Results/Interactive/one2one/Revised-HMatch-cmt-iasted.rdf";
-		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-cmt-iasted.rdf";
-		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-cmt-iasted.rdf";
-		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-cmt-iasted.rdf";
-		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-cmt-iasted.rdf";
-		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-cmt-iasted.rdf";
-		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-cmt-iasted.rdf";
+		//String outputPath="Results/Interactive/one2one/Revised-HMatch-cmt-iasted-new.rdf";
+		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-cmt-iasted-new.rdf";
+		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-cmt-iasted-new.rdf";
+		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-cmt-iasted-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-cmt-iasted-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-cmt-iasted-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-cmt-iasted-new.rdf";
 		
 		
 //		String sourcePath  = "testdata/conference/cmt.owl";
 //		String targetPath  = "testdata/conference/sigkdd.owl";
 //		String alignPath = "testdata/mappings/HMatch-cmt-sigkdd.rdf";
 //		String referencePath   = "testdata/referenceAlignment/cmt-sigkdd.rdf";
-		//String outputPath="Results/Interactive/one2one/Revised-HMatch-cmt-sigkdd.rdf";
-		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-cmt-sigkdd.rdf";
-		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-cmt-sigkdd.rdf";
-		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-cmt-sigkdd.rdf";
-		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-cmt-sigkdd.rdf";
-		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-cmt-sigkdd.rdf";
-		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-cmt-sigkdd.rdf";
+		//String outputPath="Results/Interactive/one2one/Revised-HMatch-cmt-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-cmt-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-cmt-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-cmt-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-cmt-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-cmt-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-cmt-sigkdd-new.rdf";
 		
 				
 //		String sourcePath  = "testdata/conference/Conference.owl";
 //		String targetPath  = "testdata/conference/confOf.owl";
 //		String alignPath = "testdata/mappings/HMatch-conference-confof.rdf";
 //		String referencePath= "testdata/referenceAlignment/conference-confOf.rdf";
-		//String outputPath="Results/Interactive/one2one/Revised-HMatch-conference-confof.rdf";
-		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-conference-confof.rdf";
-		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-conference-confof.rdf";
-		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-conference-confof.rdf";
-		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-conference-confof.rdf";
-		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-conference-confof.rdf";
-		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-conference-confof.rdf";
+		//String outputPath="Results/Interactive/one2one/Revised-HMatch-conference-confof-new.rdf";
+		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-conference-confof-new.rdf";
+		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-conference-confof-new.rdf";
+		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-conference-confof-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-conference-confof-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-conference-confof-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-conference-confof-new.rdf";
 		
 		
 //		String sourcePath  = "testdata/conference/Conference.owl";
 //		String targetPath  = "testdata/conference/edas.owl";
 //		String alignPath = "testdata/mappings/HMatch-conference-edas.rdf";
 //		String referencePath= "testdata/referenceAlignment/conference-edas.rdf";
-		//String outputPath="Results/Interactive/one2one/Revised-HMatch-conference-edas.rdf";
-		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-conference-edas.rdf";
-		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-conference-edas.rdf";
-		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-conference-edas.rdf";
-		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-conference-edas.rdf";
-		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-conference-edas.rdf";
-		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-conference-edas.rdf";
+		//String outputPath="Results/Interactive/one2one/Revised-HMatch-conference-edas-new.rdf";
+		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-conference-edas-new.rdf";
+		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-conference-edas-new.rdf";
+		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-conference-edas-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-conference-edas-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-conference-edas-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-conference-edas-new.rdf";
 		
 		
 //		String sourcePath  = "testdata/conference/Conference.owl";
 //		String targetPath  = "testdata/conference/ekaw.owl";
 //		String alignPath = "testdata/mappings/HMatch-conference-ekaw.rdf";
 //		String referencePath= "testdata/referenceAlignment/conference-ekaw.rdf";
-		//String outputPath="Results/Interactive/one2one/Revised-HMatch-conference-ekaw.rdf";
-		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-conference-ekaw.rdf";
-		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-conference-ekaw.rdf";
-		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-conference-ekaw.rdf";
-		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-conference-ekaw.rdf";
-		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-conference-ekaw.rdf";
-		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-conference-ekaw.rdf";
+		//String outputPath="Results/Interactive/one2one/Revised-HMatch-conference-ekaw-new.rdf";
+		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-conference-ekaw-new.rdf";
+		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-conference-ekaw-new.rdf";
+		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-conference-ekaw-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-conference-ekaw-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-conference-ekaw-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-conference-ekaw-new.rdf";
 		
 		
 //		String sourcePath  = "testdata/conference/Conference.owl";
 //		String targetPath  = "testdata/conference/iasted.owl";
 //		String alignPath = "testdata/mappings/HMatch-conference-iasted.rdf";
 //		String referencePath= "testdata/referenceAlignment/conference-iasted.rdf";
-		//String outputPath="Results/Interactive/one2one/Revised-HMatch-conference-iasted.rdf";
-		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-conference-iasted.rdf";
-		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-conference-iasted.rdf";
-		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-conference-iasted.rdf";
-		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-conference-iasted.rdf";
-		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-conference-iasted.rdf";
-		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-conference-iasted.rdf";
+		//String outputPath="Results/Interactive/one2one/Revised-HMatch-conference-iasted-new.rdf";
+		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-conference-iasted-new.rdf";
+		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-conference-iasted-new.rdf";
+		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-conference-iasted-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-conference-iasted-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-conference-iasted-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-conference-iasted-new.rdf";
 		
 		
 //		String sourcePath  = "testdata/conference/Conference.owl";
 //		String targetPath  = "testdata/conference/sigkdd.owl";
 //		String alignPath = "testdata/mappings/HMatch-conference-sigkdd.rdf";
 //		String referencePath= "testdata/referenceAlignment/conference-sigkdd.rdf";
-		//String outputPath="Results/Interactive/one2one/Revised-HMatch-conference-sigkdd.rdf";
-		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-conference-sigkdd.rdf";
-		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-conference-sigkdd.rdf";
-		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-conference-sigkdd.rdf";
-		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-conference-sigkdd.rdf";
-		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-conference-sigkdd.rdf";
-		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-conference-sigkdd.rdf";
+		//String outputPath="Results/Interactive/one2one/Revised-HMatch-conference-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-conference-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-conference-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-conference-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-conference-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-conference-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-conference-sigkdd-new.rdf";
 		
 		
 //		String sourcePath  = "testdata/conference/confOf.owl";
 //		String targetPath  = "testdata/conference/edas.owl";
 //		String alignPath = "testdata/mappings/HMatch-confof-edas.rdf";
 //		String referencePath= "testdata/referenceAlignment/confOf-edas.rdf";
-		//String outputPath="Results/Interactive/one2one/Revised-HMatch-confof-edas.rdf";
-		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-confof-edas.rdf";
-		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-confof-edas.rdf";
-		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-confof-edas.rdf";
-		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-confof-edas.rdf";
-		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-confof-edas.rdf";
-		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-confof-edas.rdf";
+		//String outputPath="Results/Interactive/one2one/Revised-HMatch-confof-edas-new.rdf";
+	    //String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-confof-edas-new.rdf";
+		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-confof-edas-new.rdf";
+		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-confof-edas-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-confof-edas-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-confof-edas-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-confof-edas-new.rdf";
 		
 		
 //		String sourcePath  = "testdata/conference/confOf.owl";
 //		String targetPath  = "testdata/conference/ekaw.owl";
 //		String alignPath = "testdata/mappings/HMatch-confof-ekaw.rdf";
 //		String referencePath= "testdata/referenceAlignment/confOf-ekaw.rdf";
-		//String outputPath="Results/Interactive/one2one/Revised-HMatch-confof-ekaw.rdf";
-		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-confof-ekaw.rdf";
-		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-confof-ekaw.rdf";
-		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-confof-ekaw.rdf";
-		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-confof-ekaw.rdf";
-		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-confof-ekaw.rdf";
-		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-confof-ekaw.rdf";
+		//String outputPath="Results/Interactive/one2one/Revised-HMatch-confof-ekaw-new.rdf";
+		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-confof-ekaw-new.rdf";
+		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-confof-ekaw-new.rdf";
+		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-confof-ekaw-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-confof-ekaw-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-confof-ekaw-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-confof-ekaw-new.rdf";
 		
 		
 //		String sourcePath  = "testdata/conference/confOf.owl";
 //		String targetPath  = "testdata/conference/iasted.owl";
 //		String alignPath = "testdata/mappings/HMatch-confof-iasted.rdf";
 //		String referencePath= "testdata/referenceAlignment/confOf-iasted.rdf";
-		//String outputPath="Results/Interactive/one2one/Revised-HMatch-confof-iasted.rdf";
-		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-confof-iasted.rdf";
-		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-confof-iasted.rdf";
-		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-confof-iasted.rdf";
-		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-confof-iasted.rdf";
-		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-confof-iasted.rdf";
-		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-confof-iasted.rdf";
+		//String outputPath="Results/Interactive/one2one/Revised-HMatch-confof-iasted-new.rdf";
+		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-confof-iasted-new.rdf";
+		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-confof-iasted-new.rdf";
+		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-confof-iasted-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-confof-iasted-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-confof-iasted-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-confof-iasted-new.rdf";
 		
 		
 //		String sourcePath  = "testdata/conference/confOf.owl";
 //		String targetPath  = "testdata/conference/sigkdd.owl";
 //		String alignPath = "testdata/mappings/HMatch-confof-sigkdd.rdf";
 //		String referencePath= "testdata/referenceAlignment/confOf-sigkdd.rdf";
-		//String outputPath="Results/Interactive/one2one/Revised-HMatch-confof-sigkdd.rdf";
-		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-confof-sigkdd.rdf";
-		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-confof-sigkdd.rdf";
-		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-confof-sigkdd.rdf";
-		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-confof-sigkdd.rdf";
-		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-confof-sigkdd.rdf";
-		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-confof-sigkdd.rdf";
+		//String outputPath="Results/Interactive/one2one/Revised-HMatch-confof-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-confof-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-confof-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-confof-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-confof-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-confof-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-confof-sigkdd-new.rdf";
 		
 		
 //		String sourcePath  = "testdata/conference/edas.owl";
 //		String targetPath  = "testdata/conference/ekaw.owl";
 //		String alignPath = "testdata/mappings/HMatch-edas-ekaw.rdf";
 //		String referencePath= "testdata/referenceAlignment/edas-ekaw.rdf";
-		//String outputPath="Results/Interactive/one2one/Revised-HMatch-edas-ekaw.rdf";
-		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-edas-ekaw.rdf";
-		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-edas-ekaw.rdf";
-		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-edas-ekaw.rdf";
-		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-edas-ekaw.rdf";
-		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-edas-ekaw.rdf";
-		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-edas-ekaw.rdf";
+		//String outputPath="Results/Interactive/one2one/Revised-HMatch-edas-ekaw-new.rdf";
+		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-edas-ekaw-new.rdf";
+		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-edas-ekaw-new.rdf";
+		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-edas-ekaw-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-edas-ekaw-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-edas-ekaw-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-edas-ekaw-new.rdf";
 		
 		
 //		String sourcePath  = "testdata/conference/edas.owl";
 //		String targetPath  = "testdata/conference/iasted.owl";
 //		String alignPath = "testdata/mappings/HMatch-edas-iasted.rdf";
 //		String referencePath= "testdata/referenceAlignment/edas-iasted.rdf";
-		//String outputPath="Results/Interactive/one2one/Revised-HMatch-edas-iasted.rdf";
-		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-edas-iasted.rdf";
-		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-edas-iasted.rdf";
-		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-edas-iasted.rdf";
-		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-edas-iasted.rdf";
-		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-edas-iasted.rdf";
-		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-edas-iasted.rdf";
+		//String outputPath="Results/Interactive/one2one/Revised-HMatch-edas-iasted-new.rdf";
+		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-edas-iasted-new.rdf";
+		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-edas-iasted-new.rdf";
+		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-edas-iasted-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-edas-iasted-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-edas-iasted-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-edas-iasted-new.rdf";
+		
 		
 //		String sourcePath  = "testdata/conference/edas.owl";
 //		String targetPath  = "testdata/conference/sigkdd.owl";
 //		String alignPath = "testdata/mappings/HMatch-edas-sigkdd.rdf";
 //		String referencePath= "testdata/referenceAlignment/edas-sigkdd.rdf";
-		//String outputPath="Results/Interactive/one2one/Revised-HMatch-edas-sigkdd.rdf";
-		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-edas-sigkdd.rdf";
-		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-edas-sigkdd.rdf";
-		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-edas-sigkdd.rdf";
-		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-edas-sigkdd.rdf";
-		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-edas-sigkdd.rdf";
-		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-edas-sigkdd.rdf";
+		//String outputPath="Results/Interactive/one2one/Revised-HMatch-edas-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-edas-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-edas-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-edas-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-edas-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-edas-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-edas-sigkdd-new.rdf";
 		
 //		String sourcePath  = "testdata/conference/ekaw.owl";
 //		String targetPath  = "testdata/conference/iasted.owl";
 //		String alignPath = "testdata/mappings/HMatch-ekaw-iasted.rdf";
 //		String referencePath= "testdata/referenceAlignment/ekaw-iasted.rdf";
-		//String outputPath="Results/Interactive/one2one/Revised-HMatch-ekaw-iasted.rdf";
-		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-ekaw-iasted.rdf";
-		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-ekaw-iasted.rdf";
-		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-ekaw-iasted.rdf";
-		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-ekaw-iasted.rdf";
-		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-ekaw-iasted.rdf";
-		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-ekaw-iasted.rdf";
+		//String outputPath="Results/Interactive/one2one/Revised-HMatch-ekaw-iasted-new.rdf";
+		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-ekaw-iasted-new.rdf";
+		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-ekaw-iasted-new.rdf";
+		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-ekaw-iasted-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-ekaw-iasted-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-ekaw-iasted-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-ekaw-iasted-new.rdf";
 		
 //		String sourcePath  = "testdata/conference/ekaw.owl";
 //		String targetPath  = "testdata/conference/sigkdd.owl";
 //		String alignPath = "testdata/mappings/HMatch-ekaw-sigkdd.rdf";
 //		String referencePath= "testdata/referenceAlignment/ekaw-sigkdd.rdf";
-		//String outputPath="Results/Interactive/one2one/Revised-HMatch-ekaw-sigkdd.rdf";
-		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-ekaw-sigkdd.rdf";
-		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-ekaw-sigkdd.rdf";
-		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-ekaw-sigkdd.rdf";
-		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-ekaw-sigkdd.rdf";
-		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-ekaw-sigkdd.rdf";
-		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-ekaw-sigkdd.rdf";
+		//String outputPath="Results/Interactive/one2one/Revised-HMatch-ekaw-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-ekaw-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-ekaw-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-ekaw-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-ekaw-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-ekaw-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-ekaw-sigkdd-new.rdf";
 		
-		String sourcePath  = "testdata/conference/iasted.owl";
-		String targetPath  = "testdata/conference/sigkdd.owl";
-		String alignPath = "testdata/mappings/HMatch-iasted-sigkdd.rdf";
-		String referencePath= "testdata/referenceAlignment/iasted-sigkdd.rdf";
-		//String outputPath="Results/Interactive/one2one/Revised-HMatch-iasted-sigkdd.rdf";
-		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-iasted-sigkdd.rdf";
-		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-iasted-sigkdd.rdf";
-		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-iasted-sigkdd.rdf";
-		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-iasted-sigkdd.rdf";
-		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-iasted-sigkdd.rdf";
-		String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-iasted-sigkdd.rdf";
+//		String sourcePath  = "testdata/conference/iasted.owl";
+//		String targetPath  = "testdata/conference/sigkdd.owl";
+//		String alignPath = "testdata/mappings/HMatch-iasted-sigkdd.rdf";
+//		String referencePath= "testdata/referenceAlignment/iasted-sigkdd.rdf";
+//		String outputPath="Results/Interactive/one2one/Revised-HMatch-iasted-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-iasted-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-iasted-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-iasted-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-iasted-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-iasted-sigkdd-new.rdf";
+		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-iasted-sigkdd-new.rdf";
+		
+		
+		
+//		String sourcePath  = "testdata/I3CON/WineA.owl";
+//		String targetPath  = "testdata/I3CON/WineB.owl";
+//		String alignPath = "testdata/mappings/HMatch-WineA-WineB.rdf";
+//		String referencePath= "testdata/referenceAlignment/WineAB.rdf";
+//		String outputPath="Results/Interactive/one2one/Revised-HMatch-WineA-WineB.rdf";
+		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-WineA-WineB.rdf";
+		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-WineA-WineB.rdf";
+		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-WineA-WineB.rdf";
+		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-WineA-WineB.rdf";
+		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-WineA-WineB.rdf";
+		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-WineA-WineB.rdf";
+		//String outputPath="Results/test.rdf";
+		
+		
+//		String sourcePath  = "testdata/Benchmark/101-onto.rdf";
+//		String targetPath  = "testdata/Benchmark/301-onto.rdf";
+//		String alignPath = "testdata/mappings/HMatch-onto101-301.rdf";
+//		String referencePath= "testdata/referenceAlignment/refalign-101-301.rdf";
+		//String outputPath="Results/Interactive/one2one/Revised-HMatch-onto101-301.rdf";
+		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-onto101-301.rdf";
+		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-onto101-301.rdf";
+		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-onto101-301.rdf";
+		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-onto101-301.rdf";
+		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-onto101-301.rdf";
+		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-onto101-301.rdf";
+		//String outputPath="Results/test.rdf";
+		
+		String sourcePath  = "testdata/Benchmark/101-onto.rdf";
+		String targetPath  = "testdata/Benchmark/302-onto.rdf";
+		String alignPath = "testdata/mappings/HMatch-onto101-302.rdf";
+		String referencePath= "testdata/referenceAlignment/refalign-101-302.rdf";
+		//String outputPath="Results/Interactive/one2one/Revised-HMatch-onto101-302.rdf";
+		//String outputPath="Results/Interactive/bridgeRule/Revised-HMatch-onto101-302.rdf";
+		//String outputPath="Results/Interactive/guaranteedImpact/Revised-HMatch-onto101-302.rdf";
+		//String outputPath="Results/Interactive/normImpact/Revised-HMatch-onto101-302.rdf";
+		//String outputPath="Results/Interactive/graphImpact/Revised-HMatch-onto101-302.rdf";
+		//String outputPath="Results/Interactive/graphImpact2/Revised-HMatch-onto101-302.rdf";
+		//String outputPath="Results/Interactive/graphImpact3/Revised-HMatch-onto101-302.rdf";
+		String outputPath="Results/test.rdf";
+		
+		
+
+		
 				
 		AML aml = AML.getInstance();
 		aml.openOntologies(sourcePath, targetPath);
 		//aml.matchAuto();  //�Զ���ƥ��
 		//aml.getAlignment();
+		
+		if(!referencePath.equals(""))
+		{
+			
+			aml.openReferenceAlignment(referencePath);
+			for(Mapping s:aml.getReferenceAlignment())
+			{
+				//System.out.println(s.toString());
+				System.out.println(s.getSourceURI()+"  "+s.getTargetURI());
+			}
+			System.out.println("=================");
+			//aml.evaluate();
+			//aml.evaluate2();
+			//aml.simpleEvaluate();
+			//System.out.println(aml.getEvaluation());			
+		}
+		
 		if(!alignPath.equals(""))
 		{
 			aml.openAlignment(alignPath);
+			for(Mapping s:aml.getAlignment())
+			{
+				if(s.getSourceURI().contains("exist_")||s.getSourceURI().contains("inverse_"))
+					continue;
+				System.out.println(s.getSourceURI()+"  "+s.getTargetURI());
+			}
+			System.out.println("=================");
+			
 			//aml.repair();  //����logical incoherent ���޸�
 			aml.repairByGraph();  //����logical incoherent ���޸�
 		}
@@ -348,7 +422,7 @@ public class RepairingByGraph4HMatch
 		//aml.getPath();		
 		if(!referencePath.equals(""))
 		{
-			aml.openReferenceAlignment(referencePath);
+			//aml.openReferenceAlignment(referencePath);
 			//aml.evaluate();
 			//aml.evaluate2();
 			aml.simpleEvaluate();

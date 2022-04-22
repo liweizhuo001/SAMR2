@@ -58,16 +58,15 @@ public class RepairingByGraphAutoASMOV
 		//asmov
 //		String sourcePath  = "testdata/conference/cmt.owl";
 //		String targetPath  = "testdata/conference/Conference.owl";
-//		String alignPath = "alignment4Experiment/asmov-cmt-conference.rdf";
+//		String alignPath = "testdata/mappings/asmov-cmt-conference.rdf";
 //		String referencePath   = "testdata/referenceAlignment/cmt-conference.rdf";
-		//String outputPath="Results/Oracle/one2one/Revised-asmov-cmt-conference.rdf";
-		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-cmt-conference.rdf";
-		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-cmt-conference.rdf";
-		//String outputPath="Results/Oracle/normImpact/Revised-asmov-cmt-conference.rdf";
-		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-cmt-conference.rdf";
-		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-cmt-conference.rdf";
-		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-cmt-conference.rdf";
-		//String outputPath="Results/test1234.rdf";
+		//String outputPath="Results/Oracle/one2one/Revised-asmov-cmt-conference-e10.rdf";
+		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-cmt-conference-e10.rdf";
+		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-cmt-conference-e10.rdf";
+		//String outputPath="Results/Oracle/normImpact/Revised-asmov-cmt-conference-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-cmt-conference-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-cmt-conference-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-cmt-conference-e10.rdf";
 		
 		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-cmt-conference-Enhanced.rdf";
 		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-cmt-conference-Enhanced.rdf";
@@ -75,15 +74,15 @@ public class RepairingByGraphAutoASMOV
 			
 //		String sourcePath  = "testdata/conference/cmt.owl";
 //		String targetPath  = "testdata/conference/confOf.owl";
-//		String alignPath = "alignment4Experiment/asmov-cmt-confof.rdf";
+//		String alignPath = "testdata/mappings/asmov-cmt-confof.rdf";
 //		String referencePath   = "testdata/referenceAlignment/cmt-confof.rdf";
-		//String outputPath="Results/Oracle/one2one/Revised-asmov-cmt-confof.rdf";
-		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-cmt-confof.rdf";
-		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-cmt-confof.rdf";
-		//String outputPath="Results/Oracle/normImpact/Revised-asmov-cmt-confof.rdf";
-		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-cmt-confof.rdf";
-		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-cmt-confof.rdf";
-		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-cmt-confof.rdf";
+		//String outputPath="Results/Oracle/one2one/Revised-asmov-cmt-confof-e10.rdf";
+		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-cmt-confof-e10.rdf";
+		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-cmt-confof-e10.rdf";
+		//String outputPath="Results/Oracle/normImpact/Revised-asmov-cmt-confof-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-cmt-confof-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-cmt-confof-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-cmt-confof-e10.rdf";
 		
 		
 		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-cmt-confof-Enhanced.rdf";
@@ -92,30 +91,30 @@ public class RepairingByGraphAutoASMOV
 		
 //		String sourcePath  = "testdata/conference/cmt.owl";
 //		String targetPath  = "testdata/conference/edas.owl";
-//		String alignPath = "alignment4Experiment/asmov-cmt-edas.rdf";
+//		String alignPath = "testdata/mappings/asmov-cmt-edas.rdf";
 //		String referencePath   = "testdata/referenceAlignment/cmt-edas.rdf";
-		//String outputPath="Results/Oracle/one2one/Revised-asmov-cmt-edas.rdf";
-		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-cmt-edas.rdf";
-		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-cmt-edas.rdf";
-		//String outputPath="Results/Oracle/normImpact/Revised-asmov-cmt-edas.rdf";
-		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-cmt-edas.rdf";
-		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-cmt-edas.rdf";
-		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-cmt-edas.rdf";
+		//String outputPath="Results/Oracle/one2one/Revised-asmov-cmt-edas-e10.rdf";
+		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-cmt-edas-e10.rdf";
+		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-cmt-edas-e10.rdf";
+		//String outputPath="Results/Oracle/normImpact/Revised-asmov-cmt-edas-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-cmt-edas-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-cmt-edas-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-cmt-edas-e10.rdf";
 		
 		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-cmt-edas-Enhanced.rdf";
 		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-cmt-edas-Enhanced.rdf";
 		
 //		String sourcePath  = "testdata/conference/cmt.owl";
 //		String targetPath  = "testdata/conference/ekaw.owl";
-//		String alignPath = "alignment4Experiment/asmov-cmt-ekaw.rdf";
+//		String alignPath = "testdata/mappings/asmov-cmt-ekaw.rdf";
 //		String referencePath   = "testdata/referenceAlignment/cmt-ekaw.rdf";
-		//String outputPath="Results/Oracle/one2one/Revised-asmov-cmt-ekaw.rdf";
-		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-cmt-ekaw.rdf";
-		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-cmt-ekaw.rdf";
-		//String outputPath="Results/Oracle/normImpact/Revised-asmov-cmt-ekaw.rdf";
-		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-cmt-ekaw.rdf";
-		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-cmt-ekaw.rdf";
-		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-cmt-ekaw.rdf";
+		//String outputPath="Results/Oracle/one2one/Revised-asmov-cmt-ekaw-e10.rdf";
+		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-cmt-ekaw-e10.rdf";
+		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-cmt-ekaw-e10.rdf";
+		//String outputPath="Results/Oracle/normImpact/Revised-asmov-cmt-ekaw-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-cmt-ekaw-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-cmt-ekaw-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-cmt-ekaw-e10.rdf";
 		
 		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-cmt-ekaw.rdf-Enhanced";
 		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-cmt-ekaw.rdf-Enhanced";
@@ -123,90 +122,90 @@ public class RepairingByGraphAutoASMOV
 		
 //		String sourcePath  = "testdata/conference/cmt.owl";
 //		String targetPath  = "testdata/conference/iasted.owl";
-//		String alignPath = "alignment4Experiment/asmov-cmt-iasted.rdf";
+//		String alignPath = "testdata/mappings/asmov-cmt-iasted.rdf";
 //		String referencePath   = "testdata/referenceAlignment/cmt-iasted.rdf";
-		//String outputPath="Results/Oracle/one2one/Revised-asmov-cmt-iasted.rdf";
-		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-cmt-iasted.rdf";
-		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-cmt-iasted.rdf";
-		//String outputPath="Results/Oracle/normImpact/Revised-asmov-cmt-iasted.rdf";
-		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-cmt-iasted.rdf";
-		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-cmt-iasted.rdf";
-		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-cmt-iasted.rdf";
+		//String outputPath="Results/Oracle/one2one/Revised-asmov-cmt-iasted-e10.rdf";
+		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-cmt-iasted-e10.rdf";
+		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-cmt-iasted-e10.rdf";
+		//String outputPath="Results/Oracle/normImpact/Revised-asmov-cmt-iasted-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-cmt-iasted-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-cmt-iasted-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-cmt-iasted-e10.rdf";
 		
 		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-cmt-iasted-Enhanced.rdf";
 		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-cmt-iasted-Enhanced.rdf";
 		
 //		String sourcePath  = "testdata/conference/cmt.owl";
 //		String targetPath  = "testdata/conference/sigkdd.owl";
-//		String alignPath = "alignment4Experiment/asmov-cmt-sigkdd.rdf";
+//		String alignPath = "testdata/mappings/asmov-cmt-sigkdd.rdf";
 //		String referencePath   = "testdata/referenceAlignment/cmt-sigkdd.rdf";
-		//String outputPath="Results/Oracle/one2one/Revised-asmov-cmt-sigkdd.rdf";
-		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-cmt-sigkdd.rdf";
-		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-cmt-sigkdd.rdf";
-		//String outputPath="Results/Oracle/normImpact/Revised-asmov-cmt-sigkdd.rdf";
-		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-cmt-sigkdd.rdf";
-		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-cmt-sigkdd.rdf";
-		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-cmt-sigkdd.rdf";
+		//String outputPath="Results/Oracle/one2one/Revised-asmov-cmt-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-cmt-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-cmt-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/normImpact/Revised-asmov-cmt-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-cmt-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-cmt-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-cmt-sigkdd-e10.rdf";
 		
 		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-cmt-iasted-Enhanced.rdf";
 		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-cmt-iasted-Enhanced.rdf";
 				
 //		String sourcePath  = "testdata/conference/Conference.owl";
 //		String targetPath  = "testdata/conference/confOf.owl";
-//		String alignPath = "alignment4Experiment/asmov-conference-confof.rdf";
+//		String alignPath = "testdata/mappings/asmov-conference-confof.rdf";
 //		String referencePath= "testdata/referenceAlignment/conference-confOf.rdf";
-		//String outputPath="Results/Oracle/one2one/Revised-asmov-conference-confof.rdf";
-		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-conference-confof.rdf";
-		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-conference-confof.rdf";
-		//String outputPath="Results/Oracle/normImpact/Revised-asmov-conference-confof.rdf";
-		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-conference-confof.rdf";
-		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-conference-confof.rdf";
-		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-conference-confof.rdf";		
+		//String outputPath="Results/Oracle/one2one/Revised-asmov-conference-confof-e10.rdf";
+		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-conference-confof-e10.rdf";
+		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-conference-confof-e10.rdf";
+		//String outputPath="Results/Oracle/normImpact/Revised-asmov-conference-confof-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-conference-confof-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-conference-confof-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-conference-confof-e10.rdf";		
 
 		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-conference-confof-Enhanced.rdf";
 		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-conference-confof-Enhanced.rdf";
 		
 //		String sourcePath  = "testdata/conference/Conference.owl";
 //		String targetPath  = "testdata/conference/edas.owl";
-//		String alignPath = "alignment4Experiment/asmov-conference-edas.rdf";
+//		String alignPath = "testdata/mappings/asmov-conference-edas.rdf";
 //		String referencePath= "testdata/referenceAlignment/conference-edas.rdf";
-		//String outputPath="Results/Oracle/one2one/Revised-asmov-conference-edas.rdf";
-		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-conference-edas.rdf";
-		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-conference-edas.rdf";
-		//String outputPath="Results/Oracle/normImpact/Revised-asmov-conference-edas.rdf";
-		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-conference-edas.rdf";
-		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-conference-edas.rdf";
-		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-conference-edas.rdf";
+		//String outputPath="Results/Oracle/one2one/Revised-asmov-conference-edas-e10.rdf";
+		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-conference-edas-e10.rdf";
+		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-conference-edas-e10.rdf";
+		//String outputPath="Results/Oracle/normImpact/Revised-asmov-conference-edas-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-conference-edas-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-conference-edas-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-conference-edas-e10.rdf";
 		
 		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-conference-edas-Enhanced.rdf";
 		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-conference-edas-Enhanced.rdf";
 		
 //		String sourcePath  = "testdata/conference/Conference.owl";
 //		String targetPath  = "testdata/conference/ekaw.owl";
-//		String alignPath = "alignment4Experiment/asmov-conference-ekaw.rdf";
+//		String alignPath = "testdata/mappings/asmov-conference-ekaw.rdf";
 //		String referencePath= "testdata/referenceAlignment/conference-ekaw.rdf";
-		//String outputPath="Results/Oracle/one2one/Revised-asmov-conference-ekaw.rdf";
-		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-conference-ekaw.rdf";
-		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-conference-ekaw.rdf";
-		//String outputPath="Results/Oracle/normImpact/Revised-asmov-conference-ekaw.rdf";
-		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-conference-ekaw.rdf";
-		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-conference-ekaw.rdf";
-		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-conference-ekaw.rdf";
+		//String outputPath="Results/Oracle/one2one/Revised-asmov-conference-ekaw-e10.rdf";
+		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-conference-ekaw-e10.rdf";
+		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-conference-ekaw-e10.rdf";
+		//String outputPath="Results/Oracle/normImpact/Revised-asmov-conference-ekaw-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-conference-ekaw-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-conference-ekaw-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-conference-ekaw-e10.rdf";
 		
 		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-conference-ekaw-Enhanced.rdf";
 		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-conference-ekaw-Enhanced.rdf";
 		
 //		String sourcePath  = "testdata/conference/Conference.owl";
 //		String targetPath  = "testdata/conference/iasted.owl";
-//		String alignPath = "alignment4Experiment/asmov-conference-iasted.rdf";
+//		String alignPath = "testdata/mappings/asmov-conference-iasted.rdf";
 //		String referencePath= "testdata/referenceAlignment/conference-iasted.rdf";
-		//String outputPath="Results/Oracle/one2one/Revised-asmov-conference-iasted.rdf";
-		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-conference-iasted.rdf";
-		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-conference-iasted.rdf";
-		//String outputPath="Results/Oracle/normImpact/Revised-asmov-conference-iasted.rdf";
-		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-conference-iasted.rdf";
-		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-conference-iasted.rdf";
-		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-conference-iasted.rdf";
+		//String outputPath="Results/Oracle/one2one/Revised-asmov-conference-iasted-e10.rdf";
+		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-conference-iasted.-e10rdf";
+		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-conference-iasted-e10.rdf";
+		//String outputPath="Results/Oracle/normImpact/Revised-asmov-conference-iasted-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-conference-iasted-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-conference-iasted-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-conference-iasted-e10.rdf";
 		
 		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-conference-iasted-Enhanced.rdf";
 		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-conference-iasted-Enhanced.rdf";
@@ -214,15 +213,15 @@ public class RepairingByGraphAutoASMOV
 		
 //		String sourcePath  = "testdata/conference/Conference.owl";
 //		String targetPath  = "testdata/conference/sigkdd.owl";
-//		String alignPath = "alignment4Experiment/asmov-conference-sigkdd.rdf";
+//		String alignPath = "testdata/mappings/asmov-conference-sigkdd.rdf";
 //		String referencePath= "testdata/referenceAlignment/conference-sigkdd.rdf";
-		//String outputPath="Results/Oracle/one2one/Revised-asmov-conference-sigkdd.rdf";
-		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-conference-sigkdd.rdf";
-		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-conference-sigkdd.rdf";
-		//String outputPath="Results/Oracle/normImpact/Revised-asmov-conference-sigkdd.rdf";
-		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-conference-sigkdd.rdf";
-		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-conference-sigkdd.rdf";
-		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-conference-sigkdd.rdf";
+		//String outputPath="Results/Oracle/one2one/Revised-asmov-conference-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-conference-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-conference-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/normImpact/Revised-asmov-conference-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-conference-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-conference-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-conference-sigkdd-e10.rdf";
 		
 		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-conference-sigkdd-Enhanced.rdf";
 		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-conference-sigkdd-Enhanced.rdf";
@@ -230,45 +229,45 @@ public class RepairingByGraphAutoASMOV
 		
 //		String sourcePath  = "testdata/conference/confOf.owl";
 //		String targetPath  = "testdata/conference/edas.owl";
-//		String alignPath = "alignment4Experiment/asmov-confof-edas.rdf";
+//		String alignPath = "testdata/mappings/asmov-confof-edas.rdf";
 //		String referencePath= "testdata/referenceAlignment/confOf-edas.rdf";
-		//String outputPath="Results/Oracle/one2one/Revised-asmov-confof-edas.rdf";
-		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-confof-edas.rdf";
-		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-confof-edas.rdf";
-		//String outputPath="Results/Oracle/normImpact/Revised-asmov-confof-edas.rdf";
-		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-confof-edas.rdf";
-		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-confof-edas.rdf";
-		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-confof-edas.rdf";
+		//String outputPath="Results/Oracle/one2one/Revised-asmov-confof-edas-e10.rdf";
+		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-confof-edas-e10.rdf";
+		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-confof-edas-e10.rdf";
+		//String outputPath="Results/Oracle/normImpact/Revised-asmov-confof-edas-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-confof-edas-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-confof-edas-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-confof-edas-e10.rdf";
 		
 		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-confof-edas-Enhanced.rdf";
 		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-confof-edas-Enhanced.rdf";
 		
 //		String sourcePath  = "testdata/conference/confOf.owl";
 //		String targetPath  = "testdata/conference/ekaw.owl";
-//		String alignPath = "alignment4Experiment/asmov-confof-ekaw.rdf";
+//		String alignPath = "testdata/mappings/asmov-confof-ekaw.rdf";
 //		String referencePath= "testdata/referenceAlignment/confOf-ekaw.rdf";
-		//String outputPath="Results/Oracle/one2one/Revised-asmov-confof-ekaw.rdf";
-		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-confof-ekaw.rdf";
-		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-confof-ekaw.rdf";
-		//String outputPath="Results/Oracle/normImpact/Revised-asmov-confof-ekaw.rdf";
-		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-confof-ekaw.rdf";
-		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-confof-ekaw.rdf";
-		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-confof-ekaw.rdf";
+		//String outputPath="Results/Oracle/one2one/Revised-asmov-confof-ekaw-e10.rdf";
+		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-confof-ekaw-e10.rdf";
+		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-confof-ekaw-e10.rdf";
+		//String outputPath="Results/Oracle/normImpact/Revised-asmov-confof-ekaw-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-confof-ekaw-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-confof-ekaw-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-confof-ekaw-e10.rdf";
 		
 		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-confof-ekaw-Enhanced.rdf";
 		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-confof-ekaw-Enhanced.rdf";
 		
 //		String sourcePath  = "testdata/conference/confOf.owl";
 //		String targetPath  = "testdata/conference/iasted.owl";
-//		String alignPath = "alignment4Experiment/asmov-confof-iasted.rdf";
+//		String alignPath = "testdata/mappings/asmov-confof-iasted.rdf";
 //		String referencePath= "testdata/referenceAlignment/confOf-iasted.rdf";
-		//String outputPath="Results/Oracle/one2one/Revised-asmov-confof-iasted.rdf";
-		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-confof-iasted.rdf";
-		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-confof-iasted.rdf";
-		//String outputPath="Results/Oracle/normImpact/Revised-asmov-confof-iasted.rdf";
-		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-confof-iasted.rdf";
-		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-confof-iasted.rdf";
-		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-confof-iasted.rdf";
+		//String outputPath="Results/Oracle/one2one/Revised-asmov-confof-iasted-e10.rdf";
+		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-confof-iasted-e10.rdf";
+		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-confof-iasted-e10.rdf";
+		//String outputPath="Results/Oracle/normImpact/Revised-asmov-confof-iasted-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-confof-iasted-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-confof-iasted-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-confof-iasted-e10.rdf";
 		
 		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-confof-iasted-Enhanced.rdf";
 		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-confof-iasted-Enhanced.rdf";
@@ -276,15 +275,15 @@ public class RepairingByGraphAutoASMOV
 		
 //		String sourcePath  = "testdata/conference/confOf.owl";
 //		String targetPath  = "testdata/conference/sigkdd.owl";
-//		String alignPath = "alignment4Experiment/asmov-confof-sigkdd.rdf";
+//		String alignPath = "testdata/mappings/asmov-confof-sigkdd.rdf";
 //		String referencePath= "testdata/referenceAlignment/confOf-sigkdd.rdf";
-		//String outputPath="Results/Oracle/one2one/Revised-asmov-confof-sigkdd.rdf";
-		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-confof-sigkdd.rdf";
-		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-confof-sigkdd.rdf";
-		//String outputPath="Results/Oracle/normImpact/Revised-asmov-confof-sigkdd.rdf";
-		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-confof-sigkdd.rdf";
-		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-confof-sigkdd.rdf";
-		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-confof-sigkdd.rdf";
+		//String outputPath="Results/Oracle/one2one/Revised-asmov-confof-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-confof-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-confof-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/normImpact/Revised-asmov-confof-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-confof-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-confof-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-confof-sigkdd-e10.rdf";
 
 		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-confof-sigkdd-Enhanced.rdf";
 		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-confof-sigkdd-Enhanced.rdf";
@@ -292,15 +291,15 @@ public class RepairingByGraphAutoASMOV
 		
 //		String sourcePath  = "testdata/conference/edas.owl";
 //		String targetPath  = "testdata/conference/ekaw.owl";
-//		String alignPath = "alignment4Experiment/asmov-edas-ekaw.rdf";
+//		String alignPath = "testdata/mappings/asmov-edas-ekaw.rdf";
 //		String referencePath= "testdata/referenceAlignment/edas-ekaw.rdf";
-		//String outputPath="Results/Oracle/one2one/Revised-asmov-edas-ekaw.rdf";
-		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-edas-ekaw.rdf";
-		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-edas-ekaw.rdf";
-		//String outputPath="Results/Oracle/normImpact/Revised-asmov-edas-ekaw.rdf";
-		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-edas-ekaw.rdf";
-		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-edas-ekaw.rdf";
-		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-edas-ekaw.rdf";
+		//String outputPath="Results/Oracle/one2one/Revised-asmov-edas-ekaw-e10.rdf";
+		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-edas-ekaw-e10.rdf";
+		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-edas-ekaw-e10.rdf";
+		//String outputPath="Results/Oracle/normImpact/Revised-asmov-edas-ekaw-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-edas-ekaw-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-edas-ekaw-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-edas-ekaw-e10.rdf";
 
 		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-edas-ekaw-Enhanced.rdf";
 		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-edas-ekaw-Enhanced.rdf";
@@ -308,30 +307,30 @@ public class RepairingByGraphAutoASMOV
 		
 //		String sourcePath  = "testdata/conference/edas.owl";
 //		String targetPath  = "testdata/conference/iasted.owl";
-//		String alignPath = "alignment4Experiment/asmov-edas-iasted.rdf";
+//		String alignPath = "testdata/mappings/asmov-edas-iasted.rdf";
 //		String referencePath= "testdata/referenceAlignment/edas-iasted.rdf";
-		//String outputPath="Results/Oracle/one2one/Revised-asmov-edas-iasted.rdf";
-		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-edas-iasted.rdf";
-		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-edas-iasted.rdf";
-		//String outputPath="Results/Oracle/normImpact/Revised-asmov-edas-iasted.rdf";
-		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-edas-iasted.rdf";
-		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-edas-iasted.rdf";
-		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-edas-iasted.rdf";
+		//String outputPath="Results/Oracle/one2one/Revised-asmov-edas-iasted-e10.rdf";
+		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-edas-iasted-e10.rdf";
+		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-edas-iasted-e10.rdf";
+		//String outputPath="Results/Oracle/normImpact/Revised-asmov-edas-iasted-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-edas-iasted-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-edas-iasted-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-edas-iasted-e10.rdf";
 
 		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-edas-iasted-Enhanced.rdf";
 		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-edas-iasted-Enhanced.rdf";
 		
 //		String sourcePath  = "testdata/conference/edas.owl";
 //		String targetPath  = "testdata/conference/sigkdd.owl";
-//		String alignPath = "alignment4Experiment/asmov-edas-sigkdd.rdf";
+//		String alignPath = "testdata/mappings/asmov-edas-sigkdd.rdf";
 //		String referencePath= "testdata/referenceAlignment/edas-sigkdd.rdf";
-		//String outputPath="Results/Oracle/one2one/Revised-asmov-edas-sigkdd.rdf";
-		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-edas-sigkdd.rdf";
-		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-edas-sigkdd.rdf";
-		//String outputPath="Results/Oracle/normImpact/Revised-asmov-edas-sigkdd.rdf";
-		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-edas-sigkdd.rdf";
-		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-edas-sigkdd.rdf";
-		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-edas-sigkdd.rdf";
+		//String outputPath="Results/Oracle/one2one/Revised-asmov-edas-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-edas-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-edas-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/normImpact/Revised-asmov-edas-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-edas-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-edas-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-edas-sigkdd-e10.rdf";
 		
 		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-edas-sigkdd-Enhanced.rdf";
 		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-edas-sigkdd-Enhanced.rdf";
@@ -339,15 +338,15 @@ public class RepairingByGraphAutoASMOV
 		
 //		String sourcePath  = "testdata/conference/ekaw.owl";
 //		String targetPath  = "testdata/conference/iasted.owl";
-//		String alignPath = "alignment4Experiment/asmov-ekaw-iasted.rdf";
+//		String alignPath = "testdata/mappings/asmov-ekaw-iasted.rdf";
 //		String referencePath= "testdata/referenceAlignment/ekaw-iasted.rdf";
-		//String outputPath="Results/Oracle/one2one/Revised-asmov-ekaw-iasted.rdf";
-		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-ekaw-iasted.rdf";
-		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-ekaw-iasted.rdf";
-		//String outputPath="Results/Oracle/normImpact/Revised-asmov-ekaw-iasted.rdf";
-		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-ekaw-iasted.rdf";
-		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-ekaw-iasted.rdf";
-		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-ekaw-iasted.rdf";
+		//String outputPath="Results/Oracle/one2one/Revised-asmov-ekaw-iasted-e10.rdf";
+		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-ekaw-iasted-e10.rdf";
+		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-ekaw-iasted-e10.rdf";
+		//String outputPath="Results/Oracle/normImpact/Revised-asmov-ekaw-iasted-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-ekaw-iasted-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-ekaw-iasted-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-ekaw-iasted-e10.rdf";
 		
 		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-ekaw-iasted-Enhanced.rdf";
 		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-ekaw-iasted-Enhanced.rdf";
@@ -355,35 +354,75 @@ public class RepairingByGraphAutoASMOV
 		
 //		String sourcePath  = "testdata/conference/ekaw.owl";
 //		String targetPath  = "testdata/conference/sigkdd.owl";
-//		String alignPath = "alignment4Experiment/asmov-ekaw-sigkdd.rdf";
+//		String alignPath = "testdata/mappings/asmov-ekaw-sigkdd.rdf";
 //		String referencePath= "testdata/referenceAlignment/ekaw-sigkdd.rdf";
 		//String outputPath="Results/Oracle/one2one/Revised-asmov-ekaw-sigkdd.rdf";
-		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-ekaw-sigkdd.rdf";
-		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-ekaw-sigkdd.rdf";
-		//String outputPath="Results/Oracle/normImpact/Revised-asmov-ekaw-sigkdd.rdf";
-		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-ekaw-sigkdd.rdf";
-		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-ekaw-sigkdd.rdf";
-		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-ekaw-sigkdd.rdf";
+		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-ekaw-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-ekaw-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/normImpact/Revised-asmov-ekaw-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-ekaw-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-ekaw-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-ekaw-sigkdd-e10.rdf";
 		
-		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-ekaw-sigkdd-Enhanced.rdf";
-		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-ekaw-sigkdd-Enhanced.rdf";
+		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-ekaw-sigkdd-Enhanced-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-ekaw-sigkdd-Enhanced-e10.rdf";
 		 
 		
-		String sourcePath  = "testdata/conference/iasted.owl";
-		String targetPath  = "testdata/conference/sigkdd.owl";
-		String alignPath = "alignment4Experiment/asmov-iasted-sigkdd.rdf";
-		String referencePath= "testdata/referenceAlignment/iasted-sigkdd.rdf";
-		//String outputPath="Results/Oracle/one2one/Revised-asmov-iasted-sigkdd.rdf";
-		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-iasted-sigkdd.rdf";
-		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-iasted-sigkdd.rdf";
-		//String outputPath="Results/Oracle/normImpact/Revised-asmov-iasted-sigkdd.rdf";
-		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-iasted-sigkdd.rdf";
-		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-iasted-sigkdd.rdf";
-		String outputPath="Results/Oracle/graphImpact3/Revised-asmov-iasted-sigkdd.rdf";
+//		String sourcePath  = "testdata/conference/iasted.owl";
+//		String targetPath  = "testdata/conference/sigkdd.owl";
+//		String alignPath = "testdata/mappings/asmov-iasted-sigkdd.rdf";
+//		String referencePath= "testdata/referenceAlignment/iasted-sigkdd.rdf";
+		//String outputPath="Results/Oracle/one2one/Revised-asmov-iasted-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-iasted-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-iasted-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/normImpact/Revised-asmov-iasted-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-iasted-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-iasted-sigkdd-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-iasted-sigkdd-e10.rdf";
 		
 		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-iasted-sigkdd-Enhanced.rdf";
 		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-iasted-sigkdd-Enhanced.rdf";
 		
+		
+//		String sourcePath  = "testdata/I3CON/WineA.owl";
+//		String targetPath  = "testdata/I3CON/WineB.owl";
+//		String alignPath = "testdata/mappings/asmov-WineA-WineB.rdf";
+//		String referencePath= "testdata/referenceAlignment/WineAB.rdf";
+		//String outputPath="Results/Oracle/one2one/Revised-asmov-WineA-WineB-e10.rdf";
+		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-WineA-WineB-e10.rdf";
+		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-WineA-WineB-e10.rdf";
+		//String outputPath="Results/Oracle/normImpact/Revised-asmov-WineA-WineB-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-WineA-WineB-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-WineA-WineB-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-WineA-WineB-e10.rdf";
+		//String outputPath="Results/test.rdf";
+		
+		
+//		String sourcePath  = "testdata/Benchmark/101-onto.rdf";
+//		String targetPath  = "testdata/Benchmark/301-onto.rdf";
+//		String alignPath = "testdata/mappings/asmov-101-301.rdf";
+//		String referencePath= "testdata/referenceAlignment/refalign-101-301.rdf";
+		//String outputPath="Results/Oracle/one2one/Revised-asmov-onto101-301-e10.rdf";
+		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-onto101-301-e10.rdf";
+		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-onto101-301-e10.rdf";
+		//String outputPath="Results/Oracle/normImpact/Revised-asmov-onto101-301-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-onto101-301-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-onto101-301-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-onto101-301-e10.rdf";
+		//String outputPath="Results/test.rdf";
+		
+		String sourcePath  = "testdata/Benchmark/101-onto.rdf";
+		String targetPath  = "testdata/Benchmark/302-onto.rdf";
+		String alignPath = "testdata/mappings/asmov-101-302.rdf";
+		String referencePath= "testdata/referenceAlignment/refalign-101-302.rdf";
+		//String outputPath="Results/Oracle/one2one/Revised-asmov-onto101-302-e10.rdf";
+		//String outputPath="Results/Oracle/bridgeRule/Revised-asmov-onto101-302-e10.rdf";
+		//String outputPath="Results/Oracle/guaranteedImpact/Revised-asmov-onto101-302-e10.rdf";
+		//String outputPath="Results/Oracle/normImpact/Revised-asmov-onto101-302-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact/Revised-asmov-onto101-302-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact2/Revised-asmov-onto101-302-e10.rdf";
+		//String outputPath="Results/Oracle/graphImpact3/Revised-asmov-onto101-302-e10.rdf";
+		String outputPath="Results/test.rdf";
 		
 		
 		AML aml = AML.getInstance();
